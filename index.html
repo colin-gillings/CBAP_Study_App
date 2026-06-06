@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>CBAP Study</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CBAP Study">
+<link rel="manifest" id="manifest-link">
+<style>
+  :root {
+    --bg: #0f0f13;
+    --bg2: #1a1a22;
+    --bg3: #22222d;
+    --bg4: #2a2a38;
+    --border: rgba(255,255,255,0.08);
+    --border2: rgba(255,255,255,0.15);
+    --text: #f0f0f5;
+    --text2: #9090a8;
+    --text3: #606078;
+    --accent: #7c6af7;
+    --accent2: #5b4de8;
+    --green: #22c55e;
+    --amber: #f59e0b;
+    --red: #ef4444;
+    --blue: #3b82f6;
+    --teal: #14b8a6;
+    --card-h: clamp(260px, 40vh, 340px);
+    --radius: 16px;
+    --radius-sm: 10px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, 'SF Pro Display', BlinkMacSystemFont, sans-serif; overflow: hidden; }
+  
+  /* SCREENS */
+  .screen { position: absolute; inset: 0; display: flex; flex-direction: column; overflow: hidden; }
+  .screen.hidden { display: none !important; }
+
+  /* HEADER */
+  .hdr { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px 10px; background: var(--bg); border-bottom: 1px solid var(--border); flex-shrink: 0; }
+  .hdr-title { font-size: 17px; font-weight: 600; letter-spacing: -0.3px; }
+  .hdr-sub { font-size: 12px; color: var(--text2); margin-top: 1px; }
+  .icon-btn { width: 36px; height: 36px; border-radius: 50%; background: var(--bg3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 18px; color: var(--text2); flex-shrink: 0; }
+  .icon-btn:active { opacity: 0.7; }
+
+  /* HOME */
+  .home-scroll { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .home-hero { background: linear-gradient(135deg, #2d1f6e 0%, #1a1a2e 100%); border-radius: var(--radius); padding: 20px; border: 1px solid rgba(124,106,247,0.3); }
+  .hero-label { font-size: 11px; font-weight: 600; letter-spacing: 1.5px; color: var(--accent); text-transform: uppercase; margin-bottom: 6px; }
+  .hero-title { font-size: 22px; font-weight: 700; letter-spacing: -0.5px; }
+  .hero-sub { font-size: 14px; color: var(--text2); margin-top: 4px; }
+  .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+  .stat-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 12px 10px; text-align: center; }
+  .stat-num { font-size: 22px; font-weight: 700; color: var(--accent); }
+  .stat-lbl { font-size: 11px; color: var(--text2); margin-top: 2px; }
+  .section-title { font-size: 12px; font-weight: 600; letter-spacing: 1px; color: var(--text3); text-transform: uppercase; padding: 4px 0 2px; }
+  .deck-card { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; display: flex; align-items: center; gap: 12px; cursor: pointer; transition: border-color 0.15s, background 0.15s; }
+  .deck-card:active { background: var(--bg3); }
+  .deck-icon { width: 42px; height: 42px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0; }
+  .deck-info { flex: 1; min-width: 0; }
+  .deck-name { font-size: 15px; font-weight: 600; }
+  .deck-meta { font-size: 12px; color: var(--text2); margin-top: 2px; }
+  .deck-due { font-size: 13px; font-weight: 600; color: var(--accent); background: rgba(124,106,247,0.15); padding: 3px 9px; border-radius: 20px; flex-shrink: 0; }
+  .mode-btn { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; display: flex; align-items: center; gap: 14px; cursor: pointer; }
+  .mode-btn:active { background: var(--bg3); }
+  .mode-icon { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+  .mode-text { flex: 1; }
+  .mode-name { font-size: 15px; font-weight: 600; }
+  .mode-desc { font-size: 12px; color: var(--text2); margin-top: 2px; }
+
+  /* STUDY SCREEN */
+  .study-progress { height: 3px; background: var(--bg3); flex-shrink: 0; }
+  .study-progress-fill { height: 100%; background: var(--accent); transition: width 0.3s ease; border-radius: 0 3px 3px 0; }
+  .study-meta { display: flex; justify-content: space-between; align-items: center; padding: 10px 18px 8px; flex-shrink: 0; }
+  .study-count { font-size: 13px; color: var(--text2); }
+  .study-deck-tag { font-size: 12px; color: var(--text3); background: var(--bg3); padding: 3px 8px; border-radius: 20px; }
+  
+  /* FLIP CARD */
+  .card-area { flex: 1; padding: 12px 16px; display: flex; flex-direction: column; gap: 12px; overflow: hidden; }
+  .flip-scene { flex: 1; perspective: 1200px; cursor: pointer; min-height: 0; }
+  .flip-card { width: 100%; height: 100%; position: relative; transform-style: preserve-3d; transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1); }
+  .flip-card.flipped { transform: rotateY(180deg); }
+  .flip-face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); display: flex; flex-direction: column; overflow: hidden; }
+  .flip-face.back { transform: rotateY(180deg); }
+  .face-header { padding: 10px 14px 8px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .face-label { font-size: 11px; font-weight: 600; letter-spacing: 1px; color: var(--text3); text-transform: uppercase; }
+  .type-badge { font-size: 10px; padding: 2px 7px; border-radius: 8px; font-weight: 600; background: rgba(124,106,247,0.2); color: var(--accent); margin-left: auto; }
+  .face-body { flex: 1; padding: 16px 14px; overflow-y: auto; display: flex; align-items: center; }
+  .face-text { font-size: clamp(15px, 3.5vw, 18px); line-height: 1.6; color: var(--text); width: 100%; }
+  .face-text.answer { font-size: clamp(13px, 3vw, 16px); }
+  .face-text ul { list-style: none; padding: 0; }
+  .face-text ul li::before { content: "→ "; color: var(--accent); font-weight: 600; }
+  .face-text ul li { padding: 3px 0; }
+  .tap-hint { display: flex; align-items: center; justify-content: center; gap: 6px; padding: 8px; font-size: 12px; color: var(--text3); flex-shrink: 0; }
+
+  /* REVIEW BUTTONS */
+  .review-btns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; flex-shrink: 0; }
+  .review-btn { border: none; border-radius: var(--radius-sm); padding: 11px 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform 0.1s; }
+  .review-btn:active { transform: scale(0.95); }
+  .review-btn span { font-size: 10px; font-weight: 400; opacity: 0.75; }
+  .btn-again { background: rgba(239,68,68,0.2); color: #ef4444; }
+  .btn-hard { background: rgba(245,158,11,0.2); color: #f59e0b; }
+  .btn-good { background: rgba(59,130,246,0.2); color: #3b82f6; }
+  .btn-easy { background: rgba(34,197,94,0.2); color: #22c55e; }
+  .review-btns.hidden { display: none; }
+
+  /* DECK SELECTOR */
+  .sel-scroll { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
+  .sel-deck { background: var(--bg2); border: 2px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; display: flex; align-items: center; gap: 12px; }
+  .sel-deck.selected { border-color: var(--accent); background: rgba(124,106,247,0.1); }
+  .sel-deck:active { opacity: 0.8; }
+  .sel-check { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--border2); display: flex; align-items: center; justify-content: center; flex-shrink: 0; font-size: 12px; }
+  .sel-deck.selected .sel-check { background: var(--accent); border-color: var(--accent); }
+  .sel-info { flex: 1; }
+  .sel-name { font-size: 15px; font-weight: 600; }
+  .sel-count { font-size: 12px; color: var(--text2); margin-top: 2px; }
+  .type-filter { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 4px; }
+  .type-chip { padding: 6px 12px; border-radius: 20px; border: 1px solid var(--border2); background: var(--bg3); font-size: 13px; cursor: pointer; color: var(--text2); }
+  .type-chip.active { background: var(--accent); border-color: var(--accent); color: white; }
+  .start-btn { margin: 16px; padding: 16px; background: var(--accent); border: none; border-radius: var(--radius); color: white; font-size: 16px; font-weight: 700; cursor: pointer; letter-spacing: -0.3px; }
+  .start-btn:active { background: var(--accent2); }
+
+  /* PROGRESS SCREEN */
+  .prog-scroll { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 14px; }
+  .prog-section { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+  .prog-section-title { font-size: 13px; font-weight: 600; color: var(--text2); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .prog-row { display: flex; align-items: center; gap: 10px; padding: 6px 0; }
+  .prog-label { font-size: 14px; flex: 1; }
+  .prog-bar-wrap { width: 100px; height: 6px; background: var(--bg4); border-radius: 3px; overflow: hidden; }
+  .prog-bar-fill { height: 100%; background: var(--accent); border-radius: 3px; }
+  .prog-pct { font-size: 13px; color: var(--text2); width: 36px; text-align: right; }
+  .streak-card { background: linear-gradient(135deg, #2d1f6e, #1a1a2e); border: 1px solid rgba(124,106,247,0.4); border-radius: var(--radius); padding: 20px; display: flex; align-items: center; gap: 16px; }
+  .streak-num { font-size: 42px; font-weight: 800; color: var(--accent); line-height: 1; }
+  .streak-text { font-size: 15px; font-weight: 600; }
+  .streak-sub { font-size: 12px; color: var(--text2); margin-top: 2px; }
+  .reset-btn { background: rgba(239,68,68,0.15); border: 1px solid rgba(239,68,68,0.3); color: #ef4444; border-radius: var(--radius-sm); padding: 12px; font-size: 14px; font-weight: 600; cursor: pointer; width: 100%; margin-top: 4px; }
+
+  /* SESSION COMPLETE */
+  .complete-screen { background: var(--bg); flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; gap: 20px; text-align: center; }
+  .complete-emoji { font-size: 64px; }
+  .complete-title { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
+  .complete-sub { font-size: 15px; color: var(--text2); max-width: 280px; line-height: 1.6; }
+  .complete-stats { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; width: 100%; max-width: 340px; }
+  .complete-stat { background: var(--bg2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px 10px; }
+  .c-stat-num { font-size: 22px; font-weight: 700; }
+  .c-stat-lbl { font-size: 11px; color: var(--text2); margin-top: 2px; }
+  .home-btn { background: var(--accent); color: white; border: none; border-radius: var(--radius); padding: 16px 40px; font-size: 16px; font-weight: 700; cursor: pointer; }
+
+  /* NAV */
+  .nav { display: flex; background: var(--bg2); border-top: 1px solid var(--border); flex-shrink: 0; }
+  .nav-item { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 10px 4px 8px; cursor: pointer; border: none; background: transparent; color: var(--text3); font-size: 10px; gap: 4px; }
+  .nav-item.active { color: var(--accent); }
+  .nav-icon { font-size: 22px; line-height: 1; }
+
+  /* UTIL */
+  .bold { font-weight: 700; }
+  .scrollbar-thin::-webkit-scrollbar { width: 3px; }
+  .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
+  .scrollbar-thin::-webkit-scrollbar-thumb { background: var(--bg4); border-radius: 2px; }
+</style>
+</head>
+<body>
+
+<!-- HOME SCREEN -->
+<div class="screen" id="s-home">
+  <div class="hdr">
+    <div>
+      <div class="hdr-title">CBAP Study</div>
+      <div class="hdr-sub" id="home-date"></div>
+    </div>
+    <div class="icon-btn" onclick="showScreen('s-progress')">📊</div>
+  </div>
+  <div class="home-scroll scrollbar-thin">
+    <div class="home-hero">
+      <div class="hero-label">Today's Goal</div>
+      <div class="hero-title" id="hero-title">Start reviewing</div>
+      <div class="hero-sub" id="hero-sub">Build your exam-ready instincts daily</div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-num" id="stat-due">0</div><div class="stat-lbl">Due</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-streak">0</div><div class="stat-lbl">Streak</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-total">0</div><div class="stat-lbl">Reviewed</div></div>
+    </div>
+    <div class="section-title">Quick Study</div>
+    <div class="mode-btn" onclick="startQuickStudy()">
+      <div class="mode-icon" style="background:rgba(124,106,247,0.2)">⚡</div>
+      <div class="mode-text">
+        <div class="mode-name">Quick Study</div>
+        <div class="mode-desc">Today's due cards across all decks</div>
+      </div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div class="section-title">Decks</div>
+    <div id="deck-list"></div>
+    <div class="section-title">Study Modes</div>
+    <div class="mode-btn" onclick="showNormalModeSetup()">
+      <div class="mode-icon" style="background:rgba(59,130,246,0.2)">🎯</div>
+      <div class="mode-text">
+        <div class="mode-name">Normal Mode</div>
+        <div class="mode-desc">Choose decks, types & spaced repetition</div>
+      </div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div style="height:8px"></div>
+  </div>
+  <div class="nav">
+    <button class="nav-item active" onclick="showScreen('s-home')"><div class="nav-icon">🏠</div>Home</button>
+    <button class="nav-item" onclick="showNormalModeSetup()"><div class="nav-icon">📚</div>Study</button>
+    <button class="nav-item" onclick="showScreen('s-progress')"><div class="nav-icon">📊</div>Progress</button>
+  </div>
+</div>
+
+<!-- DECK SELECT SCREEN (Normal Mode) -->
+<div class="screen hidden" id="s-select">
+  <div class="hdr">
+    <div class="icon-btn" onclick="showScreen('s-home')">←</div>
+    <div><div class="hdr-title">Normal Mode</div><div class="hdr-sub">Choose what to study</div></div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="sel-scroll scrollbar-thin">
+    <div class="section-title">Select Decks</div>
+    <div id="deck-select-list"></div>
+    <div class="section-title" style="margin-top:8px">Card Types</div>
+    <div class="type-filter" id="type-filter">
+      <div class="type-chip active" data-type="A" onclick="toggleType(this)">Type A — Definition</div>
+      <div class="type-chip active" data-type="B" onclick="toggleType(this)">Type B — Distinction</div>
+      <div class="type-chip active" data-type="C" onclick="toggleType(this)">Type C — Scenario</div>
+      <div class="type-chip active" data-type="D" onclick="toggleType(this)">Type D — Mindset</div>
+      <div class="type-chip active" data-type="E" onclick="toggleType(this)">Type E — Trap</div>
+    </div>
+    <div style="height:8px"></div>
+  </div>
+  <button class="start-btn" onclick="startNormalMode()">Start Studying →</button>
+</div>
+
+<!-- STUDY SCREEN -->
+<div class="screen hidden" id="s-study">
+  <div class="hdr">
+    <div class="icon-btn" id="study-back-btn" onclick="exitStudy()">←</div>
+    <div>
+      <div class="hdr-title" id="study-mode-label">Study</div>
+      <div class="hdr-sub" id="study-deck-label"></div>
+    </div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="study-progress"><div class="study-progress-fill" id="study-prog-fill" style="width:0%"></div></div>
+  <div class="study-meta">
+    <div class="study-count" id="study-count">Card 1 of 20</div>
+    <div class="study-deck-tag" id="study-deck-tag">Foundation</div>
+  </div>
+  <div class="card-area">
+    <div class="flip-scene" id="flip-scene" onclick="flipCard()">
+      <div class="flip-card" id="flip-card">
+        <div class="flip-face front">
+          <div class="face-header">
+            <span class="face-label">Question</span>
+            <span class="type-badge" id="card-type-badge">Type A</span>
+          </div>
+          <div class="face-body">
+            <div class="face-text" id="card-front-text"></div>
+          </div>
+          <div class="tap-hint">Tap to reveal answer</div>
+        </div>
+        <div class="flip-face back">
+          <div class="face-header">
+            <span class="face-label">Answer</span>
+            <span class="type-badge" id="card-type-badge2">Type A</span>
+          </div>
+          <div class="face-body">
+            <div class="face-text answer" id="card-back-text"></div>
+          </div>
+          <div class="tap-hint" id="rate-hint">How well did you know this?</div>
+        </div>
+      </div>
+    </div>
+    <div class="review-btns hidden" id="review-btns">
+      <button class="review-btn btn-again" onclick="rate('again')">Again<span>< 1 min</span></button>
+      <button class="review-btn btn-hard" onclick="rate('hard')">Hard<span>~10 min</span></button>
+      <button class="review-btn btn-good" onclick="rate('good')">Good<span>~1 day</span></button>
+      <button class="review-btn btn-easy" onclick="rate('easy')">Easy<span>~4 days</span></button>
+    </div>
+  </div>
+</div>
+
+<!-- SESSION COMPLETE -->
+<div class="screen hidden" id="s-complete">
+  <div class="complete-screen">
+    <div class="complete-emoji" id="complete-emoji">🎉</div>
+    <div class="complete-title" id="complete-title">Session Complete!</div>
+    <div class="complete-sub" id="complete-sub">Great work. Come back tomorrow to keep your streak going.</div>
+    <div class="complete-stats">
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--green)" id="cs-easy">0</div><div class="c-stat-lbl">Easy</div></div>
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--blue)" id="cs-good">0</div><div class="c-stat-lbl">Good</div></div>
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--red)" id="cs-again">0</div><div class="c-stat-lbl">Again</div></div>
+    </div>
+    <button class="home-btn" onclick="showScreen('s-home'); updateHome()">Back to Home</button>
+  </div>
+</div>
+
+<!-- PROGRESS SCREEN -->
+<div class="screen hidden" id="s-progress">
+  <div class="hdr">
+    <div class="icon-btn" onclick="showScreen('s-home')">←</div>
+    <div><div class="hdr-title">Progress</div></div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="prog-scroll scrollbar-thin" id="prog-content"></div>
+  <div class="nav">
+    <button class="nav-item" onclick="showScreen('s-home')"><div class="nav-icon">🏠</div>Home</button>
+    <button class="nav-item" onclick="showNormalModeSetup()"><div class="nav-icon">📚</div>Study</button>
+    <button class="nav-item active" onclick="showScreen('s-progress')"><div class="nav-icon">📊</div>Progress</button>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// CARD DATA
+// ============================================================
+const DECKS = [
+  {
+    id: 'foundation',
+    name: 'Foundation',
+    icon: '📘',
+    color: 'rgba(59,130,246,0.2)',
+    description: 'Core concepts & what things mean',
+    cards: [
+      {f:"What is Business Analysis?", b:"The practice of enabling change by defining needs and recommending solutions that deliver value.", type:"A"},
+      {f:"What is the main purpose of a Business Analyst?", b:"To understand business needs and help define solutions that deliver value.", type:"A"},
+      {f:"What is 'value' in CBAP?", b:"The benefit, improvement, or outcome achieved by meeting business needs.", type:"A"},
+      {f:"What is a 'need' in business analysis?", b:"A problem or opportunity that requires change.", type:"A"},
+      {f:"What is change in CBAP context?", b:"The transition from current state to a desired future state.", type:"A"},
+      {f:"What is a requirement?", b:"A usable representation of a need that defines what must be achieved.", type:"A"},
+      {f:"Why do requirements exist?", b:"To describe what is needed to solve a business problem or achieve an objective.", type:"A"},
+      {f:"What makes a good requirement?", b:"Clear, testable, and aligned to business needs.", type:"A"},
+      {f:"What is the difference between requirement and need?", b:"Need = problem/opportunity\nRequirement = defined statement of what must be done to address it", type:"B"},
+      {f:"Why are requirements important?", b:"They guide solution design and ensure the solution delivers value.", type:"A"},
+      {f:"What is elicitation?", b:"The process of discovering, gathering, and confirming information from stakeholders.", type:"A"},
+      {f:"Why is elicitation needed?", b:"Because stakeholders often do not fully or clearly express their needs initially.", type:"A"},
+      {f:"What is the output of elicitation?", b:"Raw information about needs, constraints, assumptions, and expectations.", type:"A"},
+      {f:"Is elicitation the same as gathering requirements?", b:"No — elicitation gathers information; analysis turns it into structured requirements.", type:"B"},
+      {f:"What is requirements analysis?", b:"The process of interpreting, refining, and structuring elicited information into usable requirements.", type:"A"},
+      {f:"Why is analysis needed after elicitation?", b:"Because raw information is often incomplete, inconsistent, or unclear.", type:"A"},
+      {f:"What is the goal of analysis?", b:"To produce clear, structured, and usable requirements.", type:"A"},
+      {f:"What is a solution?", b:"A way of addressing business needs and fulfilling requirements.", type:"A"},
+      {f:"What comes first: requirements or solution?", b:"Requirements come first.", type:"A"},
+      {f:"Why should solutions not be defined too early?", b:"Because premature solutions may not address the real business need.", type:"D"},
+      {f:"What is solution evaluation?", b:"Assessing whether a solution meets requirements and delivers value.", type:"A"},
+      {f:"What is a stakeholder?", b:"Any person or group that is affected by or has influence over a solution.", type:"A"},
+      {f:"Why are stakeholders important in CBAP?", b:"Because they provide the information needed to define requirements and validate solutions.", type:"D"},
+      {f:"What is stakeholder engagement?", b:"Actively involving stakeholders to ensure shared understanding and agreement.", type:"A"},
+      {f:"What is the general flow of business analysis work?", b:"Understand need → elicit information → analyse requirements → define solution → evaluate outcome", type:"A"},
+      {f:"Requirement vs Design — key distinction?", b:"Requirement = what is needed\nDesign = how it will be built", type:"B"},
+      {f:"Elicitation vs Analysis?", b:"Elicitation = gather information\nAnalysis = interpret and structure information", type:"B"},
+      {f:"Current state vs Future state?", b:"Current state = how things are now\nFuture state = desired outcome after change", type:"B"},
+      {f:"Problem vs Opportunity?", b:"Problem = something wrong that must be fixed\nOpportunity = potential improvement or benefit", type:"B"},
+      {f:"Why does change happen in business analysis?", b:"To move from current state to a future state that delivers more value.", type:"D"},
+      {f:"In CBAP questions, what is usually more important than speed?", b:"Choosing the most appropriate BA-aligned action (analysis and collaboration first).", type:"D"},
+      {f:"What is the safest mindset for CBAP questions?", b:"Understand the situation before jumping to solutions or implementation.", type:"D"},
+    ]
+  },
+  {
+    id: 'bridge',
+    name: 'Bridge Deck',
+    icon: '🔄',
+    color: 'rgba(20,184,166,0.2)',
+    description: 'Scenario decision logic — Watermark bridge',
+    cards: [
+      {f:"What is the primary focus of CBAP exam answers?", b:"Aligning stakeholders, clarifying requirements, and enabling value delivery through analysis before solution.", type:"D"},
+      {f:"What is the most common CBAP 'trap'?", b:"Jumping to solution design or implementation before requirements are fully understood and agreed.", type:"E"},
+      {f:"When in doubt, what does CBAP usually prioritize?", b:"Stakeholder collaboration and requirements analysis over execution or solution building.", type:"D"},
+      {f:"A stakeholder request is unclear. What is the BA MOST likely to do next?", b:"Elicit and clarify requirements before analysis or prioritisation.", type:"C"},
+      {f:"Conflicting stakeholder requirements exist. What is the BA's next step?", b:"Facilitate collaboration and resolve conflicts before finalising requirements.", type:"C"},
+      {f:"Requirements have been documented but not validated. What should the BA do?", b:"Validate requirements with stakeholders before baselining or implementation.", type:"C"},
+      {f:"A solution is proposed but requirements are incomplete. What is the BA's focus?", b:"Return to requirements elicitation and analysis before evaluating solutions.", type:"C"},
+      {f:"Stakeholders are ready to implement a solution immediately. What is the BA's concern?", b:"Ensure requirements are complete, agreed, and validated before implementation.", type:"C"},
+      {f:"What is Requirements Life Cycle Management about?", b:"Managing requirements from creation → analysis → approval → change control → traceability → retirement.", type:"A"},
+      {f:"Why is traceability important in CBAP?", b:"To ensure each requirement is linked to business objectives and changes are controlled.", type:"D"},
+      {f:"What is the goal of elicitation?", b:"To discover, clarify, and confirm stakeholder needs and constraints.", type:"A"},
+      {f:"What is the purpose of solution evaluation?", b:"To assess whether the solution meets business needs and delivers expected value.", type:"A"},
+      {f:"If stakeholders disagree, what is the BEST BA approach?", b:"Facilitate collaboration and reach shared understanding before making decisions.", type:"C"},
+      {f:"If requirements are incomplete but solution is being built, what is wrong?", b:"Premature solution development before requirements analysis is complete.", type:"E"},
+      {f:"If a solution is not delivering expected value, what should BA do?", b:"Evaluate solution performance against requirements and identify gaps.", type:"C"},
+      {f:"What does a 'best answer' usually look like in CBAP?", b:"The option that focuses on analysis, collaboration, or clarification — not immediate action or implementation.", type:"D"},
+      {f:"If two answers seem correct, how do you choose?", b:"Choose the one closer to BABOK logic: stakeholder alignment + requirements clarity first.", type:"D"},
+      {f:"Correct order: elicitation, analysis, validation?", b:"Yes — gather → interpret → confirm with stakeholders.", type:"A"},
+      {f:"What happens if analysis is done before elicitation?", b:"Incomplete or incorrect requirements due to missing information.", type:"D"},
+      {f:"Where does solution design come in CBAP logic?", b:"After requirements are defined, analysed, and agreed.", type:"A"},
+      {f:"A stakeholder is unclear about what they want. What does this imply?", b:"Elicitation is incomplete → BA must gather more information.", type:"C"},
+      {f:"Solution is built but users are unhappy. What is likely wrong?", b:"Requirements were not properly defined or validated.", type:"C"},
+      {f:"Requirements are stable but solution is underperforming. What should BA do?", b:"Evaluate solution against requirements (solution evaluation phase).", type:"C"},
+      {f:"Risk vs Issue?", b:"Risk = potential future problem\nIssue = current existing problem", type:"B"},
+      {f:"Assumption vs Constraint?", b:"Assumption = believed to be true but unverified\nConstraint = limitation that must be followed", type:"B"},
+      {f:"Objective vs Requirement?", b:"Objective = desired outcome\nRequirement = specific condition needed to achieve that outcome", type:"B"},
+      {f:"Value vs Outcome?", b:"Value = benefit delivered\nOutcome = result/change that leads to value", type:"B"},
+    ]
+  },
+  {
+    id: 'crash',
+    name: 'Crash Deck',
+    icon: '⚡',
+    color: 'rgba(245,158,11,0.2)',
+    description: 'Final exam reflex training',
+    cards: [
+      {f:"Stakeholders disagree on requirements. What is the FIRST action?", b:"Facilitate collaboration and clarify requirements.", type:"C"},
+      {f:"Requirements are unclear. What is the FIRST action?", b:"Elicit additional information.", type:"C"},
+      {f:"A solution is being built but requirements are incomplete. What is the FIRST concern?", b:"Incomplete requirements → must return to elicitation and analysis.", type:"C"},
+      {f:"Stakeholder requests immediate implementation. What is the FIRST BA action?", b:"Verify requirements are complete, validated, and agreed.", type:"C"},
+      {f:"Requirements are not validated. What should happen FIRST?", b:"Validate requirements with stakeholders.", type:"C"},
+      {f:"Does CBAP prioritise solution implementation early?", b:"No — analysis and requirements definition come first.", type:"D"},
+      {f:"Is skipping elicitation ever acceptable?", b:"No — elicitation is required to understand needs.", type:"D"},
+      {f:"Can solution design happen before requirements?", b:"No — requirements must be defined first.", type:"D"},
+      {f:"Is stakeholder collaboration always important?", b:"Yes — it is essential for shared understanding.", type:"D"},
+      {f:"Option A: implement solution. Option B: clarify requirements. Which is correct?", b:"Clarify requirements.", type:"E"},
+      {f:"Option A: design system. Option B: analyse requirements. Which is correct?", b:"Analyse requirements.", type:"E"},
+      {f:"Option A: escalate immediately. Option B: facilitate discussion. Which is correct?", b:"Facilitate discussion.", type:"E"},
+      {f:"Option A: build prototype. Option B: validate requirements. Which is correct?", b:"Validate requirements.", type:"E"},
+      {f:"Correct sequence: elicitation → analysis → validation → design?", b:"Yes.", type:"A"},
+      {f:"What comes after elicitation?", b:"Analysis.", type:"A"},
+      {f:"What comes before solution design?", b:"Validated requirements.", type:"A"},
+      {f:"Conflicting stakeholder needs usually indicate what problem?", b:"Lack of alignment → requires facilitation and clarification.", type:"C"},
+      {f:"Users are unhappy with solution. Most likely cause?", b:"Incorrect or incomplete requirements.", type:"C"},
+      {f:"What should BA do NEXT if requirements are unclear?", b:"Elicit and clarify requirements.", type:"C"},
+      {f:"What should BA do NEXT if stakeholders disagree?", b:"Facilitate collaboration.", type:"C"},
+      {f:"What should BA do NEXT if requirements are documented but unapproved?", b:"Validate and obtain agreement.", type:"C"},
+      {f:"Why is 'implement solution quickly' usually wrong?", b:"Because CBAP prioritises understanding requirements before execution.", type:"E"},
+      {f:"Why is 'jump to technical design' a trap?", b:"Because design must follow validated requirements.", type:"E"},
+      {f:"What is the safest mindset in CBAP questions?", b:"Understand → clarify → analyse → then act.", type:"D"},
+      {f:"What should you assume if unsure between answers?", b:"Choose the option that involves analysis, clarification, or collaboration.", type:"D"},
+      {f:"What is the BA's ultimate responsibility?", b:"Ensuring the right problem is understood before the solution is built.", type:"D"},
+    ]
+  },
+  {
+    id: 'traps',
+    name: 'Trap Patterns',
+    icon: '⚠️',
+    color: 'rgba(239,68,68,0.2)',
+    description: 'Top 30 Watermark exam traps',
+    cards: [
+      {f:"What is the 'premature solution' trap?", b:"Choosing build/design/implementation before requirements are fully defined, analysed, and validated.", type:"E"},
+      {f:"Common clue for premature solution answers?", b:"Words like 'build', 'implement', 'develop', 'design system' too early in scenario.", type:"E"},
+      {f:"What does CBAP prioritise over speed?", b:"Correct BA process (analysis, collaboration, validation).", type:"D"},
+      {f:"Why is 'quick fix' often wrong?", b:"It skips requirements understanding and stakeholder alignment.", type:"E"},
+      {f:"Why is skipping elicitation wrong?", b:"You cannot define correct requirements without understanding stakeholder input.", type:"E"},
+      {f:"Why is assuming requirements correct dangerous?", b:"Requirements must always be validated with stakeholders.", type:"E"},
+      {f:"What is a sequence trap?", b:"Doing analysis/design before elicitation or validation.", type:"E"},
+      {f:"When is escalation usually wrong?", b:"When collaboration and facilitation have not been attempted.", type:"E"},
+      {f:"Why are 'best practice' answers sometimes wrong?", b:"CBAP asks for BABOK-aligned step, not generic industry advice.", type:"E"},
+      {f:"What is stakeholder ignorance trap?", b:"Choosing an answer that bypasses stakeholder collaboration.", type:"E"},
+      {f:"What is a partial truth answer?", b:"An answer that is correct in general but wrong for the scenario's timing.", type:"E"},
+      {f:"Requirement vs design trap?", b:"Choosing 'how to build' instead of 'what is needed'.", type:"E"},
+      {f:"Why are immediate action answers risky?", b:"CBAP prioritises understanding before action.", type:"E"},
+      {f:"What is solution bias?", b:"Jumping to implement solutions instead of defining requirements.", type:"E"},
+      {f:"Why are technically correct answers wrong sometimes?", b:"They are not the next BA process step.", type:"E"},
+      {f:"Why is 'follow stakeholder instruction' often wrong?", b:"BA must ensure proper analysis, not just follow requests blindly.", type:"E"},
+      {f:"What is over-engineering in CBAP answers?", b:"Choosing overly technical or complex solutions when analysis/clarification is needed.", type:"E"},
+      {f:"When is prototyping wrong?", b:"When requirements are unclear or not yet analysed.", type:"E"},
+      {f:"What happens if change control is ignored?", b:"Scope creep and misaligned requirements.", type:"D"},
+      {f:"Why is focusing on one stakeholder wrong?", b:"CBAP requires multi-stakeholder alignment.", type:"E"},
+      {f:"What is end-state trap?", b:"Jumping to future solution before understanding current state.", type:"E"},
+      {f:"Why is ignoring value wrong?", b:"CBAP decisions must align with business value outcomes.", type:"E"},
+      {f:"What is confidence bias in CBAP questions?", b:"Choosing answers that 'feel right' instead of BABOK-aligned logic.", type:"E"},
+      {f:"Why is 'implement solution immediately' wrong in most scenarios?", b:"Solution implementation requires complete, validated requirements first.", type:"E"},
+      {f:"What does CBAP reward most?", b:"Correct process thinking aligned with BABOK.", type:"D"},
+    ]
+  },
+  {
+    id: 'confusables',
+    name: 'Confusables',
+    icon: '📊',
+    color: 'rgba(124,106,247,0.2)',
+    description: 'High-yield distinctions & definitions',
+    cards: [
+      {f:"Business requirement vs stakeholder requirement?", b:"Business requirement = high-level business need\nStakeholder requirement = specific stakeholder need derived from business requirement", type:"B"},
+      {f:"What is Requirements Life Cycle Management?", b:"Managing requirements from creation → approval → change → traceability → retirement", type:"A"},
+      {f:"KPI vs metric vs objective?", b:"KPI = key measure of performance\nMetric = any measurable value\nObjective = desired outcome to achieve", type:"B"},
+      {f:"Solution scope vs business scope?", b:"Business scope = the breadth of change to the organisation\nSolution scope = what the solution specifically addresses", type:"B"},
+      {f:"When would you use SWOT analysis in CBAP?", b:"When assessing internal/external factors affecting strategy. Used in Strategy Analysis, especially current state assessment.", type:"C"},
+      {f:"What does 'Requirements Analysis & Design Definition' knowledge area focus on?", b:"Structuring, organising, and specifying requirements and designs to understand how a solution can meet business needs.", type:"A"},
+      {f:"What is Strategy Analysis in BABOK?", b:"The work to understand the business need, assess the current and future state, and define the change strategy.", type:"A"},
+      {f:"What is Solution Evaluation?", b:"Measuring the performance of and value delivered by a solution, and recommending actions for improvement.", type:"A"},
+      {f:"What is Elicitation & Collaboration in BABOK?", b:"The work to prepare for and conduct elicitation activities, and confirm the results are correct and consistent.", type:"A"},
+      {f:"What is Business Analysis Planning & Monitoring?", b:"The work to organise and coordinate BA efforts, including planning approach, stakeholder engagement, governance and information management.", type:"A"},
+      {f:"MoSCoW prioritisation — what do the letters stand for?", b:"Must Have / Should Have / Could Have / Won't Have (this time)\nUsed to prioritise requirements by importance.", type:"A"},
+      {f:"What is a business case?", b:"A document that justifies the initiation of a project or change by defining the need, proposed solution, costs, and benefits.", type:"A"},
+      {f:"Risk vs Issue (exam version)?", b:"Risk = future uncertainty that may have a negative impact\nIssue = a current problem that is already occurring", type:"B"},
+      {f:"Assumption vs Constraint (exam version)?", b:"Assumption = a factor believed to be true but not confirmed\nConstraint = a restriction that limits available options", type:"B"},
+      {f:"What is stakeholder analysis?", b:"The process of identifying stakeholders, understanding their interests and influence, and determining how to engage with them.", type:"A"},
+      {f:"Purpose of the BABOK Guide?", b:"To describe and define the knowledge areas, tasks, and competencies required to effectively perform business analysis.", type:"A"},
+      {f:"What is a use case?", b:"A description of how an actor interacts with a system to achieve a goal — used to capture functional requirements.", type:"A"},
+      {f:"What is a user story?", b:"A short, simple description of a feature from the perspective of the user: 'As a [user], I want [goal] so that [benefit]'.", type:"A"},
+      {f:"What is root cause analysis?", b:"A technique to identify the fundamental cause of a problem, rather than addressing its symptoms.", type:"A"},
+      {f:"Governance vs management in CBAP?", b:"Governance = oversight, decision rights, and accountability frameworks\nManagement = day-to-day execution and coordination", type:"B"},
+      {f:"What are the 6 BABOK Knowledge Areas?", b:"1. Business Analysis Planning & Monitoring\n2. Elicitation & Collaboration\n3. Requirements Life Cycle Management\n4. Strategy Analysis\n5. Requirements Analysis & Design Definition\n6. Solution Evaluation", type:"A"},
+      {f:"What is traceability in requirements?", b:"The ability to link requirements back to their origins (business objectives) and forward to their implementation and testing.", type:"A"},
+      {f:"Functional vs non-functional requirement?", b:"Functional = what the system must do (features, behaviours)\nNon-functional = how the system must perform (speed, security, usability)", type:"B"},
+    ]
+  }
+];
+
+// ============================================================
+// SPACED REPETITION ENGINE (SM-2 simplified)
+// ============================================================
+function getCardKey(deckId, cardIdx) { return `card_${deckId}_${cardIdx}`; }
+
+function getCardData(deckId, cardIdx) {
+  const key = getCardKey(deckId, cardIdx);
+  const stored = localStorage.getItem(key);
+  if (stored) return JSON.parse(stored);
+  return { interval: 1, repetitions: 0, easeFactor: 2.5, nextReview: 0, totalReviews: 0, lastRating: null };
+}
+
+function saveCardData(deckId, cardIdx, data) {
+  localStorage.setItem(getCardKey(deckId, cardIdx), JSON.stringify(data));
+}
+
+function updateCardSM2(data, rating) {
+  const now = Date.now();
+  data.totalReviews++;
+  data.lastRating = rating;
+
+  if (rating === 'again') {
+    data.repetitions = 0;
+    data.interval = 1;
+    data.nextReview = now + 1 * 60 * 1000;
+  } else if (rating === 'hard') {
+    data.repetitions = Math.max(0, data.repetitions - 1);
+    data.interval = Math.max(1, Math.round(data.interval * 1.2));
+    data.easeFactor = Math.max(1.3, data.easeFactor - 0.15);
+    data.nextReview = now + 10 * 60 * 1000;
+  } else if (rating === 'good') {
+    if (data.repetitions === 0) data.interval = 1;
+    else if (data.repetitions === 1) data.interval = 6;
+    else data.interval = Math.round(data.interval * data.easeFactor);
+    data.repetitions++;
+    data.nextReview = now + data.interval * 24 * 60 * 60 * 1000;
+  } else if (rating === 'easy') {
+    if (data.repetitions === 0) data.interval = 4;
+    else data.interval = Math.round(data.interval * data.easeFactor * 1.3);
+    data.easeFactor = Math.min(3.0, data.easeFactor + 0.1);
+    data.repetitions++;
+    data.nextReview = now + data.interval * 24 * 60 * 60 * 1000;
+  }
+  return data;
+}
+
+function isDue(data) {
+  return Date.now() >= data.nextReview;
+}
+
+function getDueCards(deckIds, types) {
+  const due = [];
+  DECKS.forEach(deck => {
+    if (!deckIds.includes(deck.id)) return;
+    deck.cards.forEach((card, idx) => {
+      if (types && !types.includes(card.type)) return;
+      const data = getCardData(deck.id, idx);
+      if (isDue(data)) due.push({ deckId: deck.id, cardIdx: idx, card, data });
+    });
+  });
+  return due;
+}
+
+// ============================================================
+// GLOBAL STATE
+// ============================================================
+let studyQueue = [];
+let currentQueueIdx = 0;
+let sessionStats = { again: 0, hard: 0, good: 0, easy: 0 };
+let isFlipped = false;
+let studyMode = 'quick';
+
+// ============================================================
+// SCREEN MANAGEMENT
+// ============================================================
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  if (id === 's-home') document.querySelectorAll('.nav-item')[0]?.classList.add('active');
+  if (id === 's-progress') { document.querySelectorAll('.nav-item')[2]?.classList.add('active'); renderProgress(); }
+}
+
+// ============================================================
+// HOME
+// ============================================================
+function updateHome() {
+  const now = new Date();
+  document.getElementById('home-date').textContent = now.toLocaleDateString('en-AU', { weekday: 'long', day: 'numeric', month: 'long' });
+
+  let totalDue = 0;
+  DECKS.forEach(deck => {
+    deck.cards.forEach((card, idx) => {
+      if (isDue(getCardData(deck.id, idx))) totalDue++;
+    });
+  });
+
+  const stats = getStats();
+  document.getElementById('stat-due').textContent = totalDue;
+  document.getElementById('stat-streak').textContent = stats.streak;
+  document.getElementById('stat-total').textContent = stats.totalReviews;
+
+  if (totalDue > 0) {
+    document.getElementById('hero-title').textContent = `${totalDue} card${totalDue > 1 ? 's' : ''} due today`;
+    document.getElementById('hero-sub').textContent = 'Stay consistent — your exam is getting closer.';
+  } else {
+    document.getElementById('hero-title').textContent = 'All caught up! 🎉';
+    document.getElementById('hero-sub').textContent = 'New cards will be ready soon.';
+  }
+
+  // Render deck list
+  const dl = document.getElementById('deck-list');
+  dl.innerHTML = '';
+  DECKS.forEach(deck => {
+    let due = 0;
+    deck.cards.forEach((card, idx) => { if (isDue(getCardData(deck.id, idx))) due++; });
+    dl.innerHTML += `
+      <div class="deck-card" onclick="startDeckStudy('${deck.id}')">
+        <div class="deck-icon" style="background:${deck.color}">${deck.icon}</div>
+        <div class="deck-info">
+          <div class="deck-name">${deck.name}</div>
+          <div class="deck-meta">${deck.description} · ${deck.cards.length} cards</div>
+        </div>
+        ${due > 0 ? `<div class="deck-due">${due}</div>` : ''}
+      </div>`;
+  });
+}
+
+// ============================================================
+// STUDY MODES
+// ============================================================
+function startQuickStudy() {
+  const allDeckIds = DECKS.map(d => d.id);
+  let queue = getDueCards(allDeckIds, null);
+  if (queue.length === 0) {
+    // No due cards — show first 10 unseen or just pull 10
+    DECKS.forEach(deck => {
+      deck.cards.forEach((card, idx) => {
+        const data = getCardData(deck.id, idx);
+        if (data.totalReviews === 0) queue.push({ deckId: deck.id, cardIdx: idx, card, data });
+      });
+    });
+    queue = queue.slice(0, 20);
+  }
+  if (queue.length === 0) { alert('No cards to review!'); return; }
+  startStudySession(queue, 'Quick Study', 'All Decks');
+}
+
+function startDeckStudy(deckId) {
+  const deck = DECKS.find(d => d.id === deckId);
+  let queue = getDueCards([deckId], null);
+  if (queue.length === 0) {
+    deck.cards.forEach((card, idx) => {
+      queue.push({ deckId, cardIdx: idx, card, data: getCardData(deckId, idx) });
+    });
+    queue = queue.slice(0, 20);
+  }
+  startStudySession(queue, deck.name, deck.name);
+}
+
+function showNormalModeSetup() {
+  showScreen('s-select');
+  const dsl = document.getElementById('deck-select-list');
+  dsl.innerHTML = '';
+  DECKS.forEach(deck => {
+    dsl.innerHTML += `
+      <div class="sel-deck selected" id="sel-${deck.id}" onclick="toggleDeckSel('${deck.id}', this)">
+        <div class="sel-check">✓</div>
+        <div style="font-size:22px">${deck.icon}</div>
+        <div class="sel-info">
+          <div class="sel-name">${deck.name}</div>
+          <div class="sel-count">${deck.cards.length} cards · ${deck.description}</div>
+        </div>
+      </div>`;
+  });
+}
+
+function toggleDeckSel(id, el) {
+  el.classList.toggle('selected');
+  el.querySelector('.sel-check').textContent = el.classList.contains('selected') ? '✓' : '';
+}
+
+function toggleType(el) { el.classList.toggle('active'); }
+
+function startNormalMode() {
+  const selDecks = Array.from(document.querySelectorAll('.sel-deck.selected')).map(el => el.id.replace('sel-', ''));
+  const selTypes = Array.from(document.querySelectorAll('.type-chip.active')).map(el => el.dataset.type);
+  if (selDecks.length === 0) { alert('Please select at least one deck.'); return; }
+  if (selTypes.length === 0) { alert('Please select at least one card type.'); return; }
+
+  let queue = getDueCards(selDecks, selTypes);
+  if (queue.length === 0) {
+    selDecks.forEach(deckId => {
+      const deck = DECKS.find(d => d.id === deckId);
+      deck.cards.forEach((card, idx) => {
+        if (selTypes.includes(card.type)) queue.push({ deckId, cardIdx: idx, card, data: getCardData(deckId, idx) });
+      });
+    });
+    queue = queue.slice(0, 30);
+  }
+  shuffle(queue);
+  startStudySession(queue, 'Normal Mode', selDecks.map(id => DECKS.find(d => d.id === id).name).join(', '));
+}
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function startStudySession(queue, modeLabel, deckLabel) {
+  studyQueue = queue;
+  currentQueueIdx = 0;
+  sessionStats = { again: 0, hard: 0, good: 0, easy: 0 };
+  isFlipped = false;
+
+  document.getElementById('study-mode-label').textContent = modeLabel;
+  document.getElementById('study-deck-label').textContent = deckLabel;
+
+  showScreen('s-study');
+  showCurrentCard();
+}
+
+// ============================================================
+// CARD DISPLAY & FLIP
+// ============================================================
+function showCurrentCard() {
+  if (currentQueueIdx >= studyQueue.length) { showSessionComplete(); return; }
+
+  const item = studyQueue[currentQueueIdx];
+  isFlipped = false;
+  const card = document.getElementById('flip-card');
+  card.classList.remove('flipped');
+
+  const typeLabels = { A: 'Definition', B: 'Distinction', C: 'Scenario', D: 'Mindset', E: 'Trap' };
+  const typeLbl = `Type ${item.card.type} — ${typeLabels[item.card.type] || item.card.type}`;
+
+  document.getElementById('card-type-badge').textContent = typeLbl;
+  document.getElementById('card-type-badge2').textContent = typeLbl;
+  document.getElementById('card-front-text').innerHTML = formatText(item.card.f);
+  document.getElementById('card-back-text').innerHTML = formatText(item.card.b);
+
+  const deck = DECKS.find(d => d.id === item.deckId);
+  document.getElementById('study-deck-tag').textContent = deck ? deck.name : '';
+
+  const total = studyQueue.length;
+  document.getElementById('study-count').textContent = `Card ${currentQueueIdx + 1} of ${total}`;
+  document.getElementById('study-prog-fill').style.width = `${(currentQueueIdx / total) * 100}%`;
+
+  document.getElementById('review-btns').classList.add('hidden');
+}
+
+function formatText(text) {
+  if (!text) return '';
+  const lines = text.split('\n');
+  if (lines.length > 1) {
+    const isList = lines.slice(1).every(l => l.trim().startsWith('-') || l.trim().match(/^\w+ = /));
+    if (isList) {
+      const first = lines[0].trim();
+      const items = lines.slice(1).map(l => `<li>${l.replace(/^-\s*/, '').trim()}</li>`).join('');
+      return `${first ? `<strong>${first}</strong><br>` : ''}<ul style="margin-top:8px">${items}</ul>`;
+    }
+  }
+  return text.replace(/\n/g, '<br>');
+}
+
+function flipCard() {
+  if (isFlipped) return;
+  isFlipped = true;
+  document.getElementById('flip-card').classList.add('flipped');
+  setTimeout(() => {
+    document.getElementById('review-btns').classList.remove('hidden');
+  }, 300);
+}
+
+function rate(rating) {
+  sessionStats[rating]++;
+  const item = studyQueue[currentQueueIdx];
+  let data = getCardData(item.deckId, item.cardIdx);
+  data = updateCardSM2(data, rating);
+  saveCardData(item.deckId, item.cardIdx, data);
+  updateStreak();
+
+  if (rating === 'again') {
+    const later = Math.min(currentQueueIdx + 3, studyQueue.length);
+    studyQueue.splice(later, 0, { ...item });
+  }
+
+  currentQueueIdx++;
+  showCurrentCard();
+}
+
+function exitStudy() {
+  showScreen('s-home');
+  updateHome();
+}
+
+// ============================================================
+// SESSION COMPLETE
+// ============================================================
+function showSessionComplete() {
+  const total = sessionStats.again + sessionStats.hard + sessionStats.good + sessionStats.easy;
+  const correct = sessionStats.good + sessionStats.easy;
+  const pct = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+  document.getElementById('cs-easy').textContent = sessionStats.easy + sessionStats.good;
+  document.getElementById('cs-good').textContent = sessionStats.hard;
+  document.getElementById('cs-again').textContent = sessionStats.again;
+
+  let emoji = '🎉', title = 'Session Complete!', sub = 'Great work on your CBAP prep!';
+  if (pct >= 80) { emoji = '🔥'; title = 'Excellent Session!'; sub = `${pct}% accuracy — your BABOK instincts are sharpening.`; }
+  else if (pct >= 60) { emoji = '💪'; title = 'Good Progress!'; sub = `${pct}% accuracy — keep at it. Consistency beats intensity.`; }
+  else { emoji = '📖'; title = 'Keep Reviewing!'; sub = `${pct}% accuracy — focus on the 'Again' cards tomorrow.`; }
+
+  document.getElementById('complete-emoji').textContent = emoji;
+  document.getElementById('complete-title').textContent = title;
+  document.getElementById('complete-sub').textContent = sub;
+  showScreen('s-complete');
+}
+
+// ============================================================
+// STATS & STREAK
+// ============================================================
+function getStats() {
+  let totalReviews = 0;
+  DECKS.forEach(deck => {
+    deck.cards.forEach((card, idx) => {
+      const data = getCardData(deck.id, idx);
+      totalReviews += data.totalReviews;
+    });
+  });
+  const streak = parseInt(localStorage.getItem('streak') || '0');
+  return { totalReviews, streak };
+}
+
+function updateStreak() {
+  const today = new Date().toDateString();
+  const lastDay = localStorage.getItem('last_study_day');
+  let streak = parseInt(localStorage.getItem('streak') || '0');
+  if (lastDay !== today) {
+    const yesterday = new Date(Date.now() - 86400000).toDateString();
+    streak = (lastDay === yesterday) ? streak + 1 : 1;
+    localStorage.setItem('streak', streak);
+    localStorage.setItem('last_study_day', today);
+  }
+}
+
+// ============================================================
+// PROGRESS SCREEN
+// ============================================================
+function renderProgress() {
+  const pc = document.getElementById('prog-content');
+  const stats = getStats();
+
+  let html = `
+    <div class="streak-card">
+      <div class="streak-num">${stats.streak}</div>
+      <div><div class="streak-text">Day Streak</div><div class="streak-sub">${stats.totalReviews} total reviews</div></div>
+    </div>`;
+
+  DECKS.forEach(deck => {
+    let reviewed = 0, mastered = 0, due = 0;
+    deck.cards.forEach((card, idx) => {
+      const data = getCardData(deck.id, idx);
+      if (data.totalReviews > 0) reviewed++;
+      if (data.repetitions >= 3) mastered++;
+      if (isDue(data)) due++;
+    });
+    const total = deck.cards.length;
+    const pct = Math.round((reviewed / total) * 100);
+    const mastPct = Math.round((mastered / total) * 100);
+
+    html += `
+      <div class="prog-section">
+        <div class="prog-section-title">${deck.icon} ${deck.name}</div>
+        <div class="prog-row">
+          <div class="prog-label">Reviewed</div>
+          <div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${pct}%;background:var(--blue)"></div></div>
+          <div class="prog-pct">${pct}%</div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-label">Mastered</div>
+          <div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${mastPct}%;background:var(--green)"></div></div>
+          <div class="prog-pct">${mastPct}%</div>
+        </div>
+        <div class="prog-row" style="border-top:1px solid var(--border);margin-top:6px;padding-top:8px">
+          <div class="prog-label" style="color:var(--text2);font-size:13px">${reviewed}/${total} reviewed · ${due} due</div>
+        </div>
+      </div>`;
+  });
+
+  // Type breakdown
+  const typeCounts = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+  const typeReviewed = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+  DECKS.forEach(deck => {
+    deck.cards.forEach((card, idx) => {
+      typeCounts[card.type] = (typeCounts[card.type] || 0) + 1;
+      const data = getCardData(deck.id, idx);
+      if (data.totalReviews > 0) typeReviewed[card.type] = (typeReviewed[card.type] || 0) + 1;
+    });
+  });
+  const typeNames = { A: 'Definition', B: 'Distinction', C: 'Scenario', D: 'Mindset', E: 'Trap' };
+  html += `<div class="prog-section"><div class="prog-section-title">By Card Type</div>`;
+  ['A','B','C','D','E'].forEach(t => {
+    const pct = typeCounts[t] ? Math.round((typeReviewed[t] / typeCounts[t]) * 100) : 0;
+    html += `<div class="prog-row"><div class="prog-label">Type ${t} — ${typeNames[t]}</div><div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${pct}%;background:var(--accent)"></div></div><div class="prog-pct">${pct}%</div></div>`;
+  });
+  html += `</div>`;
+
+  html += `<button class="reset-btn" onclick="confirmReset()">Reset All Progress</button><div style="height:16px"></div>`;
+  pc.innerHTML = html;
+}
+
+function confirmReset() {
+  if (confirm('Reset all study progress? This cannot be undone.')) {
+    Object.keys(localStorage).forEach(k => { if (k.startsWith('card_') || k.startsWith('streak') || k.startsWith('last_study')) localStorage.removeItem(k); });
+    renderProgress();
+    updateHome();
+  }
+}
+
+// ============================================================
+// PWA SETUP
+// ============================================================
+const manifest = {
+  name: "CBAP Study App",
+  short_name: "CBAP Study",
+  start_url: ".",
+  display: "standalone",
+  background_color: "#0f0f13",
+  theme_color: "#0f0f13",
+  icons: [
+    { src: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMjggMTI4Jz48cmVjdCB3aWR0aD0nMTI4JyBoZWlnaHQ9JzEyOCcgcng9JzI0JyBmaWxsPScjN2M2YWY3Jy8+PHRleHQgeT0nLjllbScgZm9udC1zaXplPSc3Micgd2VpZ2h0PSc3MDAnIHRleHQtYW5jaG9yPSdtaWRkbGUnIHg9JzUwJScgZHk9Jy4zZW0nIGZpbGw9J3doaXRlJz7wn5KQPC90ZXh0Pjwvc3ZnPg==", sizes: "128x128", type: "image/svg+xml" }
+  ]
+};
+
+const manifestStr = JSON.stringify(manifest);
+const b64 = btoa(unescape(encodeURIComponent(manifestStr)));
+document.getElementById('manifest-link').href = `data:application/manifest+json;base64,${b64}`;
+
+if ('serviceWorker' in navigator) {
+  const swCode = `self.addEventListener('fetch', e => e.respondWith(fetch(e.request).catch(() => new Response(''))));`;
+  const blob = new Blob([swCode], { type: 'text/javascript' });
+  navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(() => {});
+}
+
+// ============================================================
+// INIT
+// ============================================================
+updateHome();
+showScreen('s-home');
+</script>
+</body>
+</html>
