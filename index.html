@@ -87,8 +87,8 @@
   .face-label { font-size: 11px; font-weight: 600; letter-spacing: 1px; color: var(--text3); text-transform: uppercase; }
   .type-badge { font-size: 10px; padding: 2px 7px; border-radius: 8px; font-weight: 600; background: rgba(124,106,247,0.2); color: var(--accent); margin-left: auto; }
   .face-body { flex: 1; padding: 16px 14px; overflow-y: auto; display: flex; align-items: center; }
-  .face-text { font-size: clamp(15px, 3.5vw, 18px); line-height: 1.6; color: var(--text); width: 100%; }
-  .face-text.answer { font-size: clamp(13px, 3vw, 16px); }
+  .face-text { font-size: clamp(19px, 4.5vw, 23px); line-height: 1.65; color: var(--text); width: 100%; }
+  .face-text.answer { font-size: clamp(17px, 4vw, 21px); }
   .face-text ul { list-style: none; padding: 0; }
   .face-text ul li::before { content: "→ "; color: var(--accent); font-weight: 600; }
   .face-text ul li { padding: 3px 0; }
@@ -96,9 +96,9 @@
 
   /* REVIEW BUTTONS */
   .review-btns { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; flex-shrink: 0; }
-  .review-btn { border: none; border-radius: var(--radius-sm); padding: 11px 4px 10px; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform 0.1s; }
+  .review-btn { border: none; border-radius: var(--radius-sm); padding: 13px 4px 12px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; transition: transform 0.1s; }
   .review-btn:active { transform: scale(0.95); }
-  .review-btn span { font-size: 10px; font-weight: 400; opacity: 0.75; }
+  .review-btn span { font-size: 11px; font-weight: 400; opacity: 0.75; }
   .btn-again { background: rgba(239,68,68,0.2); color: #ef4444; }
   .btn-hard { background: rgba(245,158,11,0.2); color: #f59e0b; }
   .btn-good { background: rgba(59,130,246,0.2); color: #3b82f6; }
@@ -260,7 +260,7 @@
           <div class="face-body">
             <div class="face-text" id="card-front-text"></div>
           </div>
-          <div class="tap-hint">Tap to reveal answer</div>
+          <div class="tap-hint">Tap card to reveal answer</div>
         </div>
         <div class="flip-face back">
           <div class="face-header">
@@ -270,7 +270,7 @@
           <div class="face-body">
             <div class="face-text answer" id="card-back-text"></div>
           </div>
-          <div class="tap-hint" id="rate-hint">How well did you know this?</div>
+          <div class="tap-hint" id="rate-hint">Tap card to flip back · Rate below to continue</div>
         </div>
       </div>
     </div>
@@ -767,12 +767,12 @@ function formatText(text) {
 }
 
 function flipCard() {
-  if (isFlipped) return;
-  isFlipped = true;
-  document.getElementById('flip-card').classList.add('flipped');
-  setTimeout(() => {
+  isFlipped = !isFlipped;
+  document.getElementById('flip-card').classList.toggle('flipped', isFlipped);
+  if (isFlipped) {
+    // First time showing answer — reveal review buttons and keep them visible
     document.getElementById('review-btns').classList.remove('hidden');
-  }, 300);
+  }
 }
 
 function rate(rating) {
@@ -954,3 +954,4 @@ showScreen('s-home');
 </script>
 </body>
 </html>
+
