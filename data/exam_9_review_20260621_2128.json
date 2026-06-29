@@ -1,0 +1,1317 @@
+{
+  "exam_number": "9",
+  "exam_title": "Viewing Results for Drill, Exam #9 started on 2026-06-18 05:00:24",
+  "generated": "2026-06-21 21:54",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the purpose of analyzing performance measures?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Provide insights into the performance of a solution in relation to the value it brings.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Provide understanding of the performance of the solution in order to pass potential audits.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Prepare clients for upcoming changes based on results of measuring a solution's performance.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While this can occur for future planning it is not the purpose",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Assist in developing the project schedule once it has been determined that changes are required.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Analyzing performance doesn't have impact on creating the project schedule. Hint: If you see project schedule in an answer, it's probably incorrect",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following best represents an example of a qualitative benefit?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Improved customer satisfaction.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is a qualitative measure that can add significant value to the organization. But, is difficult to quantify",
+          "babok_refs": [
+            "6.2.4.11"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Improved return on investment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Return on investment (ROI) measures the gain from an investment relative to its cost captured as percentage. ROI is a quantitative measure. BABOK",
+          "babok_refs": [
+            "10.20.3.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Shorter payback period.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a return-on-investment or quantitative measurement",
+          "babok_refs": [
+            "10.20.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Total cost of ownership.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The total cost of ownership (TCO) is the cost to acquire a solution, the cost of using the solution, and the cost of supporting the solution for the foreseeable future and is a quantitative measurement",
+          "babok_refs": [
+            "10.20.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How are any financial analysis and value assessments validated?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "By relating them back to strategic goals and objectives.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Financial analysis and value assessments must align to the strategic goals and objectives of the enterprise",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "By relating them back to business requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business requirements are an output of Analyze Current State and consist of business problem, opportunity, and constraints",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "By relating them back to business needs.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business needs are an input to Analyze Current State and typically serve as a launching point for BA work",
+          "babok_refs": [
+            "6.1.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "By obtaining sponsor approval of the stated value assumptions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close. Sponsor approval is evidence of acceptance but not value validation.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Steven works at an IT shop in North Carolina as a business analyst. He is in charge of determining what cultural changes are required to better realize value from an existing solution. What is the key action he is accomplishing for the organization?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Conducting needs analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This question is about realizing value from an existing solution specifically related to culture, rather than documenting the needs of the stakeholders. 8.4.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Performing cultural assessment",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Performing impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This will only provide insights into how the solution affects a particular stakeholder group, not the organization, and does not relate to the cultural aspects",
+          "babok_refs": [
+            "8.4.4.1",
+            "8.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Eliminating risks",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Although risks are being addressed in this instance, consider this a partial and not complete answer",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "The following are some of the factors a business analyst would consider to establish the level of decomposition and the level of detail to be specified while conducting information decomposition. Which is NOT?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Contractual or regulatory obligations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the factors",
+          "babok_refs": [
+            "7.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Schedule and budget allocations.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Though as a business analyst you want to meet your deadlines, time should not be the main factor in determining the level of decomposition",
+          "babok_refs": [
+            "7.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Knowledge and understanding of the stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the factors",
+          "babok_refs": [
+            "7.1.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organizational standards.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the factors",
+          "babok_refs": [
+            "7.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Per the BABOK, a requirement is are \"a usable representation of a need that is known and true at the time of the request. BABOK Glossary.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "To-be processes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are not factors believed to be true, these are desired future processes.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Constraints",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Constraints limit what a project or solution can do.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Assumptions",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Assumptions are factors that are believed to be true but has not been confirmed to be accurate, or that could be true now but may not be in the future.  and Glossary",
+          "babok_refs": [
+            "7.3.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "If the solution team thinks that the requirements are not represented by the solution, which of the following would help them address their concerns?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess requirements change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Assessing requirements changes focuses on whether the proposed change will increase the value of the solution, not whether there are missing or incorrect requirements",
+          "babok_refs": [
+            "5.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Requirements and designs analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a made up answer. This phrase does not appear in the BABOK. See  for correct answer",
+          "babok_refs": [
+            "5.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Trace requirements",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Traceability is used to ensure that the solution confirms to requirements by linking each requirement back to the business value",
+          "babok_refs": [
+            "5.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Prioritize requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements prioritization determines the requirements relative importance to the stakeholder, rather than missing or incorrect requirements and designs",
+          "babok_refs": [
+            "5.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Placido's boss has told him not to worry about what is happening today because the top priority is to integrate the software of both companies. How should Placido answer?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It is important to understand how both companies are handling these processes today before integrating the systems. This will help ensure compliance with regulations after the integration takes place.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "One of the strengths of Process Modeling is that it provides documentation for compliance purposes",
+          "babok_refs": [
+            "10.35.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "It is important to understand the current state in order to ensure that both Trevi and AFD stakeholders understand how to use the new software.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Understanding the current state is important and needs to be done, but will not ensure an understanding of the software. In addition, what AFD is doing today will change with the new software, so understanding the current state will not help them use the new software. Finally, the Trevi stakeholders already know how to use the software, so learning it is not a compelling reason for skipping the analysis of the current state",
+          "babok_refs": [
+            "6.1.1",
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "It is important to understand the existing software used by both companies before determining which, if any, changes are needed for the software integration.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Although this is true and needs to be done, software is just one component of the current state",
+          "babok_refs": [
+            "6.1.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "It is important to understand how the new, integrated software will affect how people do their work.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would make sense if the current state were understood. Understanding the current state, which is what Placido is recommending, needs to be done before thinking about the future state",
+          "babok_refs": [
+            "6.1.1",
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "The business executive overseeing the funding for this initiative insists that analyzing the current state is a waste of time. She says that the gains in productivity will be made by allowing the software to drive the future state. How should Placido respond?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Change occurs in the context of the future state which will affect stakeholders, processes, technology, and policies. Determining the future state of the enterprise prior to the change is necessary to identify what will need to change to provide value and achieve success.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true of the current state, but not the future state. According to the BABOK, \"change always occurs in a context of existing stakeholders, processes, technology, and policies which constitute the current state of the enterprise. Business analysts need to examine the current state to understand what may influence proposed changes, and what will be affected by them.\"",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Although it is true that benefits will be realized only after the solution is implemented, taking the time to determine the Solution Scope will reduce risks and prevent costly errors and rework.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This answer is addressed in Define Change Strategy, which describes the work needed to get from the current to the future state. The Solution Scope is an element in Define Change Strategy and an output from that same task. This answer does not address why the current state is needed",
+          "babok_refs": [
+            "6.4.4.1",
+            "6.4.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "If we do not define the current state, we will not be able to define performance measures to determine the effectiveness of a new solution.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A tempting but incorrect answer. Defining performance measures happens as part of Solution Evaluation to evaluate the effectiveness of a solution in relationship to the value it brings, not to evaluate how much the solution has improved since the current state. We know that the current state is not involved because the inputs, the implemented solution (external) and the business objectives (6.2), tell us so. The current state is not an input to this task or to the performance measures",
+          "babok_refs": [
+            "8.1.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The risk of conflict among stakeholders and the delay caused by spending time resolving the conflict will be reduced by analyzing the current state.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Understanding the business need occurs as part of analyzing the current state. The BABOK says, \"Without clearly understood business needs, it is impossible to develop a coherent strategy, and the resulting change initiative is almost certain to be driven by a mix of conflicting stakeholder demands.” Resolving the conflict consists of mediation among stakeholders and involves several steps. We can imply that this mediation will take time, delay the effort, and run the risk of weakening the relationships among stakeholders. , 9.5.4",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "After a great deal of discussion, the business executive has agreed to model existing processes and compare the time it takes to complete the Value Stream of the dairy production processes. Below is a Value Stream map of one set of the processes in AFD. Which statement below is correct?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Total elapsed time is 15.5 hours",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The total elapsed time from initial input to final output is the sum of the processing time and wait time. BABOK Figure 10.34.2, 10.34.3.4",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Total elapsed time is 7.5 hours",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The total value-adding time is 7.5 hours. BABOK Figure 10.34.2, 10.34.2.4",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Unknown. In order to calculate the total elapsed time, we need the wait time a) between the time the supplier provides the input and the start of process 1, and b) the wait time from when Process 3 is complete until the final output is in the hands of the customer.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not true. BABOK Figure 10.34.2, 10.34.3.4",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Total elapsed time is 8 hours",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The total wait time is 8 hours. BABOK Figure 10.34.2, 10.34.2.4",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How much detail should the solution scope contain?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The solution scope should be described in just enough detail to ensure the stakeholders understand what value will be delivered.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The solution scope can be described in many different ways to help with stakeholder understanding",
+          "babok_refs": [
+            "6.4.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The solution scope should be described in enough detail to allocate resources to the project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an invented answer",
+          "babok_refs": [
+            "6.4.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The solution scope should be described in enough detail to effectively address the anticipated concerns of all key stakeholders, thus ensuring buy-in.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is impossible to address the anticipated concerns of ALL key stakeholders. The solution scope will probably evolve throughout the life cycle of the initiative",
+          "babok_refs": [
+            "6.4.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The solution scope should describe the boundaries of the solution.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is true but the response defines solution scope vs. answering the question pertaining to level of detail.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following is NOT a direct input in the define change strategy task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Solution recommendations",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not an input; rather, a guideline and tool along with business analysis approach and design options. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Future state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholder engagement approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Risk analysis results",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "On a project a business analyst makes sure that requirements models have met the necessary standard of quality so that they can be used effectively to guide further work. What has the business analyst been doing?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Specifying and modeling the requirement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of specifying and modeling requirements is to analyze, synthesize and refine elicitation results into requirements and designs",
+          "babok_refs": [
+            "7.1.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Validating the requirement.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Validating is making sure the requirement is warranted and supports the business requirements discovered",
+          "babok_refs": [
+            "7.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Verifying the requirement.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Verifying makes sure a requirement is 'good enough' to continue working with",
+          "babok_refs": [
+            "7.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Documenting a transition requirement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Transition requirements describe the capabilities that the solution must have and the conditions the solution must meet to facilitate transition from the current state to the future state, but which are not needed once the change is complete",
+          "babok_refs": [
+            "2.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "A project team is piloting a new set of processes before full deployment. Barry is a BA who is evaluating the solution in terms of delivered value. He finds that stakeholders aren't engaging in the new processes and have instead reverted to the \"old way\" of doing things. What should Barry recommend?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Conduct more training as stakeholders probably don't understand the new processes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is not enough information provided to know if this specific recommendation would increase solution value.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "There's not enough information provided for a specific recommendation.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "While the BABOK doesn't state this specifically, the need for an organizational change effort is obvious. However, it is imperative to perform root cause analysis for the lack of engagement before a specific recommendation is offered",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Create incentives so that stakeholders are more motivated to leave the \"old ways\" behind.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is not enough information provided to know if this specific recommendation would increase solution value.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Conduct coaching and mentoring as a way to focus stakeholders on the new processes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is not enough information provided to know if this specific recommendation would increase solution value.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the circuit in this scenario?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Enterprise limitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The issue is internal to the solution.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Solution component",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Solution limitation",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is correct but another answer is more specific.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Risk",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The circuit does not have an element of uncertainty; it is an issue.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Per Robbie's recommendation, a new, high-speed circuit was installed on an expedited basis but the application continued to exhibit outages. Now what should Robbie do?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Problem analysis",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Root cause analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a synonym for the correct answer stated in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Error investigation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Impact assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Robbie already knows the impact.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Rhonda is a BA reviewing the issues that surfaced on a similar project to the one she is currently assigned to that was closed two years ago. What would be the value in reviewing past issues from similar projects?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Reviewing past issues will help Rhonda understand which stakeholder groups were impacted and so will assist in stakeholder identification.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While stakeholder identification may be a side benefit, it is not the primary purpose.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Reviewing past issues and their fixes could help establish the amount of money needed for the contingency reserves.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While reviewing the financial information may help understand the quantitative impacts of the issues, it is not the primary purpose.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Reviewing past issues could help identify risks for the current project.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Manifested risks are issues. Typically, using the Lessons Learned technique to proactively manage risks to prevent issues costs less and delivers more value",
+          "babok_refs": [
+            "6.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Reviewing past issues could help identify the fix so the team won't have to recreate the wheel.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While true, it would be more helpful to prevent the issue from reoccurring.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Susan is a business analyst who is creating a process map of the current product changeover process on a manufacturing line. The sponsor advises her not to waste time on the current process because \"everybody knows it doesn't work!\" Instead, he counsels her to research a best practice and train everyone on it as quickly as possible. What is Susan's best course of action?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Respectfully explain that the current process will be documented and analyzed just to the point of identifying what exactly will need to change so the effects of the change can be assessed.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The current state should be explored in just enough detail to validate the need of the change, identify exactly what needs to change to achieve a desired future state, and analyze its effects",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Agree with the sponsor to minimize conflict but continue process mapping as a tool to use in analysis of the current state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may minimize potential conflict with the sponsor but business analysis tasks, activities, and resulting artifacts should be communicated (transparent)",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Susan should quickly develop a cost/benefit analysis of pursuing her current course of action to demonstrate the overall value to her sponsor.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This may be necessary at some level depending upon the sponsor's communication and decision-making style but is not the most correct answer",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Agree that in this situation it makes sense to research best practice and implement it as soon as possible to maximize business value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Analyzing the current state is necessary to maximize value in the future state",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "You are a business analyst in Dubai working on a project install enterprise software to a global organization. Your business SMEs work in Asia, Europe, and the Middle East. Your developers are in India. You want to document requirements so that everyone has the same understanding. Which of the following will provide the best clarity?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Creating process models.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "It will be important to model 'as-is' and 'to-be' business processes. Models reduce ambiguity",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Ensuring that all requirements are documented in a formal requirements specification.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The formality will not ensure clarity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Creating use case descriptions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The narrative flow of events may be difficult for those less familiar with the English language.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Using formal textual descriptions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Text is more open to interpretation and formality will not ensure clarity.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Functional decomposition can be used by a BA to analyze which type of scope?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Project scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Functional decomposition can help break down project scope, but that would be a project management activity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Process scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK mentions that functional decomposition can apply to processes, but it does not refer to process scope.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Product scope.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A BA would use functional decomposition to help break down the product or solution scope",
+          "babok_refs": [
+            "6.4.6",
+            "10.22"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organizational scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This type of scope isn't mentioned in the BABOK, and if it was, it would not be within a BA role to decompose it.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What did the bank neglect to take into consideration?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Cultural change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Cultural change takes time but in this case perhaps way too much time to realize value from the investment.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Solution limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The issue is outside of the scope of the internal solution.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "The risk tolerance of stakeholders",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "In this case the risk analysis and management technique was apparently not done to assess the risks perceived by the customers of this process along with their tolerance level",
+          "babok_refs": [
+            "8.4.6",
+            "10.38"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Enterprise limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is correct but another answer is more specific to the scenario.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Anxious to persuade customers to give the new, secure technology a try, what could the BA do to help determine the appropriate remedy?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops could be used to identify specific customer concerns and identify how to best address them but given the geographic location of the customers this option wouldn't be feasible.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This will not help determine the appropriate remedy.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Survey or questionnaire",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Sending a survey or questionnaire to members of the targeted customer segment would offer insight (if the questions were developed carefully)!  or 10.45",
+          "babok_refs": [
+            "8.4.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might uncover concerns but another option may provide more or more relevant information.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "The votes are in; customers mistrust this service and won't use it. The infrastructure costs over $500,000 per year to maintain. What will the BA most likely recommend?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Retire the solution.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The cost clearly outweighs the benefit",
+          "babok_refs": [
+            "8.5.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Identify additional capabilities of the service.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This option isn't plausible given the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Organizational change initiatives to promote trust and adoption.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This isn't cost effective and would take too much time given the market.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Maintain the infrastructure because the cost of rebuilding it in the future is less than maintaining it.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is pure speculation and not likely given the scenario.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Megan is the business analyst for an organization and she's coaching Lindsey, a new business analyst, on the importance of identifying and recording key dependencies between requirements. Which one of the following is the primary reason why key dependencies should be identified and recorded?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To help achieve efficiency by implementing related requirements at the same time.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Identifying and documenting dependencies assists the business analyst in sequencing project work activities to design and deploy the capabilities found in the requirements. It also assists the business analyst in correctly allocating requirements to solution components",
+          "babok_refs": [
+            "5.3.4",
+            "7.6.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To identify the benefit of each requirement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Benefit is a factor that influences the traceability effort, but not is a reason why dependencies need to be identified and recorded",
+          "babok_refs": [
+            "5.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To determine who owns the requirement in the project life cycle.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Determining who owns the requirement is not a reason by key dependencies need to be identified and recorded",
+          "babok_refs": [
+            "5.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To identify the relative risk of each requirement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Risk is a factor that influences the traceability effort, but not is a reason why dependencies need to be identified and recorded",
+          "babok_refs": [
+            "5.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "You have been hired as the business analyst for an initiative. You have completed requirements elicitation and documentation. You now want information to help you understand the needs of all stakeholders to assist in managing consensus. Which of the following tools would be helpful?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Legal/regulatory information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This tool describes legislative rules or regulations that must be followed that might impact the requirements and designs approval process",
+          "babok_refs": [
+            "5.5.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Change strategy",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This tool provides information which would assist the business analyst in managing stakeholder consensus",
+          "babok_refs": [
+            "5.5.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conflict and consensus management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such tool in the BABOK",
+          "babok_refs": [
+            "5.5.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Requirement management tools/repository",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This tool records requirements approvals although it may house the results of stakeholder analysis which may be helpful",
+          "babok_refs": [
+            "5.5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

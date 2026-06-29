@@ -1,0 +1,1295 @@
+{
+  "exam_number": "6",
+  "exam_title": "Viewing Results for Drill, Exam #6 started on 2026-06-16 04:16:40",
+  "generated": "2026-06-21 21:30",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "The business analyst has completed the identification and definition of why a change to a system is required. The business analyst has also identified new capabilities that the current system cannot perform and are required by the enterprise to achieve the business need. Risks have been identified and assessed. What is the business analyst's next step?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Determine the organizational impacts.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Impacts have been determined.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Determine the business process gaps.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Gaps have been determined.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Determine architectural gaps.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Gaps have been determined.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Determine the change strategy.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The current state has been analyzed, the future state has been defined, and risks have been assessed. The next step is to perform the task of \"Define Change Strategy.\" BABOK Figure 6.4.3",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "A business analyst recommended a specific change strategy to reach the future state as part of a business case. The change strategy included several phases spanning two years, a cumulative quantitative financial analysis including a detailed costs and benefits analysis of the overall initiative, a timeline of each phase, resources needed for each phase, and organizational readiness assessment to make the change. The governance team reviewed their recommended change strategy and asked for more information. The business analyst is perplexed since they thought it was already too detailed.What might the recommendation be missing?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The governance team was lacking resource utilization information.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario states that the recommended change strategy includes the resources needed by phase",
+          "babok_refs": [
+            "6.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The governance team was lacking an understanding of the total value this change initiative would provide.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The scenario states that a cumulative quantitative financial analysis including a detailed costs and benefits analysis of the overall initiative was captured, which should provide the governance team information on the total expected value of the change",
+          "babok_refs": [
+            "6.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The governance team was lacking alternatives with an associated analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario does not provide enough information to know if alternative strategies were provided in the business case, but the focus of the question is on the governance team's review of the recommended change strategy",
+          "babok_refs": [
+            "6.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The governance team was lacking information as to the costs and benefits associated with each phase or transition state.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The scenario states that the recommended strategy has a cumulative financial analysis including a detailed costs and benefits analysis of the overall initiative. It is imperative that the strategy also include the forecasted value (cost-benefits) associated with each transition state (phase)",
+          "babok_refs": [
+            "6.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "The business analyst supplemented the information, resubmitted the recommendation, and gained approval for the change strategy. However, it took twice as long to implement the strategy than forecasted because resources with the required knowledge were not available due to conflicting priorities. What did the business analyst fail to do as part of their recommendation?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The business analyst failed to negotiate with the required resources' managers for their time.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be true but it is imperative to first assess the availability of required resources which is part of an enterprise readiness assessment",
+          "babok_refs": [
+            "6.4.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The business analyst neglected to state specifically the resources required to implement the solution in the business case.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business analyst may or may not have specifically stated required resources in the business case. Stating required resources does not ensure their availability",
+          "babok_refs": [
+            "6.4.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The business analyst failed to develop a RACI matrix to define and assign implementation responsibilities.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be true. However, just because resources are identified and assigned does not ensure their availability",
+          "babok_refs": [
+            "6.4.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The business analyst failed to perform an enterprise readiness assessment.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "An enterprise readiness assessment is an element in the define change strategy task which takes into consideration the availability of resources",
+          "babok_refs": [
+            "6.4.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "The corporate office of a financial services company recently locked into a new one-year health care plan, that while saving the organization a substantial amount of money for the year, significantly changed the terms of the employees' health care plans. That change was found to be the reason for a recent decrease in employee satisfaction. Upon discovery that the change in the health care plan caused lower employee satisfaction and considering all other factors, the BA recommended that the organization \"do nothing.\" Was this the right recommendation?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "No; the BA should recommend retiring the solution and introducing another that better meets employees' needs.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Since health care plans are contractual in nature, this isn't possible or in all likelihood would be cost prohibitive.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "No; there is always something you can do.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Unfortunately, sometimes there is not nothing you can do.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Yes; it is not feasible or even possible to change it.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Unfortunately, the organization is locked into the health care plan for the calendar year",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "No; the BA should recommend a way to enhance it to increase solution value.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Since health care plans are contractual in nature, this isn't possible or in all likelihood would be cost prohibitive.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "A BA has learned that one of the key SMEs has a need to make some changes to the requirements. What are the two key outputs that should be created to reflect whether or not to make the changes?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requests that go to the change control board and updated requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BA should not recommend unassessed changes to the change control board (CCB). Keep in mind that the answer has to apply universally and that not all organizations have CCBs, so this answer cannot be correct. Section 5.4.3, Figure 5.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Approved and updated requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An assessment is required prior to approving the changes and updating the requirements. Section 5.4.3, Figure 5.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "New and improved requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BA will need to assess requirements prior to making updates. Section 5.4.3, Figure 5.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Requirements change assessment and designs change assessment",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are outputs as listed in the BABOK Section 5.4.3, Figure 5.4.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Sierra discovered that an internal audit team performed audits the last calendar week of each month. The organization operates at a frenetic pace the last week of the month to meet production goals. What might Sierra further investigate as a concern?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Why the \"frenetic\" pace can't be spaced out across the month given the production goal.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Good question but not the best answer of those provided.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Perhaps the entire facility doesn't need to be audited each month and that a sample of departments would be sufficient.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence that volume or sample size related to the measurement activity is an issue.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Perhaps the fact that audits are completed each month is too often; perhaps bi-monthly or quarterly makes more sense.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence that frequency of the measurement activity is an issue.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Perhaps the timing of the audits may have a negative impact on the outcome.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The timing of the audits appears to be the most problematic given the information in the scenario",
+          "babok_refs": [
+            "8.1.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "When would the techniques of process modeling, observation, workshops, document analysis, and organizational modeling have the most value when assessing enterprise-related obstacles to realizing solution value?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder Impact Analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "All of these techniques would give insight to which stakeholder groups (roles) are impacted by a solution and in what way",
+          "babok_refs": [
+            "8.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Enterprise Culture Assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Organizational modeling, document analysis, and process modeling would not help a BA understand the deeply rooted beliefs, values, and norms shared within the enterprise.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Assess Enterprise Limitations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Correct but too broad an answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Assess Solution Limitations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Most types of observation and organizational modeling would not effectively assist in the assessment of solution limitations.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How would you describe the sponsor's attitude toward risk?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Unknown",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is correct as the scenario is describing an \"issue\" vs. a risk. It is certain that a couple of key stakeholders have not bought into the business analysis work; risk has an element of uncertainty",
+          "babok_refs": [
+            "6.3.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Neutral.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A neutral stakeholder will accept risk to the level that it will not result in a loss even if it occurs.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Risk-seeking.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A person who is risk-seeing exhibits willingness to take on risk in return for higher potential value.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Risk-averse.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A person who is risk-averse is unwilling to accept a high level of risk.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is an example of a risk associated with the scenario?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The BA will need to work to understand the root cause of their lack of buy-in.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This action is necessary to develop an appropriate strategy to increase buy-in.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A couple of key stakeholders do not buy into business analysis work.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is stated as fact with no element of uncertainty.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "That the stakeholders who haven't bought in to business analysis work may actively sabotage the effort.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is correct. A risk has an element of uncertainty",
+          "babok_refs": [
+            "6.3.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The stakeholders will be monitored closely to identify actions that may signal saboteur-like behavior.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a risk response strategy.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "As part of identifying and understanding an organization's business rules, Dakota has created and plans to present a class diagram to business stakeholders to validate her findings. She received significant pushback from the stakeholders saying the model was \"too technical.\" What could Dakota create that might be more business-friendly?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Data model.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Another type of data model would probably elicit the same response from business stakeholders.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Concept model.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A concept model can be used when stakeholders perceive class diagrams to be too technical and the initiative needs to capture large numbers of business rules",
+          "babok_refs": [
+            "10.11.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A PowerPoint presentation bulleting the business rules.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is tempting but not a stated technique in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "A state diagram.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Though business friendly, a state diagram is not robust enough to identify and understand all business rules relevant to a particular initiative.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "The sponsor believes that cultural assessments are of little value. What would be a compelling way to state the case for their need?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It will judge the organization's ability and willingness to adapt to cultural changes required for stakeholders to readily adopt solutions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partly correct. The organization's ability and willingness to adapt to cultural changes is only part of the value.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "It is the most cost-effective way to develop a communication plan that will ensure awareness and understanding of the solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partly correct. Awareness and understanding of the solution is only part of the value.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "A cultural assessment will determine if the existing organization is capable of accepting a solution. If cultural changes are needed, it will judge the organization's ability and willingness to adapt to those changes.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A cultural assessment will determine if the existing organization is capable of accepting a solution.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is partly correct. This determination is only a portion of the value of a cultural assessment.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Elicitation and Collaboration",
+      "question_text": "Which task in the elicitation and collaboration knowledge area may use all of the following techniques: brainstorming, focus groups, interviews, and observation?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Confirm elicitation results",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Confirm elicitation results may use interviews, but brainstorming, focus groups, and observation are not listed as techniques for this task",
+          "babok_refs": [
+            "4.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Manage elicitation results",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an invented answer; there is no such task in the elicitation and collaboration knowledge area",
+          "babok_refs": [
+            "4.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conduct elicitation",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Brainstorming, focus groups, interviews, and observation techniques are all listed for this task",
+          "babok_refs": [
+            "4.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Prepare for elicitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Prepare for elicitation may use brainstorming and interviews, but focus groups and observation are not listed as techniques for this task",
+          "babok_refs": [
+            "4.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Your organization has announced an initiative to streamline accounts payable processes across all of its divisions. You are a business analyst assigned to analyze current business processes and recommend one process for all divisions. Which of the following are you LEAST likely to do?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Improve access to information.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would be a wise thing to do, so is not the right answer",
+          "babok_refs": [
+            "7.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Increase the complexity of system interfaces.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Just the opposite. The business analyst should reduce the complexity of interfaces",
+          "babok_refs": [
+            "7.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Map the current processes in all the divisions to identify and eliminate redundancies.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would be a wise thing to do, so is not the right answer",
+          "babok_refs": [
+            "7.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Recommend a new process to increase consistency of behavior.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would be a wise thing to do, so is not the right answer",
+          "babok_refs": [
+            "7.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "A different team member questions the Post Transaction and Report Transaction attributes in the Transaction box. What is the correct response?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The other teammate is incorrect because names below the line on a class diagram represent operations.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Class diagrams use that convention. BABOK Figure 10.15.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The other teammate is correct and the two items are probably misnamed attributes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An invented answer. The names below a line on a class diagram are operations. BABOK Figure 10.15.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "The other teammate is incorrect because names below the line on a class diagram represent foreign keys.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "No, Class diagrams put operations below the line on a class. BABOK Figure 10.15.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "The other teammate is correct and the two items are actually other classes related to the given class.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "No, Class diagrams put operations below the line on a class, not other classes. BABOK Figure 10.15.2",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "The business expert wants to make sure that statements can be produced at least monthly or quarterly. What do you tell her?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A business rule would state the timing of statement production.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Tempting answer, but not necessarily true. Metadata is the preferred place to specify timing",
+          "babok_refs": [
+            "10.15.3.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "You need to see other documentation to be sure.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The documentation needed is classified as \"metadata\" and would include \"what the entities represent, when and why they were created or changed, how they should be used, how often they are used, when, and by whom.\"",
+          "babok_refs": [
+            "10.15.3.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "There is nothing in the model to limit how often statements are produced.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, the class diagram itself does not limit statement production. But, there may be other documentation describing the timing and any constraints on how often statements are produced",
+          "babok_refs": [
+            "10.15.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Another type of model would be the one to dictate how often statements are produced.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This answer is somewhat correct. It is true the class diagram does not dictate the frequency, but metadata is the preferred place to specify timing",
+          "babok_refs": [
+            "10.15.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Sam's recommendation was unanimously approved by the steering team. What really sold decision makers were the forecasted benefits of the future state he modeled with incredible detail. How will Sam utilize that forecasted potential value in the business analysis process?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sam will ensure that all requirements and designs support the delivery of forecasted benefits.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "\"Forecasted benefits\" is another way of saying \"needed value.\" The answer describes the task of validate requirements which is one of the tasks that uses the future state description, an output of the define future state task which is what the scenario described. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Sam will define metrics and key performance indicators from which to measure solution performance once the future state is implemented.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Solution performance does not necessarily equate to business value. A high performing solution may not deliver the value that was forecasted. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Sam will ensure that requirements and designs meet quality standards and are usable for the purpose they serve.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes the task of verify requirements which is not a stated output of define future state which is what the scenario described. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Sam assessed and reported the potential value in order to drive consensus among decision makers. Since consensus was reached, the primary purpose of the forecasted benefits has been fulfilled.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is just the starting point. True, consensus regarding future state benefits have been reached but now it is the BA's responsibility to ensure those benefits are realized. BABOK Figure 6.2.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Cheryl has just completed her analysis of a solution's performance measures that she collected to determine the value the solution provides to the enterprise. What will she do next?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Determine if the measures are qualitative or quantitative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is done as part of measuring the solution's performance",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Assess the solution limitations and identify the causes for the limitations.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Create key performance indicators.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would have been done as part of the performance measures analysis",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Determine if the solution aligns with the goals and objectives.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Goals and objectives are sources of performance measures",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Elicitation and Collaboration",
+      "question_text": "Kathy is a BA and has just been assigned to work on a government compliance project. Known as a \"doer,\" she is anxious to get started with her elicitation and collaboration activities, especially regarding an interview with a key stakeholder who will go on vacation in a week. Her BA mentor, Ellie, urges her to slow down a bit and complete some activities before conducting the interview. What does Ellie recommend that Kathy do before she starts elicitation?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Understand needs, gather business analysis information, develop the stakeholder engagement approach.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These are three of the four inputs to elicitation and collaboration tasks; develop the business analysis performance assessment is missing. BABOK Figure 4.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Prepare the elicitation activity plan.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the listed input for conducting elicitation but there is no evidence that Kathy understands the need for the project and has developed the stakeholder engagement approach. Without the inputs listed in answer \"a\" preparing the elicitation plan would be premature. BABOK Figure 4.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Develop the elicitation plan, elicitation results (unconfirmed), elicitation (confirmed), business analysis information (communicated) and stakeholder engagement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These five tasks are outputs of elicitation and collaboration activities. BABOK Figure 4.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Understand needs, gather business analysis information, develop the stakeholder engagement approach and the business analysis performance assessment.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These four inputs are required to start elicitation and collaboration tasks. BABOK Figure 4.0.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Elicitation and Collaboration",
+      "question_text": "How is mind mapping utilized in the prepare for elicitation task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Used to estimate the time and cost of business analysis tasks associated with planned elicitation events.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Estimation is a separate technique. Mind mapping is not an estimation tool. Mind mapping can help the BA identify which sources of business analysis information to consult and which elicitation techniques might be most effective",
+          "babok_refs": [
+            "4.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Mind mapping is not a suggested tool for this task.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Mind mapping is a suggested technique for this task",
+          "babok_refs": [
+            "4.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Used by the BA to identify which sources of business analysis information to consult.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially true but is too narrow a description given the task. Since the task is preparing for elicitation, mind mapping can also be used to choose effective elicitation techniques",
+          "babok_refs": [
+            "4.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Used by the BA to identify which sources of business analysis information to consult and which elicitation techniques might be most effective.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are effective uses of the mind mapping technique for this task",
+          "babok_refs": [
+            "4.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Where should Kate first focus her efforts?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Kate should complete benchmarking to ensure the COO's objective is achievable.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be a valuable activity at some point but it's not the first thing that Kate should do.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Kate should first identify the appropriate stakeholders and plan elicitation activities to brainstorm improvement ideas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a bit premature.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Kate should first determine what existing performance measures exist and if they're accurate.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Kate should begin observing downtime-related activities in order to identify areas of improvement and build rapport with production personnel.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Another great idea but not right off the bat.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What else can you think of that Kate might want to do as one of the first steps?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It would be a great idea for Kate to get on the governance team's agenda for status updates of the initiative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While the visibility may be a good thing, it's not yet time to pursue that course of action.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Kate might want to elicit additional ideas for performance measures from stakeholders.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "At this point the focus is on identifying performance measures and ensuring they're accurate and that methods for capturing them exist and are in place",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Kate should begin observing downtime-related activities in order to identify areas of improvement and build rapport with production personnel.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus right now should be on identifying existing or additional performance measures and observation with production personnel may be a valuable technique. However, while the activity may be valuable, this response has a different focus.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Kate may want to begin to assess how stakeholders feel about the existing solution in terms of its ease of use.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus at this point should be on performance measures, not stakeholder perceptions of the existing solution.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What type of solution performance measures will Kate focus on primarily?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Whatever is available and accessible",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Unfortunately, this is oftentimes true but existing measures may not measure what you need to measure.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Qualitative measures",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus is reduction of downtime so the most telling measures will be quantifiable",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Quantitative measures",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Since the focus has to do with reducing downtime by 50%, the primary focus is on measures which are more numerical in nature",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Both qualitative and quantitative measures",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The question asks for the \"primary\" focus.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Shirin has been engaged as a Business Analyst in an IT transformation project. While discussing the stakeholder analysis and engagement approach with the Project Manager, they have informed Shirin that since the vendor for this project is using a fixed-price model, the vendor team will be reluctant to do extra work if there is any scope creep during the execution of this project. As a Business Analyst what should Shirin do as a immediate next step?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Understand the vendor's pricing model and note that any scope creep on the project will be a risk and must be managed as such.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Risk analysis and management is used to identify risks to the initiative resulting from stakeholder attitudes or the inability of key stakeholders to participate in the initiative. In this case the inability of the vendor to do extra work due to scope creep",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Suggest that the Project Manager review the vendor's pricing model and ask the vendor to change their pricing model to avoid the risk of scope creep.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be a good risk mitigation approach, but the vendor may or may not change their pricing model and at this point Shirin should first capture the risk to the initiative as a risk to be managed",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Have a discussion with the Sponsor about the vendor's pricing model and the potential scope creep risk.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is a good approach to talk to the Sponsor about any potential risks to the project, but the first step should be to identify any risks to the initiative resulting from stakeholder attitudes or the inability of key stakeholders to participate in the initiative, then talk to the sponsor",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Plan to elicit scope and requirements early to avoid any scope creep.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This might be a good risk mitigation approach, but at this point Shirin should first capture the risk to the initiative as a risk to be managed",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "What are all of the inputs required to assess requirement changes?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements, traceability, and needs analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Traceability and needs analysis are not an input into Assessing Requirements Changes.  and Table 5.4.1",
+          "babok_refs": [
+            "5.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Requirements, designs, and proposed change",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Requirements, designs, and proposed changes are inputs into Assess Requirements Changes.  and Table 5.4.1",
+          "babok_refs": [
+            "5.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Change control, design, and schedule",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only design is applicable.  and Table 5.4.1",
+          "babok_refs": [
+            "5.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Benefit, cost, schedule and urgency",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "and Table 5.4.1. These elements are listed in the BABOK as key areas to assess regarding the impact of the change",
+          "babok_refs": [
+            "5.4.3",
+            "5.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "A business analyst must manage and maintain requirements and design information throughout the requirements life cycle. When does the requirements life cycle begin and end?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It begins with the representation of the business need and ends when the solution is retired.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The requirements life cycle begins with the representation of a business need, continues through the development of a solution, and ends when a solution and the requirements that represent it are retired. , introductory paragraphs",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "It begins with the collection of solution requirements and ends when the solution is retired.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle begins before requirements are elicited. Beware the use of the word \"collected\" since the BABOK prefers the term \"elicited.\" , introductory paragraphs",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "It begins with project initiation and ends when the project is closed out.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle begins before an initiative starts, with the representation of a business need, continues through the development of a solution, and ends when a solution and the requirements that represent it are retired. Remember that IIBA shies away from the word project, so watch for answers containing that word. , introductory paragraphs",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "It begins with the business need and ends when the requirements have been implemented.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle does not end when requirements have been implemented. Remember Solution Evaluation, which covers the post-implementation lifespan. , introductory paragraphs",
+          "babok_refs": [
+            "5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

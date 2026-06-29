@@ -1,0 +1,1344 @@
+{
+  "exam_number": "7",
+  "exam_title": "Viewing Results for Drill, Exam #7 started on 2026-06-16 05:50:27",
+  "generated": "2026-06-21 21:36",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Nick reported on the results of the analysis and identified any necessary preventive, corrective, and developmental actions. Why is that important?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The potential improvements will form part of organizational process assets (OPAs).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The organization would benefit more from application of the improvements as soon as possible",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The potential improvements will be used in the post implementation review.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The post implementation review should result in identification of potential improvements, not the other way around",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Once potential performance improvements are identified, they become guidelines for the next time a task is executed.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Identifying improvements for future consideration serves as a continuous improvement loop",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To keep a record for reference as inputs into the next performance review.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While Nick may incorporate these into his next performance review, the primary reason is to facilitate continuous improvement",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which techniques besides document analysis would you use to help you understand the context and need for the enhancement?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business Model Canvas, Decision Analysis, SWOT Analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Two of these techniques would help, but Decision Analysis is a technique that will help to Define Decision Analysis is not used to help Analyze Current State, which helps us understand the context. The BABOK describes Decision Analysis as being \"used to compare the different future state options and understand which is the best choice.\"",
+          "babok_refs": [
+            "6.1.6",
+            "6.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Workshops, Scope Modeling, Balanced Scorecard",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The first two techniques would help understand the context. Balanced Scorecard sounds good, but is not listed as a way to Analyze Current State. It would help later in a change to \"define the metrics that will be used to evaluate the effectiveness of the change strategy.\"",
+          "babok_refs": [
+            "6.1.6",
+            "6.4.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Data Mining, Root-Cause Analysis, Benchmarking",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "All of these techniques would help you understand the current state and context and need for the enhancement. All are listed as techniques to help analyze the current state",
+          "babok_refs": [
+            "6.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Data Flow Diagrams, Item Tracking, Risk Analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, the context diagram in this question is a DFD, but reading it is part of Document Analysis. Creating a context diagram using Data Flow Diagrams is done prior to using it to understand the context, and is not listed in Analyze Current State. The other techniques are valid for understanding the context",
+          "babok_refs": [
+            "6.1.6",
+            "10.13.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "You have studied the diagram and have an idea which flow starts an order. Which flow in the diagram is most likely to start the process?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A swimlane diagram would be needed to establish the starting point for an order.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A swimlane is only one way to establish a trigger for a process. Other elicitation or modeling techniques could also be used",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Order information.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Order information is a flow one might assume is sent to Accounting after an order has been approved. It is not likely to initiate an order and the DFD by itself cannot show whether it does or not",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Any of the flows could potentially start the process since a DFD is not a sequentially oriented document.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "It is true that a DFD is not sequentially oriented. More information is needed if the trigger for an order needs to be established",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Order/catalog request.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "It might be assumed that a customer is the most likely external agent/actor to start an order. However, the DFD does not by itself show an initiation",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which flow in the diagram is most likely missing?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Credit card details",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A tempting answer since so many retail orders these days are done by credit card. But, \"Order Information\" probably already includes credit card details. More investigation is needed",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "New customer information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Customer information can be assumed to be decomposed from the flow called \"Order/catalog request.\"",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Shipping instructions",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This flow can be assumed since there is a shipping confirmation flow, but no flow to supply the instructions",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Reduce inventory",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reducing inventory is a function of an Inventory system, not an order processing system. The Inventory Management System would take care of that",
+          "babok_refs": [
+            "10.13.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess solution limitations",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Asses enterprise limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to determine how factors external to the solution are impacting the value the solution delivers",
+          "babok_refs": [
+            "8.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Financial analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a technique, not a task used in Recommend Actions to Increase Solution Value",
+          "babok_refs": [
+            "8.5.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Measure solution performance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to define performance measures to evaluate the effectiveness of a solution",
+          "babok_refs": [
+            "8.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "An organization seeks to increase employee satisfaction within the next year. What is this an example of?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business requirement",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "While employee satisfaction may be a component of a business requirement, it is not comprehensive enough",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business objective",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not specific enough to be considered an objective as it is not specific (remember: SMART)",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Potential value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This accomplishment could be a part of the value proposition for a future state recommendation, but it is not specific enough",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business goal",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A business goal is a statement of a state or condition that an organization is seeking to establish and maintain",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is the best description of the strategy analysis knowledge area?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The strategy analysis knowledge area begins when a business need is identified, analyzes the current state, and enables the enterprise to effectively address that need by defining the future and transition states.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the correct definition of the strategy analysis knowledge area",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Strategy analysis begins when a business need is identified and ends when projects are initiated.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Strategy analysis is an ongoing activity that assesses any changes in the business need or continues as new information becomes available that may indicate a modification to the change strategy may be required",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Strategy analysis focuses on understanding the current state and identifying obstacles keeping the organization from reaching its goals.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Understanding the current state is only one aspect of strategy analysis",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Strategy analysis consists of the collection of pre-project activities for capturing future views of the business to provide context for Elicitation.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Strategy analysis is often the starting point for initiating a new project, but continues as changes occur and new information becomes available. It is through strategy analysis that business requirements are identified and documented",
+          "babok_refs": [
+            "6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Tamara, however, thought that user stories would be helpful with which of the following tasks?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Perform Gap Analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Perform Gap Analysis is not a task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Analyze Performance Measures",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User stories do not help analyze performance measures.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Analyze Current State.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User stories will not facilitate an understanding of the current state.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Specify and Model Requirements.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "User stories provide a brief statement about what people do or need to do when using the solution",
+          "babok_refs": [
+            "7.1",
+            "10.48"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Specifically, what would user stories help the team thoroughly define and understand?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Acceptance Criteria.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "User stories serve to identify specific acceptance criteria to help the team to understand what the solution needs to provide in order to deliver value for the stakeholders",
+          "babok_refs": [
+            "10.38.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Prioritized functional requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User stories will state functional requirements but from the perspective of a particular role or stakeholder; therefore, an overall prioritization of functional requirements isn't applicable.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Non-functional requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Non-functional requirements typically refer to the entire solution; this response is story-specific.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Risk assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User stories may assist in the identification or risks but will not help the team \"thoroughly define and understand\" risks.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Whitney is a BA working to identify quantitative and qualitative measures in order to identify performance improvements related to her business analysis work. Identifying quantitative measures was relatively easy; qualitative measures are proving to be more difficult. You are a senior BA assigned as Whitney's mentor; which of the following measures do you suggest?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Accurate estimates related to work products",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a quantitative measure as actual effort and duration can be measured against planned effort and duration.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Effectiveness of work products",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This qualitative measure includes asking stakeholders whether Whitney's work products were easy to use as standalone deliverables or whether they required extensive explanation in order to be understood",
+          "babok_refs": [
+            "3.5.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Frequency of changes to work products",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a quantitative measure as it can be numerically measured.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Delivery dates of work products",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a quantitative measure as actual delivery dates can be measured against planned delivery dates.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following are outputs of the define future state task?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business objectives, future state description, potential value",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are the outputs of the define future state task. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Business goals and objectives, capability analysis, potential value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business goals and a capability analysis are not defined outputs of the define future state task. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Business objectives, capability analysis, potential value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A capability analysis is not a defined output of the define future state task. BABOK Figure 6.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Business goals and objectives, future state description, potential value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business goals are not defined outputs of the define future state task. BABOK Figure 6.2.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Roberto is a BA working on a process improvement project. He has completed an assessment right before the new processes were scheduled to be fully deployed. The assessment concluded that a great deal of work will need to be done in order for the stakeholder groups he's been working with to effectively use the processes. He has found that no new policies have been issued, no procedures have been written, and little training has been done. What type of assessment was Roberto doing?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Technical assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Operational assessment",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Operational assessments are performed to determine if an enterprise is able to adapt and effectively use a solution",
+          "babok_refs": [
+            "8.4.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholder impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not the best answer. Roberto is concerned with how the stakeholders can effectively use the solution, in this case a new process, not how the change will affect them.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Cultural assessment",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Not the best answer. Roberto is concerned with how the stakeholders can effectively use the solution, in this case a new process, not whether the stakeholder groups genuinely want the change to be successful. He assessed the operations, not the beliefs, attitudes, and feelings of the stakeholders.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which technique would provide the required information?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "SWOT analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A SWOT analysis would help the organization understand its internal strengths and weaknesses and external opportunities and threats but would not produce the required information",
+          "babok_refs": [
+            "10.46.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business capability analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A business capability analysis describes what an enterprise, in whole or in part, is able to do. This technique may provide essential information as input but does not answer the question",
+          "babok_refs": [
+            "10.6.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Glossary",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A glossary would help with comprehension but this answer does not address the question",
+          "babok_refs": [
+            "10.23.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business model canvas",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A business model canvas describes how an enterprise creates, delivers, and captures value for and from its customers",
+          "babok_refs": [
+            "10.8.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Sofia is a BA who has just helped a business owner define a business need relating to a new service that her company wants to offer. The company is expecting this new service to increase revenues, increase market share, and reduce customer complaints. She, along with key stakeholders, have generated alternative change strategies related to the new service and are completing business cases to support a recommendation. Sofia realizes that she has no idea of the potential business and technical ramifications or magnitude of the effort. She realizes she needs to step back and complete which task/element/technique next?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sofia and her team need to assess risks.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Risks speak to uncertainty and \"potential\" impacts",
+          "babok_refs": [
+            "6.3.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Sofia and her team need to identify risks.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true but is just the first step and so is not comprehensive enough",
+          "babok_refs": [
+            "6.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Sofia and her team need to analyze constraints, assumptions, and dependencies associated with their recommended solution.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is true but all risks need to be analyzed. Analyzing these three things will not address all risks",
+          "babok_refs": [
+            "6.3.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Sofia and her team need to define the potential negative impact to value of the recommended solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is too specific and is just one component of qualitatively assessing risks",
+          "babok_refs": [
+            "6.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "You are the business analyst on an initiative. Which of the following would you consider when determining the optimal approach for conducting business analysis activities?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Complexity and risk",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a stated element in the plan business analysis approach task. The other three responses are factors that can impact complexity",
+          "babok_refs": [
+            "3.1.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Size of the change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially true as it is a factor that impacts complexity, but is not a stated element for the plan business analysis approach task which is the task that you are performing",
+          "babok_refs": [
+            "3.1.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Geographic and cultural considerations",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is partially true as it is a factor that impacts complexity, but is not a stated element for the plan business analysis approach task which is the task that you are performing",
+          "babok_refs": [
+            "3.1.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Number of business areas affected",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially true as it is a factor that impacts complexity, but is not a stated element for the plan business analysis approach task which is the task that you are performing",
+          "babok_refs": [
+            "3.1.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Adam has been asked to step in and help with an initiative that is having some problems. He has found that the decision makers lack important information needed for decision making. It is not clear how requirements and designs are integrated with other information for long-term use, and stakeholders do not understand what is expected of them or what they can expect from the business analyst. Worse still, it is very difficult to measure and assess how well the business analysis work is being done. What would be the root cause of these problems?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The initiative is using an adaptive approach that focuses on rapid delivery with a higher degree of uncertainty.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Using an adaptive approach still requires planning and monitoring which doesn't appear to have been done in this scenario",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Key planning and monitoring tasks that produce key guidelines for other tasks were not carried out.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The business analysis planning and monitoring knowledge area includes tasks that would have solved the described issues. , 3.2, 3.3, 3.4, and 3.5",
+          "babok_refs": [
+            "3.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "It is very likely that the business analyst on the initiative lacks certification in business analysis as a professional.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Comprehensive planning should be done by every business analyst, regardless of the certification",
+          "babok_refs": [
+            "3.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The initiative has no subject matter expert (SME) and most of the team members are new.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Even though there is no SME and the team members are new, these problems would not be occurring if the efforts of the business analyst and stakeholders had been organized and coordinated",
+          "babok_refs": [
+            "3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What would the BA likely conduct to determine viability of the BRM role?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A business case.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The CIO wants to determine viability of a particular solution. A business case would include much more than that.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A market analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A market analysis involves researching customers to determine what they need or want, factors that influence their decision whether or not to purchase, along with existing competitors for the offering.  This is not what the CIO asked for",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A decision package.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a term used in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "A feasibility study.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A feasibility study supports the strategic effort and looks at the feasibility and viability of new business opportunities.  and Glossary",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What might the BA recommend doing before determining the viability of the BRM role?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Document the forecasted responsibilities associated with the BRM role in order to better determine viability.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may well end up being a recommendation but we're missing an essential first step.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A benchmarking study to determine how other companies are more cost-effectively addressing the business need.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This may well end up being a recommendation but we're missing an essential first step.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "A cost/benefit analysis to determine the overall financial value of the BRM role.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may well end up being a recommendation but we're missing an essential first step.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Fully explore, document, and gain consensus on the underlying business need.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The business need must be understood before exploring potential solutions",
+          "babok_refs": [
+            "6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "As soon as you were assigned as the BA to an initiative, you were advised to begin planning the governance approach to define how decisions will be made about requirements and designs. What would you expect to have available to you in order to create this plan?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business policies and the current state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are guidelines and tools but not the required inputs. BABOK Figure 3.3.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The current state description and lessons learned documentation from previous, similar projects",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The current state description is a guideline/tool for the plan business analysis governance approach task but neither are inputs. BABOK Figure 3.3.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "The business analysis approach and the stakeholder engagement approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The business analysis and stakeholder engagement approaches are inputs into the plan business analysis governance task. BABOK Figure 3.3.1.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Business policies and legal/regulatory information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are guidelines and tools but not the required inputs. BABOK Figure 3.3.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Why is it important for a business analyst to understand roles and responsibilities of the stakeholders within the organization?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To understand stakeholders' attitudes and manage them.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Understanding stakeholders' roles and responsibilities does not help a BA understand their attitudes",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To categorize stakeholders in the power/interest grid.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A power/interest grid is not covered in the BABOK",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To help with the development of the RACI matrix.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While this could be true, it is not the reason cited in the BABOK",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To understand how the stakeholders will contribute to the initiative.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Understanding roles and responsibilities of stakeholders will help the BA understand how stakeholders will contribute to the initiative",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following outputs will identify the stakeholders who will be responsible for setting priorities?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business analysis performance strategy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not an output in the BABOK",
+          "babok_refs": [
+            "3.3.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Stakeholder engagement approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an output of plan stakeholder engagement and includes a list of the stakeholders, their characteristics which were analyzed, and a listing of roles and responsibilities for the change",
+          "babok_refs": [
+            "3.2.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Information management approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an output of plan business analysis information management and includes the defined approach for how BA information will be stored, accessed, and utilized both during and after the change",
+          "babok_refs": [
+            "3.4.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Governance approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "In addition, it will identify the stakeholders who will have the responsibility and authority to make decisions about business analysis work and who will approve changes to BA information",
+          "babok_refs": [
+            "3.3.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What sort of assessment are you able to perform without the current state description?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Enterprise limitations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The current state description is needed as an input into assessing any enterprise limitations that may be prohibiting the end-users from experiencing the full value of the solution",
+          "babok_refs": [
+            "8.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution limitations.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Solution limitations can be assessed without the current state description",
+          "babok_refs": [
+            "8.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "You are not able to assess value from either the solution or enterprise perspectives without the current state.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "You are able to assess value from the solution perspective without the current state",
+          "babok_refs": [
+            "8.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "You can assess value from both the solution and enterprise perspectives.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The current state description is needed to assess value from the enterprise perspective",
+          "babok_refs": [
+            "8.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "To complete a thorough assessment, you want to review any enterprise limitations that may be preventing the end-user from obtaining full value from the solution. To this end, you need to gather any information related to the current state. What types of factors will you need to consider?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A description of the current limitations of the enterprise including how the solution performance is impacting the enterprise.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is an an output of the assess enterprise limitations task. Before you assess the enterprise limitations, you need a current state description",
+          "babok_refs": [
+            "8.4.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The results from the solution performance analysis including collected measurements and any recommendations to solve performance gaps and leverage opportunities to improve value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "You already have the solution performance analysis results, so your focus is getting an understanding the current state",
+          "babok_refs": [
+            "8.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Any current environmental, cultural, and internal factors that may be influencing the solution limitations.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These factors are included in the current state description listed as an input into assessing enterprise limitations",
+          "babok_refs": [
+            "8.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Any and all solution limitation factors including defects and constraints.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "You have already assessed the solution limitations, you are now focusing on enterprise limitations.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "You have just completed a thorough stakeholder analysis during which you identified all the stakeholders that will be directly or indirectly impacted by the current initiative you are working on. What would be the output of this analysis?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder management plan",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such artifact mentioned in the BABOK",
+          "babok_refs": [
+            "3.2.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Stakeholder register",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not the correct name for the output that is produced in the plan stakeholder engagement task. The correct name is the stakeholder engagement approach",
+          "babok_refs": [
+            "3.2.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "RACI matrix",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The question is asking for the output of the plan stakeholder engagement task which is the stakeholder engagement approach",
+          "babok_refs": [
+            "3.2.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder engagement approach",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This output includes a list of impacted stakeholders, along with their characteristics, and a list of roles and responsibilities",
+          "babok_refs": [
+            "3.2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Jessica is the lead business analyst for a major upgrade of enterprise resource planning (ERP) software for her company. She is concerned about the risks associated with achieving the future state that the sponsor wants for the enterprise. Besides the sponsor, which of the following stakeholders would be sensible to invite to the meeting?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Customers",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Customers are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business analysts",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business analyst are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "End-users",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "End-users are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Suppliers",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Suppliers are listed as a stakeholder type for the assess risks task. They would be logical participants given the scenario's mention of an ERP system",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

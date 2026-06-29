@@ -1,0 +1,1313 @@
+{
+  "exam_number": "14",
+  "exam_title": "Viewing Results for Drill, Exam #14 started on 2026-06-19 17:02:53",
+  "generated": "2026-06-26 11:18",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is NOT true about the value of a balanced scorecard?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The balanced scorecard underpins the strategic plan.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true, so is not the correct answer. This is true.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A balanced scorecard can be used at any level within an organization.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true, so is not the correct answer. This is true.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "A balanced scorecard focuses on the executive performance of the organization.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A balanced scorecard can be used at multiple levels within an organization",
+          "babok_refs": [
+            "10.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A balanced scorecard contains four dimensions: learning & growth, business process, customer, and financial.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is true, so is not the correct answer.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Why is reviewing the organizational structure so important to a change initiative?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "So that stakeholders aren't overlooked in the elicitation process.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "At this point, Jamey is seeking to understand the current state. He is not planning elicitation activities",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The reporting structure may aid or limit a potential change.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "In addition, communication channels and relationship are heavily influenced by the organizational structure",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "So that the political impacts of transitioning to the future state are thoroughly understood.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While this may be true, it is not the reason stated in the BABOK",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "It will assist the business analyst in the recommendation of a sponsor for the change initiative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Totally invented answer. The BABOK does not suggest that a sponsor is part of the BA's recommendations",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "All but one of the following techniques is used when prioritizing requirements. Which of the following is NOT a technique used when prioritizing requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to gain an understanding of stakeholders' basis of prioritization or priorities in a facilitated group setting",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "SWOT analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This technique is not associated with the prioritize requirements task",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to track issues raised by stakeholders during prioritization",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Financial analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to assess the financial value of a set of requirements and how the timing of delivery will affect that value",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is NOT a listed strength of developing a Roles and Permission Matrix?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Promotes improved review of transaction history, in that audit logs can capture details about any assigned authorities at the time.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a listed strength.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Provides documented roles and responsibilities for activities.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a listed strength.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Provides an opportunity for stakeholders to be involved in the planning process.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is not listed as a key strength and the matrix reflects rather than drives involvement",
+          "babok_refs": [
+            "10.39.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Provides procedural checks and balances, as well as data security, by restricting individuals from performing certain actions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a listed strength.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following techniques may be helpful in identifying business analysis performance improvements?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Lessons learned, risk analysis and management, workshops, item tracking",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are all stated techniques for this task",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Reviews, root cause analysis, survey or questionnaire, document analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Document analysis is not a stated technique for this task",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Lessons learned, risk analysis and management, workshops, mind mapping",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Mind mapping is not a stated technique for this task",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Risk analysis and management, reviews, root cause analysis, document analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Document analysis is not a stated technique for this task",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is NOT one of the requirements of organizational modeling?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Interfaces.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is one of the elements",
+          "babok_refs": [
+            "10.32.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Organizational charts.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the elements",
+          "babok_refs": [
+            "10.32.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Standard box.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Though there are some conventions that most organizational charts follow (e.g., a box), there is no recognized standard.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Roles.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the elements",
+          "babok_refs": [
+            "10.32.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What does RACI stand for?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Repeatable, achievable, consistent, informational",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "None of these terms align to what RACI stands for",
+          "babok_refs": [
+            "10.43.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Responsible, actionable, consulted, informed",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Actionable is not correct",
+          "babok_refs": [
+            "10.43.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Repeatable, achievable, consulted, informed",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only consulted and informed are correct",
+          "babok_refs": [
+            "10.43.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Responsible, accountable, consulted, informed",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.43.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What is the purpose of survey or questionnaire?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To elicit business analysis information from a group of people.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.45.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Survey the business need.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "Fabricated answer!",
+          "explanation": "",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "To help build rapport with the sample group.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "Fabricated answer!",
+          "explanation": "",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "To help define solution options.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A survey presents questions that are later analyzed to formulate knowledge about the subject of interest.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements about focus groups is accurate?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Participants are pre-qualified.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.21.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A focus group is best utilized before a product's launch to provide input as to how to position it in the marketplace.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially correct as focus groups are utilized for this reason; however, they are conducted at any point in the product's life cycle for varying reasons.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Participants fill out a survey during a portion of the focus group.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Survey/questionnaire is a different technique",
+          "babok_refs": [
+            "10.45"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The findings from the focus group can easily be quantified.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Findings may be qualitative or subjective in nature.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a business analyst, you are working to identify a data structure that may be similar across the enterprise in order to facilitate requirements reuse. Which technique would be helpful?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Document analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Document analysis is used to analyze existing documentation about an enterprise which can serve as a basis for maintaining and reusing requirements but data modeling is a better answer",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Data modeling",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Data models will identify similar data structures across the enterprise to facilitate reuse",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Structural design",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Data flow diagrams",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are used to identify information flow vs. data structures across the enterprise. , 10.13",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the term which describes the discrepancy between expected and actual performance?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Variance",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Error",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Many organizations calls defects \"errors\"; see explanation for answer \"a.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Known errors",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is term many IT organizations use to describe a problem for which a root cause has been discovered. Though you may use it in your organization, the BABOK does not.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Defect",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Any result over 4 minutes may be considered a defect but the \"discrepancy\" between expected and actual results has another term.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is the best definition of a \"sink\" in a data flow diagram?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Any entity that stores data.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The data store is where the collection of data is stored, not a sink",
+          "babok_refs": [
+            "10.13.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "An external person, organization or automated system capable of producing data.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A sink is the destination of the data, not the source of the data",
+          "babok_refs": [
+            "10.13.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An external automated system or any device capable of producing or receiving data.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Although a sink is an external in a data flow diagram, it represents the destination of the data, not the source of the data",
+          "babok_refs": [
+            "10.13.3.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "An external person, organization or automated system receiving the data.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "\"Sink\" represents an external destination of the data",
+          "babok_refs": [
+            "10.13.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a business analyst on an initiative with many stakeholders, you want to ensure that everyone's viewpoint is considered when coming up with key guidelines for the project. Which technique would help achieve this objective, when determining the business analysis approach?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Interviews",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While this technique may work, it is not the best, as it helps build the plan with an individual or small group",
+          "babok_refs": [
+            "3.1.6",
+            "10.25"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Document analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Document analysis may not help to ensure all stakeholders viewpoints are considered as the business analyst can review existing organizational assets alone",
+          "babok_refs": [
+            "3.1.6",
+            "10.18"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Reviews",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reviews are used to validate the selected business analysis approach with stakeholders",
+          "babok_refs": [
+            "3.1.6",
+            "10.37"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Workshops help build the plan in a team setting. Skilled facilitation ensures everyone is heard",
+          "babok_refs": [
+            "3.1.6",
+            "10.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique is used to ensure that issues identified by solution and enterprise assessments are resolved?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Issue tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a term used in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The question is referring to issues.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Item tracking",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": ", 8.4.6 and 10.26",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Problem tracking",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a term used in the BABOK.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Jules has created a model to validate the design of a system without modeling the appearance, materials used in the creation of work, or processes/workflows ultimately used by the stakeholders. What has Jules created?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Proof of concept.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.36.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Creative modeling.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer!",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholders desired state.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This answer is close, however; a BA can only create the representation of the future state. The correct answer is proof of concept.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Prototype.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True but the type of prototype created is proof of concept.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Recommended solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The solution is not a \"factor.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Financial analysis and value assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close but there is a better answer; this response is at a solution level.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Assumptions, risks, and constraints.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Feasibility and scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Feasibility is irrelevant and scope is at the solution level and therefore not a \"factor.\"",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following identify the elements that comprise a sequence diagram?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Process flow, activation box, method",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Process flow and method are not included elements",
+          "babok_refs": [
+            "10.42.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Array, activation box, arrow",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Array and arrow are not included elements",
+          "babok_refs": [
+            "10.42.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Lifeline, activation box, message",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.42.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Lifeline, activation box, method",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Method is not an included element",
+          "babok_refs": [
+            "10.42.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following subsets accurately represent the strategies for risk treatment?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Accept, share, mitigate, transfer, exploit.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Share and exploit are not BABOK strategies.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Accept, share, exploit, mitigate, enhance, transfer, avoid.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Share, exploit, and enhance are not BABOK strategies.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Accept, increase, share, avoid, transfer, enhance.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Share and enhance are not BABOK strategies.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Accept, increase, mitigate, transfer, avoid.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.38.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "An up and coming financial institution is comparing its customer relations performance with respect to its competitors to identify best practices. What technique is the institution using?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Metrics and key performance indicators.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique does not involving comparing market trends",
+          "babok_refs": [
+            "10.28"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Vendor assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique assesses the ability of a vendor to meet commitments regarding the delivery and the consistent provision of a product or service",
+          "babok_refs": [
+            "10.49"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Benchmarking and market analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Brainstorming.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Does not deal with comparing competitors, but rather an excellent way to foster creative thinking with the intention of producing broad or diverse set of options",
+          "babok_refs": [
+            "10.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What most likely happened?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The users didn't attend the training.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be true but there's no evidence in the scenario to support it!",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The users prefer face-to-face meetings.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario states they didn't know about the new \"call\" feature.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "The transition requirement around training was missed or poorly executed.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Since the users didn't even know about it, this is most likely the case!",
+          "babok_refs": [
+            "2.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "It was a feature they never asked for so are resisting utilizing it.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario states they didn't know about the feature.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What's the BA's next logical step?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Submit a recommendation to conduct on-site training sessions with follow-up coaching and mentoring.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This would most likely be the \"official\" recommendation since the organization is relationship-oriented. This training forum would be better attended and the functionality more readily adopted using a \"high touch\" approach.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Submit a recommendation to print instructions and distribute to users as quickly as possible.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Since the organization is relationship-oriented this may help but full value would probably not be realized.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Immediately ask permission to show the users how to use the feature knowing they'll spread the word! Add training to your official recommendation.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "While this isn't spelled out in the BABOK, you do want the organization to experience value as quickly as possible. Seizing the opportunity to demonstrate the functionality would add immediate value while fostering excitement about the solution capability",
+          "babok_refs": [
+            "8.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Submit a recommendation to conduct virtual training sessions demonstrating the feature.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Since the organization is relationship-oriented this may help but full value would probably not be realized.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "The project manager has asked Raja for a list of all of his business analysis-related deliverables along with the associated activities and tasks as inputs into the project plan and schedule. What technique will serve Raja best?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This tool will help Raja break down his BA deliverables to sub-deliverables to activities to tasks",
+          "babok_refs": [
+            "10.22.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Brainstorming",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Raja may use brainstorming as a means to identify all activities/tasks he needs to do in order to produce deliverables but it is not the primary technique that will help him decompose deliverables to tasks.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Estimation",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Estimation is used to forecast the time and cost needed to complete the effort",
+          "babok_refs": [
+            "10.19.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Work breakdown structure",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A WBS is not a technique; rather, it's a way to display the scope of the project by decomposing deliverables to sub-deliverables to the point where activities/tasks needed to produce them can be accurately identified. Functional decomposition is the technique used to break down deliverables to tasks.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is NOT a commonly used method for prototyping?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Paper prototyping.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a commonly used method for prototyping.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Functional prototyping.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Also known as \"evolutionary\", this is a prototyping approach and not method",
+          "babok_refs": [
+            "10.36.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Storyboarding.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a commonly used method for prototyping.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Workflow modeling.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a commonly used method for prototyping.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following best qualify as a \"value attribute\" for acceptance criteria?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Performance.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Pass or Fail.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Represents a general way of expressing test results for acceptance criteria. BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Solution Value ranking.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A way of expressing the results when measuring several solutions utilizing evaluation criteria. BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Made up answer!",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are conducting a workshop to come up with ideas on how to solve the issue of delays in the billing process. Which one of the following would be a suggested starting point?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Describe the current process",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a good first step; however, verbally describing a process is not optimal for subsequent analysis. It is better to model the process",
+          "babok_refs": [
+            "10.35.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Identify potential root causes for the delays",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This will definitely be included in the workshop but wouldn't be the starting point. Participants must first have a foundation for process analysis and that is what a process model would provide",
+          "babok_refs": [
+            "10.35.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Draw a diagram of the process",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Process models provide a basis for process analysis which is what the scenario is describing",
+          "babok_refs": [
+            "10.35.1",
+            "10.35.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Brainstorm potential solutions",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique supports the generation of new ideas related to the issue of delays in the billing process but it would be premature to brainstorm solutions before understanding the current process. It would be best to begin with modeling the current process for subsequent analysis",
+          "babok_refs": [
+            "10.35.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

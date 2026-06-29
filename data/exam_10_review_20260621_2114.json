@@ -1,0 +1,1313 @@
+{
+  "exam_number": "10",
+  "exam_title": "Viewing Results for Drill, Exam #10 started on 2026-06-18 06:45:51",
+  "generated": "2026-06-21 21:16",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Which techniques are used to Validate Requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Metrics and key performance indicators; financial analysis; business capability analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business Capability Analysis is not a stated technique for this task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Acceptance and evaluation criteria; item tracking; reviews.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Acceptance and evaluation criteria; metrics and key performance indicators; workshops.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops are not a stated technique for this task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Acceptance and evaluation criteria; financial analysis; workshops.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops are not a stated technique for this task.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Alan found that as the population of the customer segment subscribing to this service aged, the 5 gallon jugs were simply too heavy to hoist onto the water dispenser causing them to cancel the service. Alan brainstormed potential solutions and immediately completed a financial analysis to understand the cost/benefit of manufacturing jugs that held 2.5 vs. 5 gallons. He was proud of the fact that the 2.5 gallon jugs could have the same neck and so would fit existing dispensers. His recommendation was to go ahead with the manufacture of the new jugs along with a \"win-back\" campaign for lost customers. What might he be missing in his recommendation?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Nothing is missing in his recommendation. Al's process and recommendation was right on!",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There still is potential risk.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "He needs to complete a risk analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Alan is assuming that people will be able to lift a 2.5 gallon jug. Assumptions are risks",
+          "babok_refs": [
+            "8.5.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "He needs to provide decision makers with a view of what will happen if they do nothing.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is also true but in the is case, a risk analysis is more pertinent.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "He needs to provide alternative actions in addition for consideration.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is also true but in this case, a risk analysis is more pertinent.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Phil is a BA on a project and is planning activities to evaluate the solution. The project is planned to have a total of four releases approximately four to six months apart. Each release builds upon the functionality in the prior release. When should Phil plan the assessments?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It depends; whenever warranted or Phil believes evaluation would lend value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "No; far too general a response.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "When there is indication that the solution isn't delivering expected value once deployed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is also true but when associated with a project, the solution must be evaluated to determine whether expected value is being achieved.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "When it would add value but minimally after each release.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Evaluations may be needed prior to deployment especially from an enterprise perspective",
+          "babok_refs": [
+            "8.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "During each proof of concept, before delivery, and after deployment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence of a proof of concept for Phil's project. This would be the most correct answer if it was a general vs. scenario-specific question.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following statements accurately describes stakeholders who would be engaged in the plan stakeholder engagement task?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A customer is a source of external stakeholders while an end-user is a source of internal stakeholders.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "End user is a term which typically describes internal stakeholders, while customer typically refers to external stakeholders",
+          "babok_refs": [
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A supplier is a source of internal stakeholders while an end-user is a source of external stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Just the opposite. Suppliers are a source for external stakeholders",
+          "babok_refs": [
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Both customers and end-users are sources of external stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Customers are a source of external stakeholders, while end users are typically internal stakeholders",
+          "babok_refs": [
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A supplier is a source of internal stakeholders while a customer is a source of external stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Both suppliers and customers refer to external stakeholders",
+          "babok_refs": [
+            "3.2.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "You are a business analyst working on a project with a complex business function. What approach would you use to help identify constituent parts of the complex business function?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Work breakdown structure",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A WBS decomposes the total scope of work; hence not the correct answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Problem decomposition",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Process modeling",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A process model shows the activities the organization performs. Not the correct answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.1.6",
+            "10.22"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Catherine is preparing to specify and model requirements. She starts with conducting a thorough stakeholder analysis to identify stakeholders and analyze their characteristics. What technique is Catherine using?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a BABOK technique",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Organizational modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is used to model roles, responsibilities, and communications within the organization",
+          "babok_refs": [
+            "7.1.6",
+            "10.32"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Roles and permissions matrix",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is concerned with the separation of duties among users and external interfaces when utilizing a solution",
+          "babok_refs": [
+            "7.1.6",
+            "10.39"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder list, map, or personas",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the technique Catherine would use",
+          "babok_refs": [
+            "7.1.6",
+            "10.43"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization has sunk $50,000 into a piece of equipment for required repairs. It has broken down once again and the new fix is estimated to cost $20,000. Team members are clamoring to buy new equipment but the boss said, \"I've already put $50,000 into this thing, what's $20,000 more at this point?\" As the team's BA, how do you contribute to the conversation?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The $50,000 is \"water under the bridge\" and though tempting, it shouldn't be used when considering future action.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The $50,000 is sunk cost. Sunk costs cannot be recovered so are effectively irrelevant when considering future action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Conduct a financial analysis excluding the $50,000.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be the next step but the question asked how you'd contribute to the conversation",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conduct a financial analysis including the $50,000.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The $50,000 is sunk cost and should not be included in the financial analysis",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Agree with the team; who wants to lose $50,000?",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Probably a popular sentiment, but sunk costs cannot be recovered so are effectively irrelevant when considering future action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Anna has assembled a team to define design options. What inputs will they need to accomplish this task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Validated and prioritized requirements, change strategy, requirements architecture",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are the inputs for the define design options task. BABOK Figure 7.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Validated and prioritized requirements, change strategy, enterprise architecture",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Enterprise architecture is not a stated input for this task for any task in the BABOK. BABOK Figure 7.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Traced requirements, change strategy, enterprise architecture",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Traced requirements is a guideline and tool, not an input. Enterprise architecture is not a stated input for this task for any task in the BABOK. BABOK Figure 7.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Traced requirements, change strategy, requirements architecture",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Traced requirements is a guideline and tool, not an input. BABOK Figure 7.5.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Val is a BA who has been asked to evaluate a software solution which supports vital business functions. When the software doesn't perform, employees can't perform! Val discovers after analyzing three months worth of recent data that the software's transacting ability deteriorates noticeably around lunch time and significantly every Thursday about 4 pm. What has Val discovered?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A theme",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK doesn't use this term regarding data analysis.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A trend",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A variance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Val hasn't discovered the difference between expected and actual performance",
+          "babok_refs": [
+            "8.2.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A pattern",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Yes he has, but the BABOK uses a different term.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "A business analyst makes sure that requirements and design models have met the necessary standard of quality for a project. What is the intention of the business analyst in performing this task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To specify and model the requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The intention of specifying and modeling the requirements is to analyze, synthesize, and refine elicitation result",
+          "babok_refs": [
+            "7.1.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To ensure they meet the regulatory compliance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a verification activity",
+          "babok_refs": [
+            "7.2.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To verify the requirements",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "\"The purpose of Verify Requirements is to ensure that requirements and designs specifications and models meet quality standards and are usable for the purpose they serve.\"",
+          "babok_refs": [
+            "7.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To validate the requirements",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The intention of validation is to ensure that requirements and design align to the business requirements and support the delivery of the needed value",
+          "babok_refs": [
+            "7.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "How could this current situation be described from a value realization standpoint?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Opportunity cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Opportunity cost refers to the dollars lost by pursuing an alternative course of action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Enterprise limitation",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Sunk cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sunk cost has to do with money that has been spent on an initiative that wasn't utilized. This solution is still in production",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Solution limitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The phone system and computer integration are working just as planned",
+          "babok_refs": [
+            "8.3.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "How could this situation have been mitigated or avoided altogether?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "By focusing on process improvements vs. expensive new systems.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "That's what resistant personnel wish would've happened!",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "By performing rigorous problem analysis.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "That is what is happening now - after the fact!",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Performed a more rigorous enterprise readiness assessment as part of the initial project.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Stakeholder sentiment could have been discovered and resulting resistance lessened or avoided if the cultural readiness of stakeholders was initially assessed and effectively addressed. 6.4.4.3",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "By identifying the risk of some personnel resisting the new technology and developing an effective mitigation strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is correct but another answer is more robust.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Some of the probation officers still use a Dictaphone to record lengthy reports for court review and disposition, and administrative assistants transcribe what was dictated. With the new system, the Dictaphones don't work and court imposed deadlines are being missed causing public scrutiny. How was this crucial finding missed?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' technological maturity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an fabricated category of a stakeholder impact analysis.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' concerns.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This concern probably wouldn't have surfaced as the probation officers would probably have assumed their Dictaphones would still work.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' locations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Focusing on the geographic location of this group of probation officers wouldn't have identified the concern with the Dictaphone.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' functions.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This would've provided insight as to how the new system would impact that group of probation officers conducting their processes (functions)",
+          "babok_refs": [
+            "8.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Finn is a BA working on a newly implemented logistics process for a package supply company. He began gathering performance metrics on such things as how long the process took vs. how long to get output from one area to another, defects in the output, duplicate steps, number of complaints, etc. The department supervisor complained to Finn that gathering these statistics was a waste of time. She said she would rather he spend his time gathering requirements for automation to support the process. What rationale does Finn offer for his activities?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The information is needed as inputs into a SWOT analysis for the new automation project.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Gathering statistics is not a prerequisite for SWOT analysis.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "He needs to keep an eye out for defects so he can address them in a timely way to ensure customer satisfaction.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point we are not aware of any specific defects. So, this is noble but not necessary.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "He is working to understand and validate the value that was delivered by the implemented solution.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Finn is gathering the actual metrics that describe the performance of the solution in order to measure and analyze solution performance",
+          "babok_refs": [
+            "8.2",
+            "8.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The gathered measurements will support the automation project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This rationale isn't valid as it doesn't explain the ongoing measurement activity.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "How should solution options that offer potential capabilities above and beyond those identified in the original business case be handled?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Documented and stored in a way that is easily accessed for similar initiatives.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Identified even when not deemed immediately useful, if the organization anticipates using them in the future.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is mainly true for a COTS application",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Ignored. The term for these capabilities is 'gold plating.'",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, some capabilities above and beyond the required ones may be similar to \"gold plating.\" But, the BABOK does not say to ignore them.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Ignored. These were not part of the original business case and are not relevant to the proposed solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK does not say to ignore potential capabilities in a solution option, even if they were not part of the original business case.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "The business analyst has finished an elicitation session and has confirmed the results. What would be a logical next task for the business analyst?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a technique and not a task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Verify requirements",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements are modeled prior to being verified.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Specify and model requirements",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Modeling requirements comes after elicitation activities",
+          "babok_refs": [
+            "7.1.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Define assumptions or constraints",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a task, and assumptions and constraints may or may not be identified at this point.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following is NOT a consideration in the prioritize requirements task?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Benefits of prioritization",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is technically correct, but it falls under \"basis for prioritization\" instead of being its own element. The question is essentially asking which answer is not an element of prioritizing requirements and this is the one",
+          "babok_refs": [
+            "5.3.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Basis for prioritization",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Factors that can be used as basis for prioritization include benefit, penalty, cost, risk, dependencies, time sensitivity, stability, regulatory or policy compliance",
+          "babok_refs": [
+            "5.3.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Challenges of prioritization",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Each stakeholder may value something different and so this is a consideration of prioritizing requirements",
+          "babok_refs": [
+            "5.3.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Continual prioritization",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Priorities may shift throughout the project life cycle and so this is a consideration of prioritizing requirements. This is a consideration of prioritizing requirements and not the correct answer",
+          "babok_refs": [
+            "5.3.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "The Specify and Model Requirements task can result in the output of a requirement or a design. What is the difference?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "When the focus is on understanding the need, the outputs are referred to as designs. When the focus in on the solution, the outputs are referred to as requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Just the opposite",
+          "babok_refs": [
+            "7.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "They are used interchangeably.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This isn't true; there is a defining factor",
+          "babok_refs": [
+            "7.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The BA can only specify and model a design.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This isn't true; both requirements and designs can be modeled. The defining factor has to do with the focus of the task",
+          "babok_refs": [
+            "7.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "When the focus is on understanding the need, the outputs are referred to as requirements. When the focus in on the solution, the outputs are referred to as designs.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "In which of the following situations are scope models particularly helpful?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "When asked for a graphical representation of the Work Breakdown Structure.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a totally fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "When a boundary of some sort needs to be defined.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.41.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "When describing the entities, classes, or data objects that are relevant to a domain.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes a data flow diagram.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "When the logic of usage sequences needs to be modeled.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes sequence diagrams.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "You are developing an approach for how business analysis artifacts will be stored, accessed, and shared. Which of the following would be helpful to know in developing an approach?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Legal/regulatory information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This information describes the specific rules or regulations that must be followed in storing, accessing, and/or sharing particular information, but may not address how all business analysis artifacts are stored, accessed, and shared in the organization",
+          "babok_refs": [
+            "3.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Information management tools",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Each organization uses some type of tool(s) to store, access, and share business analysis artifacts. A BA must understand what is at an organization's disposal when planning this task",
+          "babok_refs": [
+            "3.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business policies",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Business policies define the limits within which decisions must be made, not how business analysis artifacts will be stored, accessed, and shared",
+          "babok_refs": [
+            "3.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "SharePoint",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "SharePoint can be used to store, access, and share business analysis artifacts, however, this answer is too specific. The organization may have other repositories they use other than SharePoint",
+          "babok_refs": [
+            "3.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "In order to assess business analysis work and plan for improvements where required, it is important to consider the benefits obtained and assess whether the cost, time, and resource investments are justifiable. What assessment measure does this describe?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Significance",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Significance considers whether the investments expended to produce the work products were justified for the value they delivered",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Effectiveness",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Effectiveness evaluates whether the business analyst work products were easy to use and understand",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Strategic",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This measure evaluates whether business objectives were met",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Timeliness",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Timeliness evaluates whether work was delivered on time as per stakeholder expectations and schedule",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Which of the following options would help Leah understand the customer experience?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Utilize a survey or questionnaire.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This would probably reveal the same information as the complaints and it wouldn't be a \"quick\" process.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Conduct focus groups.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would probably reveal the same information as the complaints and it wouldn't be a \"quick\" process.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Create use cases and scenarios.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Creating use cases and scenarios would help her understand the expectations the user had about their interaction with the website",
+          "babok_refs": [
+            "8.1.6",
+            "10.47"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Reading all of the complaints.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would give her insight into the complaints but another option would more fully communicate the customer experience.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Hindsight being 20/20, what is Leah's biggest \"lesson learned\" from this experience?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Even though requirements appeared to reflect users' wants, piloting the site using a prototype with users representing various customer segments may have uncovered areas of discontent before full deployment.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.1.6",
+            "10.36"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "She should've gotten more users involved in user acceptance testing to get more comprehensive feedback.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might've uncovered some of the areas of discontent but UAT would've only tested against the requirements.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "User requirements can change suddenly and unexpectedly.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True but not the right answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "She should have benchmarked against competitors to ensure her site's functionality was similar.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This might have helped also but benchmarking doesn't provide \"new\" ideas.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Sameera has been engaged as a Business Analyst on the railway track design project for monorail in Toronto, Canada. She is currently planning for the approaches she will take to take to perform various business analysis activities. What is key driving factor when considering the business analysis approach selection?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Project specific standards for business analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business analysis approach may be defined by a methodology or by organizational standards, however it is necessary to consider what is known about the need (problem or opportunity faced by the organization) at the time of planning.  & 3.1.3",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business need for the project",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The business analysis approach is shaped by the need (problem or opportunity) faced by the organization. It is necessary to consider what is known about the need at the time of planning",
+          "babok_refs": [
+            "3.1.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholders preferred approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business analyst may work with the appropriate stakeholders to determine how the work will be completed, however it is necessary to consider what is known about the need (problem or opportunity faced by the organization) at the time of planning.  & 3.1.3",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organizational Standards for business analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The business analysis approach may be defined by a methodology or by organizational standards, however it is necessary to consider what is known about the need (problem or opportunity faced by the organization) at the time of planning.  & 3.1.3",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following guidelines/tools provides results of previous evaluations that should be reviewed and incorporated into all planning approaches?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business policies",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These define the limits within which decisions must be made",
+          "babok_refs": [
+            "3.1.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Methodologies and frameworks",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These shape the approach that will be used by providing methods and techniques",
+          "babok_refs": [
+            "3.1.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analysis performance assessment",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These assessments provide the results of previous assessments that should be reviewed and incorporated in the current initiative's approach",
+          "babok_refs": [
+            "3.1.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Expert judgment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Expert judgment determines the optimal business analysis approach vs. providing previous assessment results",
+          "babok_refs": [
+            "3.1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

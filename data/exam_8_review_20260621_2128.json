@@ -1,0 +1,1378 @@
+{
+  "exam_number": "8",
+  "exam_title": "Viewing Results for Drill, Exam #8 started on 2026-06-16 13:59:20",
+  "generated": "2026-06-21 21:45",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements is NOT true about root cause analysis technique?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Helps to maintain an objective perspective when performing cause-and-effect analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true",
+          "babok_refs": [
+            "10.40.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Enables stakeholders to specify an effective solution at the appropriate points for corrective action.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true",
+          "babok_refs": [
+            "10.40.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The business analyst may require formal training to ensure the root causes, not just symptoms of the problem, are identified.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is true",
+          "babok_refs": [
+            "10.40.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The technique works optimally with complex and difficult problems.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This technique may lead to a false trail and/or dead-end conclusion when dealing with complex issues",
+          "babok_refs": [
+            "10.40.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What's most likely happening?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "There are most likely internal and external influencers at play that are altering the current state.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "\"The current state of an enterprise is rarely static while a change is being developed and implemented.\" As such, the current state can never really be \"baselined.\"",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "There was a software update and the help desk was flooded with calls that were easy to resolve.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might have happened but there is nothing in the scenario to suggest this is the case",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The original year-to-date results were most likely flawed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence to support this contention and would not typically be the \"most likely.\"",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The help desk obtained new resources that were more knowledgeable and therefore could resolve more calls initially.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might have happened but is too specific at this point; there is a more general answer that could even account for this scenario",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is Miriam's best next step before continuing with root cause analysis?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Modify root cause analysis activities to the categories of calls that were not resolved on the first call during the last two months.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Double check the year-to-date results to ensure data precision and integrity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Report to the sponsor that the problem is improving on its own and that pursuing the initiative isn't cost-effective at this point.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Research what, if anything, in the environment changed to understand the cause for the marked improvement.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Before determining how to continue, Miriam has to discern what, if anything, changed in the environment and if whatever changed will significantly modify the current state definition and/or analysis activities",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Sara, the resident BA, has just presented the current business decisions and the changes required to achieve the potential value of the change to an ineffective, existing solution. Which technique is Sara deploying to achieve her desired outcome?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Data mining",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to identify factors constraining performance of the solution, not decisions and changes needed to achieve the potential value",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Lessons learned",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to determine what can be learned about impacts to the solution from inception through solution construction which have affected the potential value",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Decision analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Interviews",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to help perform problem analysis, not decisions and changes needed to achieve the potential value",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "When defining a change strategy, how is a business capability analysis used?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To analyze the most cost effective plan for transitioning to the future state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The primary focus of a business capability analysis is not cost effectiveness",
+          "babok_refs": [
+            "6.4.6",
+            "10.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To identify the difference between current state and future state capabilities.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is done with a gap analysis which is an element in the define change strategy task",
+          "babok_refs": [
+            "6.4.4.2."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To prioritize capability gaps in relation to value and risk.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the correct answer as stated in the BABOK",
+          "babok_refs": [
+            "6.4.6",
+            "10.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A business capability analysis is not used in the define change strategy task.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A business capability analysis is a technique used in the define change strategy task",
+          "babok_refs": [
+            "6.4.6",
+            "10.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is TRUE about reviews?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Reviews and workshops are synonymous.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not true. Reviews are used to evaluate the content of a work product while workshops bring stakeholders together to achieve a predefined goal, which may include evaluating the content of a work product.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Each review is focused on the skills or actions of the participants and not on the work product.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The opposite is true.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Objectives, techniques, and participants are the three dimensions of reviews.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "True",
+          "babok_refs": [
+            "10.37.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Each review is tailored to the needs of the participants and business analyst.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not true. It is tailored to the needs of the organization and business analyst.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which one of the following is NOT a technique used to prioritize requirements?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Financial analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Financial Analysis is used to assess the financial value of a set of requirements and the timing of the delivery that will affect that value",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Estimation is used to produce estimates for the basis of prioritization",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Item Tracking is used to track issues raised by stakeholders during prioritization",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Stakeholder analysis is not listed as a technique that might be used to support the prioritization of requirements",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What will reviewing the organization's structure tell him?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "It will give him insight into the capabilities of the organization.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The organizational structure does not represent capabilities.  & 10.32",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "It will reflect the formal relationships between people working in the enterprise.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the definition of organizational structure in the BABOK.  & 10.32",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "It will help him calculate the number of communication channels in the organization as input into his communication strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close. It will help him understand the formal communication channels but communication is not limited to the formal reporting structure.  & 10.32",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "It will tell him how many audiences he has to consider when scheduling requirements workshops.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is way too early in the analysis process to be planning at a tactical level. Jamey is trying to understand the current state.  & 10.32",
+          "babok_refs": [
+            "6.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Mae is in the process of planning how to assess the solution to determine if it is meeting objectives. Which of the following techniques would help her?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Acceptance and Evaluation Criteria.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Acceptance and evaluation criteria would be used to ensure that requirements are stated clearly enough to devise a set of tests that can prove that the requirements have been met. Always pay attention to what task the question is addressing. In this case, Mae is at verifying stage",
+          "babok_refs": [
+            "10.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Evaluation.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Evaluation is what the question is describing; metrics and KPIs are the associated technique",
+          "babok_refs": [
+            "10.28.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Metrics and key performance indicators (KPIs).",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.28.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Reviews.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reviews are conducted to inspect requirements or evaluate a work product",
+          "babok_refs": [
+            "10.37.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are a junior BA working at a bank and adding the XYZ Company to your company's Stock Transfer application. Due to the complexity of the data and a large amount of customization involved, adding a new company is not an automated process. It takes 20 hours on average to discover the general data and 10 hours on average to discover the customized data needed for each optional feature. XYZ has elected to pay for 15 of the features. How many hours will it take to elicit all the data requirements and what type of estimation would you use?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "150 hours using rough order of magnitude estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario doesn’t describe rough order of magnitude, which is based on limited information. Also, the 150 hours ignores the 20 hours for eliciting general data.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "150 hours using parametric estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Parametric estimation is correct, but the 150 hours ignores the 20 hours for eliciting general data.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "170 hours using bottom-up estimation",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The 170 is correct, but bottom-up estimation is not. It requires estimating all the tasks needed to do the necessary work, but this scenario does not mention anything about the tasks.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "170 hours using parametric estimation",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Parametric estimation relies on a proven parameter (such as the 10 hours per feature) for estimating how long new work will take that is similar to past work. Adding the hours to elicit the general data and customized data results in: 20 hours + (10 hours * 15) = 170 hours",
+          "babok_refs": [
+            "4.1.6",
+            "10.19.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique would Nick employ to help identify the underlying cause of variances from what he expected?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Variance analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Though variance analysis may be used, it is not one of the stated techniques in the BABOK. Always exhaust BABOK provided responses first",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Root cause analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Root cause analysis is used to help identify the underlying cause of failures or difficulties in accomplishing business analysis work",
+          "babok_refs": [
+            "3.5.6",
+            "10.40"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Peer review",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Peer reviews are conducted to identify errors or improvements in a work product, not in the business analysis work",
+          "babok_refs": [
+            "10.37"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Item tracking tracks issues that occur but will not help to find the root cause",
+          "babok_refs": [
+            "3.5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are in the initial phase of a project and the project manager has not been assigned. You have been asked to provide a quantitative assessment of the likely costs for resources required for the project. Which of the following techniques would be BEST to use?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Rough Order of Magnitude (ROM)",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Appropriate early in an initiative since A ROM estimate is \"a high-level estimate, generally based on limited information, which may have a very wide confidence interval.\"",
+          "babok_refs": [
+            "10.19.3.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Delphi",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Delphi uses a combination of expert judgment and history. When there is little information, such as early in the development of a solution approach, a rough order of magnitude estimate is delivered.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Parametric estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close. Parametric estimation uses a statistical relationship between historical data and other variables. We are not told whether historical data is available. ROM is the best answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Evaluation criteria",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not an estimation method.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business process",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Note that there is seeming crossover between this and the \"customer\" dimension. However, this dimension is internally vs. customer focused",
+          "babok_refs": [
+            "10.3.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Customer",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The customer dimension includes metrics on customer focus, satisfaction and delivery of value. There is seemingly some crossover between this dimension and business process. However, this dimension is externally vs. internally focused",
+          "babok_refs": [
+            "10.3.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Learning and growth",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The learning and growth dimension focuses upon employee training and learning, product and service innovation, and corporate culture",
+          "babok_refs": [
+            "10.3.3.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Financial",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The financial dimension focuses on profitability, revenue growth, and monetary measures",
+          "babok_refs": [
+            "10.3.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "The professor then asked the students, \"Which dimension of the balanced scorecard would contain measures pertaining to top line revenue growth and overall profitability for the current fiscal year?\" What should the students answer?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business process",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business process dimension includes measures on operational processes and if those processes produce customer value",
+          "babok_refs": [
+            "10.3.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Learning and growth",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The learning and growth dimension focuses upon employee training and learning, product and service innovation, and corporate culture",
+          "babok_refs": [
+            "10.3.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Customer",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Customer dimension includes metrics on customer focus, satisfaction, and delivery of value",
+          "babok_refs": [
+            "10.3.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Financial",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.3.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Financial.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The financial dimension focuses on profitability, revenue growth, and monetary measures",
+          "babok_refs": [
+            "10.3.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Learning and growth.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The learning and growth dimension focuses upon employee training and learning, product and service innovation, and corporate culture",
+          "babok_refs": [
+            "10.3.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Customer.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.3.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business Process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business process dimension includes measures on operational processes and if those processes produce customer value",
+          "babok_refs": [
+            "10.3.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What is the role of the scribe in workshops?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Documents decisions in the format determined prior to the workshop, keeps track of items in the parking lot, and ensures all discussions stay on track.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes the role of the scribe but ensuring all discussions stay within the time limits is one of the responsibilities of the facilitator",
+          "babok_refs": [
+            "10.50.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To document the decisions in the format determined prior to the workshop and keep track of any items or issues that are deferred during the session.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the definition of the scribe's role in a workshop",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To take minutes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is how you may define the role in your organization but the BABOK describes the role as \"documenting the decisions in the format determined prior to the workshop and keeping track of any items or issues that are deferred during the session.\"",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Documents decisions in the format determined prior to the workshop, keeps track of items in the parking lot, and tracks the time spent on each agenda item.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes the role of the scribe but tracking the time spent on each agenda item is the responsibility of the timekeeper",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements is NOT true about risks?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "An organization typically faces similar challenges on many of its initiatives. Hence successful risk responses on one initiative must always be applied to other initiatives.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Not true. Though challenges may be similar, successful risk responses of one initiative may be useful lessons learned for another initiative, but does not mean the risk responses MUST be applied to all initiatives",
+          "babok_refs": [
+            "10.38.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A risk event could be one occurrence, several occurrences, or even a non-occurrence.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True",
+          "babok_refs": [
+            "10.38.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The consequences of a risk are described in terms of their impact on the potential value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True",
+          "babok_refs": [
+            "10.38.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "There is the possibility that significant risks are not identified.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the limitations of risk analysis",
+          "babok_refs": [
+            "10.38.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is NOT a technique that is used to analyze performance measures?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Observation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is listed as a technique for analyzing performance measures",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Survey",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is listed as a technique for analyzing performance measures",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Prototyping",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not listed as a technique for analyzing performance measures",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Benchmarking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is listed as a technique for analyzing performance measures",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a business analyst you want to specify the needs of a specific user and enable teams to define features of value to a user and written in a user's language. What technique would best serve this purpose?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Use cases and scenarios",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are used to model the desired behavior of a solution by showing user interactions with the solution to achieve a specific goal.  and",
+          "babok_refs": [
+            "7.1.6",
+            "10.47"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Prototyping",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to assist the user in visualizing the appearance and capabilities of a planned solution",
+          "babok_refs": [
+            "7.1.6",
+            "10.36"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "User specification",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such technique in the BABOK. The correct answer is user stories",
+          "babok_refs": [
+            "7.1.6",
+            "10.48"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "User stories",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "User stories are a technique used in the specify and model requirements task to specify requirements as a statement about what people do or need to do when using the solution",
+          "babok_refs": [
+            "7.1.6",
+            "10.48"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is this statement an example of?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business goal and objective",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Business goals are statements of what the organization hopes to achieve, and objectives are measurable results to indicate if the goal is achieved",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business objective",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The answer does contain a business objective but contains a broader statement as well",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business goal",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The answer does contain a business goal but contains a more specific measurement as well",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business vision and mission",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Some organizations may call it that but the BABOK utilizes different terms",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How can the above statement be utilized?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "As a way to describe the future state and to guide the change strategy.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Business goals and objectives describe the ends that the organization is seeking to achieve",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "As input to define the change strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Before you can define the change strategy, the current and future state must be defined. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "As a way to describe gaps between the current and future states.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The statement fully describes what the organization is striving toward vs. the gap between here and there",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "As a constraint in the development of the solution scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an invented answer",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a BA who recently worked on an effort to improve one of the sales processes in her organization, Christine received a number of inquiries from the call center about issues with the automated Daily Sales by Region reports. Although no new automation accompanied the change in process, she was asked to look into the issue. Christine's analysis showed that one of the sales assistants was inputting incorrect information into the system. What should Christine do next?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Model the sales data to ensure that accurate data is being entered.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Modeling the sales data cannot ensure that accurate data will be entered.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Analyze the automated system to see if incorrect information could be edited out so it is not allowed to be entered into the system.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be done, but not until the problem is tracked, its cause identified, and a resolution approved.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Track the identified problem to be sure it is resolved.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Christine needs to determine why incorrect information is being entered. However, before analyzing the cause, Christine needs to track the problem (item tracking) and determine the best way to resolve it",
+          "babok_refs": [
+            "8.3.6",
+            "10.26"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Conduct a requirements workshop to analyze the sales process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is seemingly irrelevant at this stage.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "A business analyst is preparing questions for a survey to determine shoppers' level of satisfaction with various services provided by the store. What type of questions would BEST suit this survey?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Unstructured questions.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a trap answer! There is no such type of questions in BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Close-ended questions.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Close-ended questions because the analysis report requires numerical coefficients",
+          "babok_refs": [
+            "10.45.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Open-ended questions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These type of questions are not suitable for quantitative analysis.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Structured interviews.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is irrelevant. The question is asking about surveys and not interviews.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Anna is a business analyst responsible for ensuring clear communication of requirements, designs, and other business analysis information to key stakeholders responsible for approving her artifacts. Which technique would you recommend to help Anna facilitate obtaining approval for her completed artifacts?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Item tracking is used in the approve requirements task to track issues identified during the agreement process",
+          "babok_refs": [
+            "5.5.6",
+            "10.26"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Reviews",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Partially true as reviews are used in the approve requirements task to evaluate requirements, but workshops is a better answer",
+          "babok_refs": [
+            "5.5.6",
+            "10.37"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Workshops",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Anna is conducting the approve requirements task. Workshops bring relevant stakeholders together for a stated purpose, which in this task is to gain approvals",
+          "babok_refs": [
+            "5.5.6",
+            "10.50"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Decision analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Decision analysis is used in the approve requirements task to resolve issues and gain agreement",
+          "babok_refs": [
+            "5.5.6",
+            "10.18"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is the best definition of a key performance indicator (KPI)?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A KPI is characterized by being clear, relevant, economical, adequate, quantifiable, trustworthy and credible.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are characteristics of all indicators",
+          "babok_refs": [
+            "6.2.5",
+            "10.28.3.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A KPI identifies a specific numerical measurement that represents a degree of progress toward achieving a goal.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the definition of an indicator vs. a key performance indicator",
+          "babok_refs": [
+            "6.2.5",
+            "10.28.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A KPI is a specific point, threshold, or range.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the definition of a metric",
+          "babok_refs": [
+            "6.2.5",
+            "10.28.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A KPI is an indicator that measures progress toward a strategic goal or objective.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "KPIs are a guideline used in the define future state task",
+          "babok_refs": [
+            "6.2.5",
+            "10.28.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

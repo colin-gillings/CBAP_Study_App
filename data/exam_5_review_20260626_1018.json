@@ -1,0 +1,1326 @@
+{
+  "exam_number": "5",
+  "exam_title": "Viewing Results for Drill, Exam #5 started on 2026-06-15 21:02:32",
+  "generated": "2026-06-26 11:06",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which type of relationship between requirements describes when it only makes sense to implement a particular requirement if a related requirement is also implemented?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Validate",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Validate is the relationship between a requirement and a test case or similar element that can determine whether a solution fulfills the requirement",
+          "babok_refs": [
+            "5.1.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Necessity",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This relationship exists when it only makes sense to implement a particular requirement if a related requirement is also implemented",
+          "babok_refs": [
+            "5.1.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Satisfy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Satisfy describes a relationship between an implementation element and the requirement it is satisfying",
+          "babok_refs": [
+            "5.1.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Effort",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "An Effort relationship is one in which a requirement is easier to implement if a related requirement is also implemented",
+          "babok_refs": [
+            "5.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following techniques would assist in the rapid development of a shared future state vision?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Surveys.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Surveys can elicit information from large groups of people in a relatively short period of time",
+          "babok_refs": [
+            "10.45.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Workshops.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Given the location of stakeholders across different time zones, this may prove difficult to plan and organize. Language may also prove to be a barrier though that is speculative.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Delphi Technique.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Delphi is a mentioned technique in the BABOK regarding estimation. In addition, it wouldn't be appropriate to defining the future state vision.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Interviews.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Individual interviews could not be completed rapidly.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What unique challenge is associated with the preferred technique chosen for the scenario?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Utilizing language that is unambiguous for all audiences to ensure shared understanding.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a stated limitation for surveys in the BABOK. If the language is geared toward a particular geography, stakeholders with cultural variances may misinterpret the question or not answer it at all",
+          "babok_refs": [
+            "10.45.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Determining the correct type of question given the objective.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a challenge for all listed techniques.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Scheduling the elicitation activity.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a challenge for the preferred technique.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Confirming elicitation results.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a challenge primarily associated with interviews.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization's strategic vendor is having a year-end sales promotion on new software. The CIO is getting mixed opinions from his team and has asked Amy who is a BA to objectively assess both the in-place and new software and provide a recommendation. Amy finds that the functionality that would lend immediate value to the organization is basically the same. What might Amy do as a next step in her assessment?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Complete a decision matrix to support her contention that the features are basically the same.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This assumes that Amy is basically ending her assessment and is now just supporting her recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Complete a financial analysis to support how the cost would exceed the benefits.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This assumes that Amy is basically ending her assessment and is now just supporting her recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Explore how the additional capabilities in the new software could add future value.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Benefits of a solution that could be used in the future are part of a value assessment of the solution",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Submit a recommendation that supports the status quo since little to no value would be realized.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Amy needs to do some analysis before she can settle on this recommendation.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Farouk is a business analyst working with a business owner to define the business requirements related to a new opportunity in his organization. He works in a company that produces bathroom fixtures. The company is known not only for high-end fixtures that are sold world-wide, but for its outstanding customer service. What factors will Farouk consider in order to document business requirements?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Farouk needs to understand the cost of doing nothing; in other words, not pursuing the opportunity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Farouk does need to understand the consequences of maintaining the status quo but that pertains more to understanding the business need vs. business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Farouk will focus on understanding why the change is needed along with expected benefits from pursuing the opportunity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This information is absolutely needed to understand business requirements but this answer pertains more to the business need than business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The underlying source of the opportunity and the associated risks and their costs.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The associated costs are not a factor; risk assessment has not yet been conducted",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Farouk needs a thorough understanding of the opportunity and possible benefits given organizational constraints.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The word \"thorough\" is key here as business requirements are a primary output for the analyze current state task. Understanding constraints is also specifically mentioned in the definition of business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following statements is true regarding tasks a business analyst may perform while evaluating the necessity for change within an enterprise?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Tasks a business analyst performs should be completed in an orderly and formal manner.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Tasks are not required to be followed in an orderly or formal manner; the performance of tasks are typically iterative in nature.The BABOK states that \"Tasks may vary in form, order, or importance for individual business analysts or for various initiatives.\"",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Tasks a business analyst performs may vary in form, order, or importance for various initiatives.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "\"Tasks may vary in form, order, or importance for individual business analysts or for various initiatives.\"",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The business analyst should perform tasks in the order prescribed by the BABOK in order for organizations to realize value.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Order is not required to support a successful outcome when conducting analysis of a change",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The business analyst needs sponsor approval for and stakeholder collaboration on the tasks they deem necessary for various initiatives.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK would not state that sponsor approval is necessary. Instead it would refer to authorization levels in the Plan Business Analysis Governance task",
+          "babok_refs": [
+            "3.3.4.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What activity is Ashish performing?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Defining a value chain for the process.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A value chain is a broader view of an enterprise and not usually done at a specific process level. Figure 5.1.1 and",
+          "babok_refs": [
+            "11.5.5.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "SIPOC modeling the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An invented answer, since a SIPOC is part of process modeling and not a technique in its own right",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Defining the future state for the process.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The scenario states Ashish is \"specifying the conditions required to meet the business need\" which is another way of saying defining the future state",
+          "babok_refs": [
+            "6.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Modeling requirements for the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario description does not support this answer. It does not say he is working to \"analyze, synthesize, and refine elicitation results into requirements and designs,\" which is what modeling requirements is about",
+          "babok_refs": [
+            "7.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which component is Ashish missing from his SIPOC diagram?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "An output of the attached video.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The attached video is an input, not an output of the process. The process transforms it into the claim, but since the attached video itself does not get transformed, it cannot be an output of the process",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A customer representing the claims database.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "One could argue this is missing, but a counter-argument is that the Claims Adjustment customer could contain the claims database. A more glaring thing missing is the claim receipt output",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An input for the vehicle involved in the accident.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The vehicle is already represented by the input of \"claim details.\"",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A process step for providing the claim receipt.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Since there is an output of a claim receipt, there should be a step for it in the SIPOC",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "During a peer review of the SIPOC, a colleague of Ashish's commented that one of the process steps was unneeded in the diagram. Was he correct and if so, which one is unneeded?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The colleague is not correct. All steps are needed.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The process of recording the video is likely a separate process, making this answer incorrect",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Record Video because it can be assumed to be a precondition of the process.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Recording the video is the most likely to be a precondition and excluded from the process, especially since it is an input",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Enter Claim Details because the details are an input to the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Entering the details would be a necessary part of the process. The fact that they are an input does not exclude a step for entering them",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Open XYZ Claim App because it can be assumed to be a precondition of the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Opening the App makes sense to be included as part of the process. Recording the video is more likely to be excluded from the process, especially since it is an input",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Kevin wants to model the rationale or the 'why' of a particular change. Which technique might he use to accomplish this task?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder list, map, or Personas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the techniques used in People and Roles modeling category which models organizations, roles, and relationships",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Process modeling.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one the techniques used in Activity Flow modeling category which represents actions and events",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "User stories.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is one the techniques used in Activity Flow modeling category which represents actions and events",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Scope modeling.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is one the techniques used in the Rationale modeling category which models the \"why\" of a change",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Julie is a BA working to help a business owner clarify the business need. The business owner wants to undertake an initiative to eliminate waste throughout her division. She says that such an initiative, which will be comprised of multiple projects, will have the benefits of improved safety, reduced time to deliver the organization's product, and increased customer satisfaction. The listed benefits are another way of articulating which of the following?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business objectives",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The listed benefits do not meet the SMART criteria to be consider objectives.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The business opportunity",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The benefits are not the same as business opportunity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Future state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The listed benefits would be just one component of the future state description.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Desired outcomes",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The benefits referred to in the question are examples of desired outcomes. While the BABOK typically focuses on \"goals and objectives,\" it does use this term in the description of how business cases are used in the Define Future State task. ; 10.7.3.2",
+          "babok_refs": [
+            "6.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What are all the inputs to the define requirements architecture task?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Information management approach, requirements (any state), solution scope",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are the inputs for this task",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Information management approach, requirements (traced), solution scope",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements can be in any state, not just traced",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Information management system, requirements (traced), solution scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements can be in any state and information management system is a made up answer",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Information management system, requirements (any state), solution scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Information management system is a made up answer. Answer C has the correct inputs",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "You provide Kathy feedback that while her recommendation is compelling, something critical is missing. What is it?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Opportunity costs related to other change strategies.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true but opportunity costs are only one component of the correct answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Evaluation criteria for the recommended strategy.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This may be true but it is pure speculation given the information in the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Financial analyses of other change strategies.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Each change strategy should include costs and benefits in order to determine feasibility",
+          "babok_refs": [
+            "6.4.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "An implementation plan to prove feasibility.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would be included as part of the feasibility analysis.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What rationale do you give Kathy for the criticality of the missing information?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholders need to understand what benefits they are deferring for other change strategies.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is true but is only a part of financial analyses related to other change strategies.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "She has to provide evidence that she's thought through how the recommended strategy will be evaluated once deployed.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Again, this may be true but the absence of evaluation criteria is pure speculation given the information in the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholders need to believe the recommended strategy is \"doable\" or feasible given their resource constraints.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Kathy has included a feasibility analysis per the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholders need to understand options considered and rejected to support their decision-making process.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "6.4.4.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Which of the following is NOT an input to Define Requirements Architecture Task?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements (any state).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an input",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Define Design Options.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is a task that uses Requirements Architecture as an input. BABOK Figure 7.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Solution Scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an input",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Information Management Approach.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an input",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "You are a Business Analyst of a construction project. The Project Management team is currently engaged in a meeting to decide whether the work related to building two swimming pools in a posh residential complex area will be managed in-house or outsourced to a preferred vendor. Based on this decision, you may need to change your plan of carrying out your business analysis activities in this project. In which of the following tasks are you currently engaged?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Analyze current state",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point, the business analyst is not analyzing the current state",
+          "babok_refs": [
+            "6.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Plan business analysis approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The planning process is iterative and plans are updated to address changing business conditions and newly raised issues",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Plan business analysis governance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Governance focuses on the guidance and control about how business analysis work will be approached, prioritized, how changes to business analysis information will be proposed, and analyzed approved",
+          "babok_refs": [
+            "3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Prepare for elicitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point, the business analyst is not preparing for requirement elicitation",
+          "babok_refs": [
+            "4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following are quantitative benefits that might be included in a business case?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Reduced inventory from having more accurate counts and through auto-replenishment.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This benefit can be measured financially, so is considered a quantitative benefit",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Reduced defects as a result of using use cases on the project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Quantitative and qualitative benefits apply to organizational vs. project benefits.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Improved customer satisfaction as a result of better web site navigation.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a considered a non-financial or qualitative benefit.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Improved communication between order-entry and warehouse staff.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a considered a non-financial or qualitative benefit.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Elicitation and Collaboration",
+      "question_text": "In the above scenario, what is the purpose of the game?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Used to help identify features of the product being described",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "BABOK Section 10.10.3.1 and Table 10.10.1 ...build a \"joint understanding of a problem or a solution.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Used to help identify related or similar features or themes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the purpose of the \"affinity map\" collaborative game. BABOK Table 10.10.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Used as an input to the marketing plan by product management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "BABOK Table 10.10.1. Though it may generate some useful marketing ideas, it is not the purpose of the game. Study hint: not all organizations have marketing plans or product management. Since this answer cannot be applied universally, it cannot be the correct answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Used to identify hidden assumptions or perspectives",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is the purpose of the \"fishbowl\" collaborative game, but does not apply here. BABOK Table 10.10.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Elicitation and Collaboration",
+      "question_text": "What is the name of the collaboration technique being used?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Remember the future",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a name of a collaborative game but is not mentioned in the BABOK! BABOK Table 10.10.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Fishbowl",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Participants are divided into two groups. One group of participants speaks about a topic, while the other group listens intently and documents their observations. BABOK Table 10.10.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Affinity map",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Participants write down features on sticky notes, put them on a wall, and then move them closer to other features that appear similar in some way. BABOK Table 10.10.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Product box",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Used to help identify features of a product that help drive interest in the marketplace. BABOK Table 10.10.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Traceability helps manage requirements and assists in risk, time, change, and scope management. What else can it do?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Identify missing functionality",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Traceability also helps detect missing functionality",
+          "babok_refs": [
+            "5.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Identify missing stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This not detected by traceability",
+          "babok_refs": [
+            "5.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Identify code defects",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This not detected by traceability",
+          "babok_refs": [
+            "5.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Detect implementation Issues",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This not detected by traceability",
+          "babok_refs": [
+            "5.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following statements best describes an adaptive planning approach?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Adaptive approaches do not require documentation.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Documentation may be less formal and detailed than predictive approaches, but it still requires documentation",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Formal documentation is produced before the solution is developed and implemented.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes a predictive approach",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Adaptive approaches focus on rapid delivery of business value in short iterations.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The business prioritizes functionality they would like the team to develop first. Value is delivered in predictable intervals",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Most business analysis work occurs at the beginning of the project or during one specific project phase.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes a predictive approach. BABOK Figure 3.1.2",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Susan is in the process of evaluating the implications of proposed changes to requirements and designs. She consults with knowledgeable stakeholders to fully understand the proposed change in relationship to the business. Which guideline is Susan observing?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Impact analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a stated guideline in the BABOK. During the assess requirements changes task, the business analyst performs an impact analysis to fully understand the ramifications the change would have on other requirements, the business, and the solution itself",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Requirements architecture",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus of this guideline in the assess requirements changes task is the impact a proposed change will have on other requirements",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Solution scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus of this guideline in the assessments requirements changes task is to fully understand the impact of the proposed change on the solution vs. the business",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Domain knowledge",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Knowledge of and expertise in the business domain is needed to assess proposed requirements changes",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Which state is Julian missing in the models for this situation?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Suspended Subscription, when a payment is not approved.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "While this might be a possible state, there is nothing in the question or in either model to suggest this state",
+          "babok_refs": [
+            "10.44.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Cancelled Subscription, which is a valid state for any subscription.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A possible state, but there is nothing in the question or in either model to hint at or to suggest this state. The Inactive Subscription state could well be used for this purpose",
+          "babok_refs": [
+            "10.44.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Rejected Subscription, because of a payment not being approved.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The trigger Payment Approved\" implies that not all payments are accepted. Plus, the Payment_Accepted attribute in the Payment entity hints at this. \"\"How the entity changes or transitions from one state to another could be determined by the steps of a process, by business rules, or by information content.\"\" \"",
+          "babok_refs": [
+            "10.44.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Former Subscription, which is implied in the diagram.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, Julian could ask about this, but there is nothing in the question or in either model to suggest this state",
+          "babok_refs": [
+            "10.44.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Julian has discovered that the subscription management staff frequently change addresses for customers who have two residences. To facilitate address changes they would like to allow saving an alternate address for a subscription. How should Julian handle this?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Add attributes in the Individual entity to permit saving an alternate address.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a potential solution, but not the most flexible. What if the business wants to have a 3rd address or more? What about the potential wasted space for all the individuals who don't have multiple addressed? These questions are appropriate for a physical database design",
+          "babok_refs": [
+            "10.15.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Add a separate Address entity and tie it to Individual in a one-to-many relationship.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This will offer the most flexibility and most closely match the requirements of the subscription management staff",
+          "babok_refs": [
+            "10.15.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Reject the request since there is only one address allowed per subscription.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An invented answer. The BA should not be the one to reject a request, but would instead perform Assess Requirements Changes,",
+          "babok_refs": [
+            "5.4."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Consult with an implementation SME such as a database analyst on how to handle this.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "There may be a need to consult with a database analyst when the requirements and designs are translated into a physical database. The question is asking how to handle the requirements before that point.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Overall, what major functionality would you say is missing from the requirements as they are modeled?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Validating credit card payments for subscriptions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Payment Approved trigger implies this can be done",
+          "babok_refs": [
+            "10.15.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Renewing an active subscription.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The Renewal_number attribute hints at this. , 10.44.3.2",
+          "babok_refs": [
+            "10.15.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Ability to capture email marketing permission from subscribers.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is an eMarketing_Permission attribute, but the new subscription process should be able to handle this function",
+          "babok_refs": [
+            "10.15.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Suspending a subscription.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Nothing in the question or the models supports this.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}
