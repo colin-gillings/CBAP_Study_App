@@ -54,6 +54,17 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 .refresh-btn:active{background:var(--accent2)}
 .refresh-btn:disabled{opacity:0.5;cursor:default}
 
+/* LOCK SCREEN */
+.lock-screen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:32px}
+.lock-icon{font-size:52px}
+.lock-title{font-size:22px;font-weight:700;letter-spacing:-0.5px}
+.lock-sub{font-size:13px;color:var(--text2);text-align:center}
+.lock-input{width:100%;max-width:280px;background:var(--bg2);border:2px solid var(--border2);border-radius:var(--radius-sm);padding:14px 16px;font-size:18px;color:var(--text);text-align:center;letter-spacing:4px;outline:none}
+.lock-input:focus{border-color:var(--accent)}
+.lock-btn{width:100%;max-width:280px;background:var(--accent);border:none;border-radius:var(--radius);padding:14px;color:white;font-size:16px;font-weight:700;cursor:pointer}
+.lock-btn:active{background:var(--accent2)}
+.lock-error{font-size:13px;color:var(--red);min-height:18px}
+
 /* LOADING SCREEN */
 .loading-screen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:32px}
 .loading-spinner{width:48px;height:48px;border:3px solid var(--bg3);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite}
@@ -145,6 +156,19 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 </head>
 <body>
 
+<!-- LOCK SCREEN -->
+<div class="screen hidden" id="s-lock">
+  <div class="lock-screen">
+    <div class="lock-icon">🔒</div>
+    <div class="lock-title">CBAP Study</div>
+    <div class="lock-sub">Enter your password to continue</div>
+    <input class="lock-input" id="lock-input" type="password" placeholder="••••••••"
+      onkeydown="if(event.key==='Enter')checkPassword()">
+    <div class="lock-error" id="lock-error"></div>
+    <button class="lock-btn" onclick="checkPassword()">Unlock</button>
+  </div>
+</div>
+
 <!-- LOADING SCREEN -->
 <div class="screen" id="s-loading">
   <div class="loading-screen">
@@ -192,18 +216,29 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
       <button class="refresh-btn" id="refresh-btn" onclick="doRefresh()">↻ Refresh</button>
     </div>
 
-    <div class="section-title">Quick Study</div>
+    <div class="section-title">Weak Areas — Questions I Got Wrong</div>
     <div class="mode-btn" onclick="startQuickStudy()">
       <div class="mode-icon" style="background:rgba(124,106,247,0.2)">⚡</div>
-      <div class="mode-text"><div class="mode-name">Quick Study — All Due Cards</div><div class="mode-desc">Due questions across all knowledge areas</div></div>
+      <div class="mode-text"><div class="mode-name">Quick Study — Due Cards</div><div class="mode-desc">Due wrong-answer cards across all knowledge areas</div></div>
       <div style="color:var(--text3);font-size:20px">›</div>
     </div>
-    <div class="section-title">Study by Knowledge Area</div>
     <div id="deck-list"></div>
-    <div class="section-title">Custom Session</div>
-    <div class="mode-btn" onclick="showDeckSelect()">
+    <div class="mode-btn" onclick="showDeckSelect('wrong')">
       <div class="mode-icon" style="background:rgba(59,130,246,0.2)">🎯</div>
-      <div class="mode-text"><div class="mode-name">Choose Knowledge Areas</div><div class="mode-desc">Mix and match the areas you want to drill</div></div>
+      <div class="mode-text"><div class="mode-name">Custom — Choose Areas</div><div class="mode-desc">Mix wrong-answer decks across knowledge areas</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+
+    <div class="section-title">Practice Mode — All Questions</div>
+    <div class="mode-btn" onclick="startPracticeAll()">
+      <div class="mode-icon" style="background:rgba(34,197,94,0.2)">🎲</div>
+      <div class="mode-text"><div class="mode-name">Random — All Knowledge Areas</div><div class="mode-desc">Random questions from the full exam pool</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div id="all-deck-list"></div>
+    <div class="mode-btn" onclick="showDeckSelect('all')">
+      <div class="mode-icon" style="background:rgba(245,158,11,0.2)">📚</div>
+      <div class="mode-text"><div class="mode-name">Custom — Choose Areas</div><div class="mode-desc">Pick specific knowledge areas to practise</div></div>
       <div style="color:var(--text3);font-size:20px">›</div>
     </div>
     <div style="height:8px"></div>
@@ -219,11 +254,11 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 <div class="screen hidden" id="s-select">
   <div class="hdr">
     <div class="icon-btn" onclick="showScreen('s-home')">←</div>
-    <div><div class="hdr-title">Choose Areas</div><div class="hdr-sub">Select knowledge areas to study</div></div>
+    <div><div class="hdr-title" id="sel-title">Choose Areas</div><div class="hdr-sub" id="sel-sub">Select knowledge areas to study</div></div>
     <div style="width:36px"></div>
   </div>
   <div class="sel-scroll"><div id="deck-select-list"></div><div style="height:8px"></div></div>
-  <button class="start-btn" onclick="startCustom()">Start Session →</button>
+  <button class="start-btn" id="sel-start-btn" onclick="startCustom()">Start Session →</button>
 </div>
 
 <!-- STUDY -->
@@ -284,9 +319,9 @@ html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-
 
 <script>
 // ── Config ────────────────────────────────────────────────
-const GITHUB_RAW = 'https://raw.githubusercontent.com/colin-gillings/CBAP_Study_App/main/data/';
-const INDEX_URL  = GITHUB_RAW + 'index.json';
+const MERGED_URL = 'https://raw.githubusercontent.com/colin-gillings/CBAP_Study_App/main/data/merged_exam_data.json';
 const CACHE_KEY  = 'v4_decks';
+const CACHE_ALL  = 'v4_decks_all';
 const SYNC_KEY   = 'v4_last_sync';
 
 // ── Deck definitions (category mapping + display config) ──
@@ -302,52 +337,73 @@ const DECK_CONFIG = [
 ];
 
 // ── State ─────────────────────────────────────────────────
-let DECKS = [];
+let DECKS     = [];  // wrong-answers-only decks
+let ALL_DECKS = [];  // all questions decks (practice mode)
 let queue = [], qIdx = 0, sessionCorrect = 0, sessionWrong = 0, answered = false;
 let currentImageUrl = '';
+
+// ── Password ──────────────────────────────────────────────
+const PASSWORD     = 'cbap2026';   // ← change this to whatever you want
+const AUTH_KEY     = 'v4_authed';
+
+function checkPassword() {
+  const val = document.getElementById('lock-input').value;
+  if (val === PASSWORD) {
+    localStorage.setItem(AUTH_KEY, '1');
+    boot();
+  } else {
+    document.getElementById('lock-error').textContent = 'Incorrect password. Try again.';
+    document.getElementById('lock-input').value = '';
+    document.getElementById('lock-input').focus();
+  }
+}
 
 // ── Boot ──────────────────────────────────────────────────
 window.addEventListener('load', () => {
   setupPWA();
-  const cached = getCachedDecks();
-  if (cached) {
+  if (localStorage.getItem(AUTH_KEY) === '1') {
+    boot();
+  } else {
+    showScreen('s-lock');
+    setTimeout(() => document.getElementById('lock-input').focus(), 100);
+  }
+});
+
+function boot() {
+  const cached    = getCachedDecks();
+  const cachedAll = getCachedAll();
+  if (cached && cachedAll) {
     DECKS = cached;
+    ALL_DECKS = cachedAll;
     initApp();
   } else {
     loadFromGitHub();
   }
-});
+}
 
 // ── GitHub fetch ──────────────────────────────────────────
 async function loadFromGitHub() {
   showScreen('s-loading');
   document.getElementById('loading-error').style.display = 'none';
   document.getElementById('loading-spinner').style.display = 'block';
-  setLoadingText('Fetching exam list…', '');
-  setProgress(0);
+  setLoadingText('Fetching exam data…', 'Loading merged question file');
+  setProgress(10);
 
   try {
-    const idxRes = await fetch(INDEX_URL + '?t=' + Date.now());
-    if (!idxRes.ok) throw new Error(`index.json: ${idxRes.status}`);
-    const idx = await idxRes.json();
-    const files = idx.files;
+    const res = await fetch(MERGED_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`merged_exam_data.json: ${res.status}`);
+    setProgress(60);
+    const data = await res.json();
+    setLoadingText('Building decks…', `${data.meta.total_questions} questions loaded`);
+    setProgress(80);
 
-    const allWrong = {};  // key = category, value = array of cards
-    let done = 0;
-
-    for (const filename of files) {
-      setLoadingText(`Loading ${filename}…`, `${done + 1} of ${files.length} files`);
-      const res = await fetch(GITHUB_RAW + filename + '?t=' + Date.now());
-      if (!res.ok) { done++; setProgress(done / files.length * 100); continue; }
-      const data = await res.json();
-      parseExamFile(data, allWrong);
-      done++;
-      setProgress(done / files.length * 100);
-    }
-
-    DECKS = buildDecks(allWrong);
+    const { wrongDecks, allDecks } = buildDecksFromMerged(data.questions);
+    DECKS     = wrongDecks;
+    ALL_DECKS = allDecks;
     cacheDecks(DECKS);
+    cacheAll(ALL_DECKS);
     localStorage.setItem(SYNC_KEY, new Date().toISOString());
+    setProgress(100);
     initApp();
 
   } catch (err) {
@@ -358,68 +414,66 @@ async function loadFromGitHub() {
   }
 }
 
-function parseExamFile(data, allWrong) {
-  const examNum = data.exam_number;
-  for (const q of data.questions) {
-    let answers = q.answers;
-    if (typeof answers === 'string') {
-      try { answers = JSON.parse(answers.replace(/'/g, '"')); } catch(e) { continue; }
-    }
-    if (!Array.isArray(answers)) continue;
-    const selected = answers.find(a => a.is_selected);
-    const correct  = answers.find(a => a.is_correct);
-    if (!selected || !correct || selected.is_correct) continue;
-    const opts = answers.map(a => (a.text || '').trim()).filter(Boolean);
+function buildDecksFromMerged(questions) {
+  // Group into pools by category
+  const wrongPool = {};
+  const allPool   = {};
+
+  for (const q of questions) {
+    const cat  = q.category || 'Uncategorised';
+    const correct = q.answers.find(a => a.is_correct);
+    if (!correct) continue;
+    const opts = q.answers.map(a => a.text.trim()).filter(Boolean);
     if (opts.length < 3) continue;
 
-    const imageLink = q.image_link;
-    const imgUrl = (imageLink && String(imageLink).trim().toLowerCase() !== 'none' && String(imageLink).trim() !== '') 
-      ? String(imageLink).trim() : '';
+    // Pick the best hint: wrong-answer explanation first, then correct explanation
+    const wrongAns = q.answers.find(a => a.is_selected && !a.is_correct);
+    const hint = (wrongAns && wrongAns.explanation)
+      ? `Trap: ${wrongAns.explanation.trim()}`
+      : (correct.explanation || '').trim();
 
-    const cat = q.category || 'Uncategorised';
-    if (!allWrong[cat]) allWrong[cat] = [];
-    allWrong[cat].push({
-      exam:    String(examNum),
-      qnum:    String(q.number || '?'),
-      q:       (q.question_text || '').trim(),
+    const card = {
+      q:       q.question_text,
       opts:    opts.slice(0, 4),
       correct: correct.text.trim(),
-      hint:    selected.explanation 
-                 ? `Trap: ${selected.explanation.trim()}` 
-                 : (correct.explanation || '').trim(),
-      img:     imgUrl,
-    });
-  }
-}
+      hint,
+      img:     q.image_link || '',
+      id:      q.id || '',
+      exams:   (q.exams_seen || []).join(', '),
+    };
 
-function buildDecks(allWrong) {
-  // Deduplicate within each category by question text
-  const deduped = {};
-  for (const [cat, cards] of Object.entries(allWrong)) {
-    const seen = new Set();
-    deduped[cat] = [];
-    for (const card of cards) {
-      const key = card.q.slice(0, 80);
-      if (!seen.has(key)) { seen.add(key); deduped[cat].push(card); }
+    if (!allPool[cat])   allPool[cat]   = [];
+    allPool[cat].push(card);
+
+    if (q.got_wrong) {
+      if (!wrongPool[cat]) wrongPool[cat] = [];
+      wrongPool[cat].push(card);
     }
   }
 
-  return DECK_CONFIG.map(cfg => {
-    const cards = (deduped[cfg.cat] || []).slice(0, cfg.limit);
+  const buildSet = (pool, isPractice) => DECK_CONFIG.map(cfg => {
+    const all   = pool[cfg.cat] || [];
+    const cards = isPractice ? all : all.slice(0, cfg.limit);
     return {
-      id:          cfg.id,
-      name:        cfg.name,
-      icon:        cfg.icon,
-      color:       cfg.color,
-      errorCount:  (deduped[cfg.cat] || []).length,
+      id:         cfg.id + (isPractice ? '_all' : ''),
+      name:       cfg.name,
+      icon:       cfg.icon,
+      color:      cfg.color,
+      errorCount: all.length,
       cards,
     };
   }).filter(d => d.cards.length > 0);
+
+  return {
+    wrongDecks: buildSet(wrongPool, false),
+    allDecks:   buildSet(allPool,   true),
+  };
 }
 
 function loadFromCache() {
-  const cached = getCachedDecks();
-  if (cached) { DECKS = cached; initApp(); }
+  const cached    = getCachedDecks();
+  const cachedAll = getCachedAll();
+  if (cached && cachedAll) { DECKS = cached; ALL_DECKS = cachedAll; initApp(); }
   else { document.getElementById('error-msg').textContent = 'No cached data available. Please connect to the internet and retry.'; }
 }
 
@@ -437,10 +491,13 @@ function cacheDecks(decks) {
   try { localStorage.setItem(CACHE_KEY, JSON.stringify(decks)); } catch(e) {}
 }
 function getCachedDecks() {
-  try {
-    const s = localStorage.getItem(CACHE_KEY);
-    return s ? JSON.parse(s) : null;
-  } catch(e) { return null; }
+  try { const s = localStorage.getItem(CACHE_KEY); return s ? JSON.parse(s) : null; } catch(e) { return null; }
+}
+function cacheAll(decks) {
+  try { localStorage.setItem(CACHE_ALL, JSON.stringify(decks)); } catch(e) {}
+}
+function getCachedAll() {
+  try { const s = localStorage.getItem(CACHE_ALL); return s ? JSON.parse(s) : null; } catch(e) { return null; }
 }
 
 // ── Loading UI ────────────────────────────────────────────
@@ -535,10 +592,16 @@ function updateHome() {
     document.getElementById('refresh-sub').textContent = 'Using cached data';
   }
 
-  // Deck list
-  const dl = document.getElementById('deck-list');
+  // Wrong-answer deck list
+  renderDeckList('deck-list', DECKS, true);
+  // All-questions deck list
+  renderDeckList('all-deck-list', ALL_DECKS, false);
+}
+
+function renderDeckList(elId, decks, isWrong) {
+  const dl = document.getElementById(elId);
   dl.innerHTML = '';
-  DECKS.forEach(deck => {
+  decks.forEach(deck => {
     let due = 0, seen = 0, correct = 0;
     deck.cards.forEach((c, i) => {
       const d = cget(deck.id, i);
@@ -546,14 +609,20 @@ function updateHome() {
       seen += d.seen; correct += d.correct;
     });
     const acc = seen > 0 ? Math.round(correct / seen * 100) + '%' : '';
-    const badge = due > 0
-      ? `<div style="font-size:13px;font-weight:600;color:var(--accent);background:rgba(124,106,247,0.15);padding:3px 9px;border-radius:20px">${due}</div>`
+    const badge = isWrong
+      ? (due > 0
+          ? `<div style="font-size:13px;font-weight:600;color:var(--accent);background:rgba(124,106,247,0.15);padding:3px 9px;border-radius:20px">${due}</div>`
+          : (seen > 0 ? `<div class="deck-badge">${acc}</div>` : ''))
       : (seen > 0 ? `<div class="deck-badge">${acc}</div>` : '');
-    dl.innerHTML += `<div class="deck-card" onclick="startDeck('${deck.id}')">
+    const meta = isWrong
+      ? `${deck.cards.length} wrong answers`
+      : `${deck.cards.length} questions total`;
+    const onclick = isWrong ? `startDeck('${deck.id}')` : `startPracticeDeck('${deck.id}')`;
+    dl.innerHTML += `<div class="deck-card" onclick="${onclick}">
       <div class="deck-icon" style="background:${deck.color}">${deck.icon}</div>
       <div class="deck-info">
         <div class="deck-name">${deck.name}</div>
-        <div class="deck-meta">${deck.cards.length} questions · ${deck.errorCount} errors found</div>
+        <div class="deck-meta">${meta}</div>
       </div>
       ${badge}
     </div>`;
@@ -569,34 +638,45 @@ function shuffle(arr) {
   return arr;
 }
 
-function buildQueue(deckIds) {
+function buildQueue(deckIds, pool) {
+  pool = pool || DECKS;
   let due = [], notDue = [];
-  DECKS.filter(d => deckIds.includes(d.id)).forEach(d =>
+  pool.filter(d => deckIds.includes(d.id)).forEach(d =>
     d.cards.forEach((c, i) => {
       const item = { deckId: d.id, cardIdx: i, card: c };
       isDue(cget(d.id, i)) ? due.push(item) : notDue.push(item);
     })
   );
   shuffle(due); shuffle(notDue);
-  return due.length > 0 ? due : shuffle(notDue).slice(0, 25);
+  // For practice mode there are no "due" cards per se — just shuffle all
+  return due.length > 0 ? due : shuffle(notDue).slice(0, 30);
 }
 
 function startQuickStudy() {
-  startSession(buildQueue(DECKS.map(d => d.id)), 'Quick Study', 'All Areas');
+  startSession(buildQueue(DECKS.map(d => d.id), DECKS), 'Quick Study', 'All Areas');
 }
 function startDeck(id) {
   const deck = DECKS.find(d => d.id === id);
-  startSession(buildQueue([id]), deck.name, deck.name);
+  startSession(buildQueue([id], DECKS), deck.name, deck.name);
 }
-function showDeckSelect() {
+let selectMode = 'wrong'; // 'wrong' or 'all'
+
+function showDeckSelect(mode) {
+  selectMode = mode || 'wrong';
+  const isPractice = selectMode === 'all';
   showScreen('s-select');
+  document.getElementById('sel-title').textContent   = isPractice ? 'Practice Mode' : 'Weak Areas';
+  document.getElementById('sel-sub').textContent     = isPractice ? 'All questions — choose areas to practise' : 'Wrong-answer cards — choose areas to drill';
+  document.getElementById('sel-start-btn').textContent = isPractice ? 'Start Practice →' : 'Start Drilling →';
+  const deckPool = isPractice ? ALL_DECKS : DECKS;
   const dsl = document.getElementById('deck-select-list');
   dsl.innerHTML = '';
-  DECKS.forEach(deck => {
+  deckPool.forEach(deck => {
+    const count = isPractice ? `${deck.cards.length} questions` : `${deck.cards.length} wrong answers`;
     dsl.innerHTML += `<div class="sel-deck selected" id="sel-${deck.id}" onclick="toggleSel('${deck.id}',this)">
       <div class="sel-check">✓</div>
       <div style="font-size:20px">${deck.icon}</div>
-      <div class="sel-info"><div class="sel-name">${deck.name}</div><div class="sel-count">${deck.cards.length} questions · ${deck.errorCount} errors</div></div>
+      <div class="sel-info"><div class="sel-name">${deck.name}</div><div class="sel-count">${count}</div></div>
     </div>`;
   });
 }
@@ -604,7 +684,16 @@ function toggleSel(id, el) { el.classList.toggle('selected'); el.querySelector('
 function startCustom() {
   const ids = Array.from(document.querySelectorAll('.sel-deck.selected')).map(el => el.id.replace('sel-', ''));
   if (!ids.length) { alert('Select at least one area.'); return; }
-  startSession(buildQueue(ids), 'Custom Session', ids.map(id => DECKS.find(d => d.id === id)?.icon || '').join(' '));
+  const isPractice = selectMode === 'all';
+  const pool = isPractice ? ALL_DECKS : DECKS;
+  startSession(buildQueue(ids, pool), isPractice ? 'Practice Mode' : 'Custom Session', ids.map(id => pool.find(d => d.id === id)?.icon || '').join(' '));
+}
+function startPracticeAll() {
+  startSession(buildQueue(ALL_DECKS.map(d => d.id), ALL_DECKS), 'Practice — All Areas', 'All Areas');
+}
+function startPracticeDeck(id) {
+  const deck = ALL_DECKS.find(d => d.id === id);
+  startSession(buildQueue([id], ALL_DECKS), `Practice — ${deck.name}`, deck.name);
 }
 function startSession(q, modeLabel, deckLabel) {
   queue = q; qIdx = 0; sessionCorrect = 0; sessionWrong = 0; answered = false;
@@ -625,7 +714,7 @@ function renderCard() {
   document.getElementById('study-prog-fill').style.width = `${(qIdx / queue.length) * 100}%`;
   const deck = DECKS.find(d => d.id === deckId);
   document.getElementById('study-deck-tag').textContent = deck ? deck.name : '';
-  document.getElementById('q-ref').textContent = `Exam ${card.exam} · Q${card.qnum}`;
+  document.getElementById('q-ref').textContent = card.id + (card.exams ? ` · Exam ${card.exams}` : '');
 
   // Image button
   currentImageUrl = card.img || '';
@@ -753,7 +842,7 @@ function renderProgress() {
 
 function confirmReset() {
   if (confirm('Reset all study progress? Card data from GitHub will be kept.')) {
-    Object.keys(localStorage).forEach(k => { if (k.startsWith('v4_') && k !== CACHE_KEY && k !== SYNC_KEY) localStorage.removeItem(k); });
+    Object.keys(localStorage).forEach(k => { if (k.startsWith('v4_') && k !== CACHE_KEY && k !== CACHE_ALL && k !== SYNC_KEY) localStorage.removeItem(k); });
     renderProgress(); updateHome();
   }
 }
