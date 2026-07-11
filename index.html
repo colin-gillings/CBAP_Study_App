@@ -762,10 +762,11 @@ function renderCard() {
 
 function openImage() {
   if (!currentImageUrl) return;
-  // Resolve relative paths against the app's base URL
+  // If already a full URL, use as-is
+  // If relative path, resolve via raw GitHub content URL
   const url = currentImageUrl.startsWith('http')
     ? currentImageUrl
-    : `https://colin-gillings.github.io/CBAP_Study_App${currentImageUrl.startsWith('/') ? '' : '/'}${currentImageUrl}`;
+    : `https://raw.githubusercontent.com/colin-gillings/CBAP_Study_App/main${currentImageUrl.startsWith('/') ? '' : '/'}${currentImageUrl}`;
   window.open(url, '_blank');
 }
 
@@ -970,4 +971,3 @@ function setupPWA() {
 
 </body>
 </html>
-
