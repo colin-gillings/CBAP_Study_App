@@ -1,0 +1,1062 @@
+{
+  "exam_number": "31",
+  "exam_title": "Viewing Results for Drill, Exam #31 started on 2026-07-04 23:33:54",
+  "generated": "2026-07-05 16:21",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Effective stakeholder management requires which of the following skillsets?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Negotiation, communication, conflict resolution",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are the required skills stated in the BABOK for effective stakeholder management",
+          "babok_refs": [
+            "4.5.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Problem solving, communication, conflict resolution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Problem solving is not a listed skill for effective stakeholder management, and the list is missing negotiation",
+          "babok_refs": [
+            "4.5.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Problem solving, collaboration, negotiation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Problem solving and collaboration are not listed skills for effective stakeholder management, and the list is missing communication and conflict resolution",
+          "babok_refs": [
+            "4.5.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Problem solving, communication, negotiation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Problem solving is not a listed skill for effective stakeholder management, and the list is missing conflict resolution",
+          "babok_refs": [
+            "4.5.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Sallie the BA was in the process of conducting training and noticed that members of the class were having difficulty retaining the information. She is currently using PowerPoint slides supported by written material. What might you suggest she try?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Include more graphics.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence that graphics aren't being used today; graphics still employ auditory (implied by the fact that she is conducting training) and visual (PowerPoint slides) learning styles which don't appear to be helping students retain material.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Add a kinesthetic component.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Kinesthetic (learning by doing) is the only learning technique Sallie doesn't appear to be using at this time. Combining techniques helps people learn faster and retain information longer",
+          "babok_refs": [
+            "9.1.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "More frequent review of the material.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would employ the same auditory (implied by the fact that she is conducting training) and visual techniques (PowerPoint slides) she is currently using.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Assessments; they would pay better attention if they knew they were going to be tested.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK does not list assessments as a retention tool.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Laura is starting a new project that has a vague objective/vision of create the best loan application interface on the market. She is naturally worried that this is not clear enough and that her stakeholders will not be happy with the result if she does not clarify it. What skills will Laura draw upon to help define the product vision with her stakeholders?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Teamwork.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is nothing in the question indicating that teamwork is an issue, It would also not help clarify the new product vision.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Organization Knowledge.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, knowledge of the organization will help understand the business need for a new product. It won't be enough to help define the new product vision.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Leadership and influencing.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Business analysts use leadership and influencing skills when guiding stakeholders during the investigation and business analysis information and solution options",
+          "babok_refs": [
+            "9.5.2."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Facilitation and negotiation.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These skills help achieve consensus and resolve disagreements, but they would not help as much to clarify the new product vision.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Which of the following are good examples of interaction skills?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Facilitation, negotiation, leadership, adaptability, teamwork.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Adaptability is listed as a type of behavioral characteristic",
+          "babok_refs": [
+            "9.2.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Facilitation, verbal communication, leadership, influencing, teamwork.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Verbal communication is listed as a type of communication skill",
+          "babok_refs": [
+            "9.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Facilitation, teaching, leadership, influencing, and listening.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Listening is listed as a type of communication skill",
+          "babok_refs": [
+            "9.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Facilitation, negotiation, leadership, influencing, teamwork.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Interaction skills listed in the BABOK include facilitation, leadership and influencing, teamwork, negotiation and conflict resolution, and teaching",
+          "babok_refs": [
+            "9.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "What is a measure of the effectiveness of the BA's decision-making abilities?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholders understand the decision-making process and the rationale behind the decision.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "9.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Confidence of the participants in the selected solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a measure of problem-solving",
+          "babok_refs": [
+            "9.1.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Decisions are made by considering the interest of every stakeholder.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a measure of ethics",
+          "babok_refs": [
+            "9.2.1.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholders include the BA in the decision making process.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Tricky because this sounds logical. This answer, though, is a measure of trustworthiness",
+          "babok_refs": [
+            "9.2.3.3."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Jen is trying to juggle several projects at once, each with tight deadlines. A recent government law was passed that necessitated numerous changes at once. Her sponsors have even told her not to spend too much time in requirements meetings because her projects have unmovable deadlines, and the company would be in trouble if they missed any of the dates. What competency must Jen use to ensure that her requirements deliverables will be ready on time?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Trustworthiness.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "There is nothing in the question to indicate that trustworthiness is involved in getting work done on time.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Organization.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Organization can help business analyst perform task effectively and use work time efficiently",
+          "babok_refs": [
+            "9.2.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business knowledge.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Knowledge of a business may help with tight deadlines in general, but other competencies are more important.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Ethics.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is nothing in the question to indicate that ethics or morals are involved in getting work done on time.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "A conflict has emerged between two stakeholders about conflicting requirements and you are facilitating a mediation meeting between them. All efforts to achieve a compromise in the meeting so far have failed. What is one of the best things to do now to try to break the deadlock before ending the meeting?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Explain the impact and consequences that the stakeholders' failure to agree will have on the project.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "If a conflict arises among stakeholders as a result of a different interpretation of an issue, the business analyst should facilitate communication between the stakeholders so that each group can gain an appreciation for the needs of the others",
+          "babok_refs": [
+            "5.5.4.2",
+            "9.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Warn them that the sponsor will have to impose a resolution if the parties cannot agree.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option does not facilitate discussion between the stakeholders for improved appreciation of the others needs. The BABOK is clear about the BA actively working to resolve conflicts, and not using referent power to do so",
+          "babok_refs": [
+            "5.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Tell them the meeting will not adjourn until an agreement can be reached.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option does not facilitate discussion between the stakeholders for improved appreciation of the others needs",
+          "babok_refs": [
+            "5.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "There is nothing a BA can do in this situation other than to adjourn the meeting and escalate the issue to the project manager.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option does not facilitate discussion between the stakeholders for improved appreciation of the others needs. The BABOK is clear about the BA actively working to resolve conflicts, and not merely escalating them",
+          "babok_refs": [
+            "5.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Which of the following are examples of office productivity tools and technology?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Word processing, spreadsheets, modeling and diagraming tools.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Diagramming and modeling tools are listed under business analysis tools and technology",
+          "babok_refs": [
+            "9.6.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Word processing, spreadsheets, and issue tracking tools.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Issue tracking tools are listed under business analysis tools and technology",
+          "babok_refs": [
+            "9.6.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Word processing, spreadsheets, and presentation software.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Office productivity tools and technology include word processing and presentation programs, presentation software, spreadsheets, communication tools, collaboration and knowledge management tools, and hardware",
+          "babok_refs": [
+            "9.6.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Word processing, spreadsheets, and requirements management.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements management is not a tool or technology.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Words and content.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This provides under 10% of the information, according to research.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Body language.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is a general knowledge answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Emotions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a synonym of what the question is asking about, not a means of conveying it.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Tone of voice.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Tone of voice accounts for under 40% of the information about attitude and feelings..",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Sam is using paraphrasing as a means of confirming elicitation results. How can paraphrasing can be achieved?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Use of a different communication medium",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This answer does not describe paraphrasing. Active listening incudes summarizing and repeating what was stated in different terms in order to ensure that both the listener and speaker have a common understanding - which is the description of paraphrasing",
+          "babok_refs": [
+            "9.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Asking the sender to resend the message but using different terms",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Active listening incudes summarizing and repeating what was stated in different terms in order to ensure that both the listener and speaker have a common understanding - which is the description of paraphrasing. The listener vs. the sender is responsible for paraphrasing",
+          "babok_refs": [
+            "9.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Through active listening",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Active listening incudes summarizing and repeating what was stated in different terms in order to ensure that both the listener and speaker have a common understanding - which is the description of paraphrasing",
+          "babok_refs": [
+            "9.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Repetition of exactly what was said",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Active listening incudes summarizing and repeating what was stated in different terms in order to ensure that both the listener and speaker have a common understanding - which is the description of paraphrasing",
+          "babok_refs": [
+            "9.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Novak is a business analyst working with the development team to determine how to shorten the solution delivery timeline. Team members keep bringing up solutions that have been tried before and didn't work. Novak suggested the team try some agile practices as agile was created to deliver value to the business sooner than later. The team initially resisted but said, \"Why not? Let's try something new.\" What competency was Novak demonstrating?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Systems thinking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Systems thinking is employed to understand how people, processes, and technology interact to get a more holistic view of the enterprise",
+          "babok_refs": [
+            "9.1.5.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Visual thinking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This question is about which approach will deliver a solution faster, not about the solution itself. Remember that quick delivery is a constraint, not a solution. Visual thinking, on the other hand, relates to communicating complex concepts and models to stakeholders to increase their understanding of a solution",
+          "babok_refs": [
+            "9.1.7.1."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Creative thinking",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Measures of effective creative thinking include \"exploring changes to existing concepts and ideas and exploring concepts and ideas that are new.\"",
+          "babok_refs": [
+            "9.1.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Problem solving",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Problem solving revolves more around a structured process of defining the problem, identifying the root cause, generating and vetting solution options, and selecting a solution. There was no evidence of that process in the scenario, so this cannot be the correct answer",
+          "babok_refs": [
+            "9.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Larry the BA is responsible for developing the business case for a project that his firm is recommending in the insurance industry. Which of the following business knowledge competencies would Larry use?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Organization knowledge, methodology knowledge, industry knowledge",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "9.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution knowledge, organizational knowledge, and financial analysis knowledge",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Financial analysis is not listed as a business knowledge competency",
+          "babok_refs": [
+            "9.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business acumen, industry knowledge, business case knowledge",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business case knowledge is not listed as a category within the business knowledge competency",
+          "babok_refs": [
+            "9.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Financial analysis knowledge, business acumen, industry knowledge",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Financial analysis is not listed as a business knowledge competency",
+          "babok_refs": [
+            "9.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "You once co-facilitated a requirements workshop with a BA who did not follow through on her commitments. Because you were in two different locations, you decided to set up a web meeting. As you were preparing for the session you heard her mutter, \"Customers never really know what they want. In the end, I'm going to give them what I think they need. This is a waste of time.\" This comment indicates that she is missing which of the following underlying competencies?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Ethics",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Measures of effective ethical behavior include:... \"feedback from stakeholders confirming they feel decisions and actions are transparent and fair.\"",
+          "babok_refs": [
+            "9.2.1.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Facilitation Skills",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "She has not yet completed the facilitating the workshop.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Business Principles",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This competency does not apply to the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Virtual Team Development Skills",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a competency.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Keely the BA is struggling with getting the project team to buy into his ideas and concepts. Which interaction skills would best be utilized to address the problems that Keely is facing?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Teamwork",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Teamwork is required but this competency doesn't address Keely's issue",
+          "babok_refs": [
+            "9.5.2.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Teaching",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Teaching may prove a component but this competency doesn't address Keely's issue",
+          "babok_refs": [
+            "9.5.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Facilitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Facilitation will not necessarily end with team members buying into Keely's ideas",
+          "babok_refs": [
+            "9.5.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Leadership and Influencing",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Keely is hoping to influence the project team to buy into his ideas",
+          "babok_refs": [
+            "9.5.2.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "A core competency to using tools and technology effectively is?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "the ability to reduce the time or cost to implement a requirements change.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This core competency is listed under Solution Knowledge",
+          "babok_refs": [
+            "9.3.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The ability to select the most appropriate tool that will meet the needs of the audience.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The ability to select the most appropriate tool to meet the needs of the audience is a base in all business analysis tools and technology core competencies. ; 9.6.2.3; 9.6.3.3",
+          "babok_refs": [
+            "9.6.1.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The ability to understand and to use some of the major features of the tool.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A business analyst should be able to use most of the major features of key business analysis tools and technology.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Track any tool or technology issues and to report them to the project manager.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a made up competency.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Your mentor BA seems to resolve conflict effortlessly. He is demonstrating which underlying competency?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Teamwork.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "\"Effectively resolving conflict\" is listed as one of the effectiveness measures of teamwork",
+          "babok_refs": [
+            "9.5.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Trustworthiness.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Trust is an essential ingredient for many things, but will not resolve conflict as a standalone underlying competency.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Leadership and Influencing.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Conflict resolution is not listed as an effectiveness measure of Leadership and Influencing.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Verbal Communication.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This underlying competency by itself may not resolve conflict.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Assume you are working on a large, multi-cultural project, and you have a business expert for whom English is not her native language. Some of the business terms you use do not have the same meaning to you both, stalling progress on eliciting her requirements. How could you effectively address this situation?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The different terms are barriers to communication and both parties need to align their \"mental models\" to ensure requirements are elicited properly. Develop a glossary.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A glossary defines key terms relevant to the business domain thereby promoting better communication among all stakeholders. , 10.23.1, and 10.23.4.1",
+          "babok_refs": [
+            "9.4.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Respectfully end the interview and seek requirements from another expert in that business domain.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be tempting but you are eliciting requirements from that stakeholder because their specific input is valuable. It would be better if you developed a glossary to facilitate communication",
+          "babok_refs": [
+            "10.23.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The key stakeholder does not realize she is using the wrong terms, and you need to correct her in order to gather her requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This answer is partially correct. It would be better if you developed a glossary to facilitate communication",
+          "babok_refs": [
+            "10.23.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Document her requirements using her terms and then ask another expert in that business domain to confirm them to ensure understanding.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This may be tempting but you are eliciting requirements from that stakeholder because their specific input is valuable. It would be better if you developed a glossary to facilitate communication",
+          "babok_refs": [
+            "10.23.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Which of the following ways is effective teamwork NOT demonstrated?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Personal relationships outside of work.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is not an effectiveness measure of teamwork",
+          "babok_refs": [
+            "9.5.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Collaborative working environment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the ways teamwork is demonstrated.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Effective conflict resolution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the ways teamwork is demonstrated.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Shared ownership.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the ways teamwork is demonstrated.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Which of the following underlying competencies will help you understand how the people, processes, and technology within an organization interact?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Organization Knowledge.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Organization knowledge provides an understanding of the management structure and business architecture of the enterprise.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Contextual Thinking.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a made up answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Business Acumen.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business acumen refers to the understanding of fundamental business principles and best practices.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Systems Thinking.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "9.1.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Underlying Competencies",
+      "question_text": "Requirements traceability identifies and documents the lineage of each requirement. What are the ways in which this lineage can be identified and documented?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Downwards, upwards, and relationships between designs",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Invented answer - there is no design relationship in traceability in the BABOK. Be careful with this one - the BABOK section only lists requirements, but of course designs could also be traced",
+          "babok_refs": [
+            "9.6.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Downwards, upwards, and the relationships between requirements",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Invented answer - there is no Downward and Upward traceability in the BABOK",
+          "babok_refs": [
+            "9.6.2."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Backwards, forwards, and the relationships between requirements",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are all components listed under Traceability as part of Requirements management technologies",
+          "babok_refs": [
+            "9.6.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Backwards, forwards, and the relationships between risks",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Invented answer - there is no risk assessment in traceability in the BABOK",
+          "babok_refs": [
+            "9.6.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

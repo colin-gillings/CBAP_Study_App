@@ -1,0 +1,1375 @@
+{
+  "exam_number": "20",
+  "exam_title": "Viewing Results for Drill, Exam #20 started on 2026-06-27 02:54:26",
+  "generated": "2026-06-27 19:53",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "As business analyst on an initiative, you are documenting relationships that exist between requirements. While traceability is valuable, you balance the number of relationship types with the benefit gained by representing them. Which stakeholder would be required to approve these relationships?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Tester",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The tester is concerned with understanding how and where requirements are implemented when creating test plans and test cases, and may trace test cases to requirements",
+          "babok_refs": [
+            "5.1.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Product owner",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The product owner is not a stated stakeholder for the trace requirements task",
+          "babok_refs": [
+            "5.1.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The project manager ensures that traceability supports project change and scope management",
+          "babok_refs": [
+            "5.1.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Sponsor",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The sponsor is required to approve the various relationships in the trace requirements task",
+          "babok_refs": [
+            "5.1.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Approval of requirements in your organization that is dispersed internationally is done formally with each stakeholder who has authority. What methods may be used for requirements approval?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Formal verbal approval is permissible because of the international nature of the organization.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only one possible way and therefore too narrow. There may or may not be formal verbal approval, so this answer cannot be right",
+          "babok_refs": [
+            "5.5.5",
+            "3.3.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The approval method stated in the governance approach.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The governance approach establishes how stakeholders want to approve",
+          "babok_refs": [
+            "5.5.5",
+            "3.3.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Face-to-face sign off with the business analyst and project manager is the most formal.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only one possible way and therefore too narrow. There may or may not be formal signoff, which may or may not be face-to-face",
+          "babok_refs": [
+            "5.5.5",
+            "3.3.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Written approval is required to ensure compliance with SSIT regulations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An overly-specific reference to a regulation like this would never be an answer. Watch for these overly-prescriptive distracters.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "As a business analyst you are managing and maintaining requirements and design information from inception to retirement. You just completed a set of requirements that have been verified to be of sufficient quality to be used as a reliable body of work for further specification and development. Which of the following would be your next logical task?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Analyze potential value and recommend solution",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Verified requirements is not an input for this task. The scenario is referring to verified requirements as an input for the approve requirements task",
+          "babok_refs": [
+            "5.5.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Approve requirements",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Verified requirements are input for the approve requirements task",
+          "babok_refs": [
+            "5.5.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Define design options",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Verified requirements is not one of the inputs for the define design options task. Validated and prioritized requirements are, however. The scenario is referring to verified requirements as an input for the approve requirements task",
+          "babok_refs": [
+            "5.5.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Accept requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such task in BABOK. The scenario is referring to verified requirements as an input for the approve requirements task",
+          "babok_refs": [
+            "5.5.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "There are several types of relationships that the business analyst considers when defining the traceability approach. What type of the following describes the relationship between a functional requirement and a solution component that is implementing it?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Depends",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is relationship between two requirements, used when a requirement depends on another requirement",
+          "babok_refs": [
+            "5.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Necessity",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a subset of \"depends\" and refers to when it only makes sense to implement a particular requirement if a related requirement is also implemented",
+          "babok_refs": [
+            "5.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Derive",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the relationship between two requirements, used when a requirement is derived from another requirement",
+          "babok_refs": [
+            "5.1.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Satisfy",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The satisfy relationship exists between an implementation element and the requirement(s) it is satisfying, which is what the scenario is describing",
+          "babok_refs": [
+            "5.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Leah and her team have identified requirements that are candidates for long-term use by the organization. Which of the following is not essential in order to maximize the benefits of maintaining and reusing requirements?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements should be stored in a manner that makes them easily accessible and retrievable by other stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "If requirements aren't stored in a way that makes them accessible to others, they are less likely to be reused",
+          "babok_refs": [
+            "5.2.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Requirements should be prioritized in the order of relative importance.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The requirements can be reused within the current initiative or other initiatives wherein the stakeholders are different and therefore the priorities would be different. Hence prioritizing requirements is not necessary and does not maximize the benefits of reuse.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Requirements should be reviewed and approved for maintenance using a standardized process that defines proper access rights and ensures quality.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements must be maintained to remain relevant",
+          "babok_refs": [
+            "5.2.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Requirements should be represented in a consistent manner.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Consistent representation is key to reusability",
+          "babok_refs": [
+            "5.2.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "McKenna is working with stakeholders to prioritize requirements. Initially stakeholders prioritized requirements based upon the perceived benefits. Then, technical personnel re-prioritized them due to technical dependencies and constraints. Business stakeholders then re-prioritized them again once they received the cost of implementation per requirement. What element is this describing?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Rationale for prioritization",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario does speak to the rationale for the multiple re-prioritization efforts; however, it is not a stated element",
+          "babok_refs": [
+            "5.3.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Basis for prioritization",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This element in the prioritize requirements task refers to factors that influence prioritization such as benefit, penalty, cost, risk, dependencies, time sensitivity, stability, regulatory or policy compliance",
+          "babok_refs": [
+            "5.3.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Challenges of prioritization",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This element in the prioritize requirements task speaks more to stakeholders wanting to further their own agendas",
+          "babok_refs": [
+            "5.3.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Continual prioritization",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Continual prioritization is done when prioritizing requirements because priorities may shift as the context evolves and as more information becomes available",
+          "babok_refs": [
+            "5.3.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "What must happen to enable requirements re-use?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The requirements must be stored in a document repository.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements may be stored in a repository, but do not have to be",
+          "babok_refs": [
+            "5.2.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The proposed requirements need to be baselined.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements do not have to be baselined to be made re-usable, but they do have to validated",
+          "babok_refs": [
+            "5.2.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The requirements must be identified, clearly named, and defined.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Quote: 'Requirements that are candidates for reuse are identified, clearly named, defined and stored in a manner that makes them easily retrievable by other stakeholders",
+          "babok_refs": [
+            "5.2.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The requirements have to be verified.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements have to be validated, but not verified",
+          "babok_refs": [
+            "5.2.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following is a representation of process traceability?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business needs, business requirements, stakeholder requirements, solution requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This represents software requirements traceability. BABOK Figure 5.1.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Plan, analyze, design, code, test, implement",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an example of a software development life cycle. BABOK Figure 5.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Value chain, business process, sub-process, activity, task",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Process traceability begins with value chain which is decomposed down to tasks. BABOK Figure 5.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Business process, sub-process, activity, task",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Process traceability begins with value chain which is missing from this list. BABOK Figure 5.1.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Three of the following statements are inaccurate about prioritization. Which one is accurate?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Once the implementation team has provided the cost of each requirement, requirements are baselined and prioritization is complete.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Stakeholders may reprioritize yet again as a result of learning the costs. Requirements are baselined once they're detailed and approved vs. costed",
+          "babok_refs": [
+            "5.3.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Stakeholders are sometimes rigid, and priorities are unlikely to shift as the context evolves and as more information becomes available.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Priorities may shift as context evolves",
+          "babok_refs": [
+            "5.3.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Prioritization is an assessment of absolute value. Each stakeholder may value something different.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Prioritization is an assessment of relative value as each stakeholder may have different values",
+          "babok_refs": [
+            "5.3.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholders may intentionally indicate priority to influence the result to their desired outcome.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is one of the challenges of prioritization which is an element of the prioritize requirements task",
+          "babok_refs": [
+            "5.3.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "You have been asked to facilitate a workshop to rank requirements to determine their relative importance to stakeholders. Prior to the workshop you prepare by understanding regulatory statutes, contractual obligations, and business policies that may define priorities. Which of the following guidelines are you using?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business assumptions",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a guideline or tool in the BABOK",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Governance approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The governance approach outlines the approach for prioritizing requirements",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Change strategy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This guideline in the prioritize requirements task provides information on costs, timelines, and value realization which are used to determine priority of requirements",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business constraints",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the definition of business constraints as documented as a guideline and tool in the prioritize requirements task",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following would dictate to a business analyst which stakeholders to involve in reviewing and approving requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Whoever the sponsor has designated will sign off",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This can be true in certain organizations, depending on their organizational processes and methodologies, but it should be documented in the stakeholder list with roles and responsibilities.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A stakeholder list with roles and responsibilities",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The stakeholder list and roles and responsibilities will provide information on who will approve requirements",
+          "babok_refs": [
+            "5.5.7",
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Sponsor, project manager, tester, business analyst, and business architect are all neeed",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This can be true in certain organizations, depending on their organizational processes and methodologies but should be documented in the stakeholder list with roles and responsibilities. Business Architect is not a defined BABOK role.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Sponsor, project manager, and quality assurance are all needed",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This can be true in certain organizations, depending on their organizational processes and methodologies but should be documented in the stakeholder list with roles and responsibilities. Besides, the BABOK uses the term \"tester\" and not \"quality assurance.\"",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "What are the key types of relationships that the business analyst considers when defining the traceability approach?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business Value, Depends, Scalability, and Validate",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Depends and Validate are the only applicable relationships",
+          "babok_refs": [
+            "5.1.4.2."
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Effort, Depends, Necessity, Bi-directional Approach, and Value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Effort and Necessity are types of a Depends relationship, which is the only type of relationship in this list that is also listed in the BABOK",
+          "babok_refs": [
+            "5.1.4.2."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Deliver, Bi-direction, Analysis, Effort, Necessity, and Backwards Compatibility",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "None of these values relate to defining the traceability approach. Effort and Necessity are types of a Depends relationship",
+          "babok_refs": [
+            "5.1.4.2."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Derive, Depends, Satisfy, and Validate",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "5.1.4.2."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Who in an organization would be most interested in re-usable requirements and why?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sponsors because future projects would be less expensive if requirements could be re-used.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Tempting answer. There may be some practical benefit to this, but the BABOK does not mention it.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Project managers who will be able to complete projects faster in the future if they could utilize and extend any re-usable requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There may be some practical benefit to this, but the BABOK does not mention it.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Other business analysts or stakeholders may be interested because future projects may utilize and extend any re-usable requirements.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Requirements that are candidates for long-term use by the organization are identified, clearly named, defined, and stored in a manner that makes them easily retrievable by other stakeholders. Depending on the level of abstraction and intended need being addressed, requirements can be reused",
+          "babok_refs": [
+            "5.2.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Implementation SMEs because they will be able to reference the ongoing requirements on the job.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Implementation SMEs would use re-usable requirements for regression tests and impact analysis",
+          "babok_refs": [
+            "5.2.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "When requirements require a change, what are the key areas of impact that must be considered during the analysis of the requested change?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Benefit, cost, impact, schedule, and urgency",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These elements are listed in the BABOK as key areas to assess the impact of the change",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Schedule, cost, urgency, and Project Manager approval",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The impact of a change is not assessed based on the Project Manager's approval or non-approval of the change",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Benefit, resource allocation, and change strategy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only the impact on the benefit of the change is applicable",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Change control, high level estimate, prioritization, and approval",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The impact of a change is not assessed based on the Change Board's approval, non-approval, or prioritization of the change. Keep in mind that the right answer has to be applicable in all organizations, not all of which have such a Board",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "While assessing a change to a project requirement, Sianu is capturing the impact resolution. What is impact resolution?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A way to determine the formality of the assessment effort.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the definition for Assessment Formality",
+          "babok_refs": [
+            "5.4.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Analysis performed to assess or evaluate the effect of a change.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the definition for Impact Analysis",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An examination and resolution of the requirement relationships to determine which requirements will be impacted by a requested requirements change.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is the definition for Requirements Architecture, with a distracter of \"resolution\" substituting for \"analysis.\"",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "How all impacts and resolutions resulting from the change analysis are documented and communicated to all stakeholders.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the definition for Impact Resolution",
+          "babok_refs": [
+            "5.4.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "What happens to Marisa's requirement tracing efforts when the number of requirements or level of formality increases?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Go away",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The traceability effort never goes away no matter the number of requirements",
+          "babok_refs": [
+            "5.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Stay the same",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "More requirements and increased formality will require greater tracing effort from Marisa and it will not stay the same",
+          "babok_refs": [
+            "5.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Increase",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "More requirements and increased formality will require greater tracing effort from Marisa",
+          "babok_refs": [
+            "5.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Decrease",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Less formal and fewer requirements would support this option, but that is not what is happening to Marisa's project",
+          "babok_refs": [
+            "5.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "After prioritizing some requirements, Amanda provides a stakeholder with a list of those prioritized requirements. This stakeholder verifies that the prioritized requirements will provide value from an organizational perspective. Who is this stakeholder?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sponsor",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The Sponsor verifies the prioritized requirements from an organizational perspective for value",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "End User",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The End User verifies the prioritized requirements from an end-user perspective for value",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Implementation Subject Matter Expert",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Implementation SME verifies the prioritized requirements from a technical and interface perspective for value",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Customer",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Customer verifies the prioritized requirements from a customer perspective for value",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "When considering changes or additions to existing requirements, business analysts assess the impact of the proposed change by considering several aspects, among them being what will be gained by accepting the change. What aspect is this?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Urgency",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the considerations business analysts use to assess the impact of a proposed change but refers to the level of importance including the factors which drive necessity such as regulator or safety issues",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Schedule",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This one of the considerations business analysts use to assess the impact of a proposed change but refers to the impact to the existing delivery commitments if the change is approved",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Benefit",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is what is described in the scenario and is one of the considerations business analysts use to assess the impact of a proposed change",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Impact",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is one of the considerations business analysts use to assess the impact of a proposed change but refers to the number of customers or business processes affected if the change is accepted",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Maritza is a business analyst on a data strategy effort. Artifacts such as business models and business maps are created, reviewed, and approved individually without having to wait for the entire package. Which approach is being employed for this effort?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Strategic approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such approach in the BABOK",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Analytical approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such approach in the BABOK",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Predictive",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "With the predictive approach, approvals are typically done at the end of the phase or during planned change control meetings",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Adaptive approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Adaptive project approaches typically approve requirements when construction of a solution is ready to begin",
+          "babok_refs": [
+            "5.5.2",
+            "3.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following is an invalid statement about the approval of requirements?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Approval of requirements and designs may be formal or informal.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Depending upon the project approach, predictive approaches are typically formal while adaptive approaches are more informal",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Predictive approaches typically perform approvals at the end of the phase or during planned change control meetings.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Predictive approaches are more formal and controlled",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Project managers obtain approval by reviewing the requirements or changes to requirements with the accountable individuals.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is done by the business analyst",
+          "babok_refs": [
+            "5.5.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Adaptive approaches typically approve requirements just before construction and implementation of a solution begins.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements are typically approved right before development begins at the beginning of a sprint/iteration",
+          "babok_refs": [
+            "5.5.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "You are the business analyst for an on-line billing systems project. You have worked with several stakeholders that need different types of information related to assessing requirements changes. Which stakeholder would care the most about adherence to compliance standards?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Tester",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A tester will be concerned about the impact of the proposed changes on testing",
+          "babok_refs": [
+            "5.4.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Regulator",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A regulator will want to ensure all compliance standards have been followed",
+          "babok_refs": [
+            "5.4.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Operational Support",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Operational support will need to understand the nature of the change in the solution in order to support it",
+          "babok_refs": [
+            "5.4.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Project Manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A Project Manager will care about the impact of the change on the project, not adherence to compliance standards",
+          "babok_refs": [
+            "5.4.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following is NOT a consideration when approving requirements?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Conflict and issue management",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Conflict resolution and issue management are common occurrences while a BA is securing approvals",
+          "babok_refs": [
+            "5.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Governance approach",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not one of the elements for approve requirements task",
+          "babok_refs": [
+            "5.5.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Understand stakeholder roles",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Part of defining the approval process is understanding stakeholders' roles",
+          "babok_refs": [
+            "5.5.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Gain consensus",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "BAs are responsible for ensuring that the stakeholders understand and accept the requirements as prerequisites to their approval",
+          "babok_refs": [
+            "5.5.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Domain subject matter expert, implementation subject matter expert, and project team",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The Domain SME and Project team is not involved in prioritization",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Customer, implementation subject matter expert, sponsor, and project manager",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a subset of the stakeholders involved in requirements prioritization",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Quality assurance subject matter expert, Implementation subject matter expert, and project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "QA SME is an invented stakeholder type (and not involved in prioritization)",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Customer, end user, tester, and Project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Testers are not involved in prioritization",
+          "babok_refs": [
+            "5.3.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Domain SME, Customer, Sponsor",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These roles are all involved in the review and approval of requirements",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Domain SME, Sponsor, Project Manager",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is picky, but your real exam may be picky as well. The BABOK mentions Project Managers review solution scope and any changes to it. But, there is no mention of any other involvement by the PM in reviewing and approving requirements, which is what the question is asking. The others are correct",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Domain SME, Implementation SME, Tester",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Implementation SMEs need to understand how requirements and designs will be implemented in order to identify potential costs and risks. But, they are not listed as a stakeholder group who reviews and approves requirements. The others are correct",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Domain SME, End User, Sponsor",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is picky, but your real exam may be picky as well. End users are listed as a stakeholder group in the Approve Requirements task. They may review requirements, but are not cited as giving approval, which is what the question is asking. The others are correct",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Carrie is the business analyst in her organization that has several lines of business. The company is implementing a new solution, one line of business at a time. Carrie is ensuring requirements remain accurate and consistent throughout the change so they are relevant to future endeavors. What task is Carrie executing?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess requirements changes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Assess requirements changes evaluates the implications of proposed changes to requirements and designs. The question does not describe this task",
+          "babok_refs": [
+            "5.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Trace requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Trace requirements ensures requirements and designs at different levels are aligned to one another, and manages the effects of change to one level on related requirements. The question does not describe this task",
+          "babok_refs": [
+            "5.1.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Maintain requirements",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The purpose of maintain requirements is to retain requirement accuracy and consistency throughout and beyond the change during the entire requirements life cycle, and to support reuse of requirements in other solutions",
+          "babok_refs": [
+            "5.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Reuse requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such task in the BABOK.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

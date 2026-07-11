@@ -1,0 +1,1059 @@
+{
+  "exam_number": "30",
+  "exam_title": "Viewing Results for Drill, Exam #30 started on 2026-07-04 16:36:38",
+  "generated": "2026-07-05 14:54",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements is NOT true regarding the benchmarking and market analysis technique?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Benchmarking identifies why similar companies are successful and what processes they used to become successful.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is one of the strengths listed in the BABOK",
+          "babok_refs": [
+            "10.4.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Market analysis can be time-consuming and expensive, and the results may not be immediately available.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the listed limitations in the BABOK",
+          "babok_refs": [
+            "10.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Market analysis can help determine if partnering, merging, or divesting are viable alternatives for an enterprise.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Market analysis may be used to determine if partnering,merging, or divesting are viable alternatives for an enterprise",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Benchmarking produces innovative solutions that produce sustainable competitive advantage.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not true. Benchmarking is not innovative.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are a new hire in a financial institution and have been assigned to the Operations Release project. You want to reinforce the positive experience and successes of the previous releases, so you seek to review the lessons learned, but there is no documentation. The following would be challenges that may hinder project teams carrying out the lessons learned process. Which one is LEAST likely to be a reason?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The business analyst may be involved in more than one project and may not have enough time for this process.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Sounds true, but it is not a listed limitation making this the correct answer",
+          "babok_refs": [
+            "10.27.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Honest discussion may not occur if participants try to assign blame during these sessions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True. This is one of the limitations of lessons learned.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Participants may be reluctant to document and discuss problems.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True. This is one of the limitations of lessons learned.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Proactive facilitation may be required to ensure that the discussions remain focused on solutions and improvement opportunities.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "True. This is one of the limitations of lessons learned.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Brainstorming would be the most suitable technique for uncovering requirements in which of the following situations?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Add detail to the current process flow for work order transmittals through the warehouse.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "In this situation, detail is best added through interviewing or observing an individual or small group. Brainstorming's purpose is to produce numerous new ideas and to foster creative thinking about a problem",
+          "babok_refs": [
+            "10.5.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Determine the appropriate format for communication of business analysis information.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "In this situation the format for communication is a matter of stakeholder preference and is better discussed with individual stakeholders. Brainstorming's purpose is to produce numerous new ideas and to foster creative thinking about a problem.",
+          "babok_refs": [
+            "10.5.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conduct a workshop with managers from similar functional units across dispersed locations in an attempt to find process improvement opportunities.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Brainstorming is an excellent way to foster creative thinking about a problem. The aim of brainstorming is to produce numerous new ideas, and to derive from them themes for further analysis. In this situation, brainstorming would be appropriate to uncover creative opportunities",
+          "babok_refs": [
+            "10.5.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Identify dependencies between requirements for traceability purposes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not applicable. Brainstorming's purpose is to produce numerous new ideas and to foster creative thinking about a problem",
+          "babok_refs": [
+            "10.5.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which two elicitation techniques are best for confirming stated requirements and stakeholder concerns?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Observation and reviews",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviews, document analysis, reviews, and workshops are listed as techniques for the confirm requirements task",
+          "babok_refs": [
+            "4.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Interviews and observation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviews, document analysis, reviews, and workshops are listed as techniques for the confirm requirements task",
+          "babok_refs": [
+            "4.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Interviews and focus groups",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviews, document analysis, reviews, and workshops are listed as techniques for the confirm requirements task",
+          "babok_refs": [
+            "4.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops and interviews",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Interviews, document analysis, reviews, and workshops are listed as techniques for the confirm requirements task",
+          "babok_refs": [
+            "4.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following building blocks contained within a business model canvas would NOT be considered when working to provide strategic insight to a new client?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Profitability.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not one of the nine building blocks represented within a business model canvas",
+          "babok_refs": [
+            "10.8.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Cost structure.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a building block represented within a business model canvas.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Value proposition.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a building block represented within a business model canvas.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Key partnerships.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a building block represented within a business model canvas.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Declan has just completed requirements analysis and design. A stakeholder who has not been involved in the requirements elicitation process appears and presents his concerns about the proposed solution. Which technique would have prevented this scenario?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Risk analysis is concerned with identifying risks resulting from stakeholder behavior towards the initiative or the inability of key stakeholders to participate in the initiative",
+          "babok_refs": [
+            "10.38"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Stakeholder maps",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Stakeholder maps, in particular onion diagrams, depict the relationship of stakeholders to the solution and to one another. In relating the solution to the stakeholders, Declan would have realized there was a missing stakeholder",
+          "babok_refs": [
+            "3.2.6",
+            "10.43.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Brainstorming",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Brainstorming is useful for generating the stakeholder list but may not relate the solution to the stakeholders",
+          "babok_refs": [
+            "3.2.6",
+            "10.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organizational modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Organizational modeling helps in identifying unique stakeholders needs, but may not map those needs to the solution",
+          "babok_refs": [
+            "3.2.6",
+            "10.32"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Roma is a business analyst, working on an upgrade of payroll system for employees. As part of discovering needs about the revised housing allowance part of the salary component, Roma has arranged for requirement elicitation sessions with relevant stakeholders having knowledge in this domain. Which elicitation technique Roma should use here to get the best result as per her plan?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Survey",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "As survey is conducted to collect information from multiple stakeholders from diversified business groups and within short period of time. This context of the question is not related to this",
+          "babok_refs": [
+            "4.2.6",
+            "10.45"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Interview",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "As interviewing each relevant stakeholders individually from a specific business group is time consuming. So, Focus Group technique is a better choice in this context",
+          "babok_refs": [
+            "4.2.6",
+            "10.25"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Workshop",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "As workshop is conducted where there is a need to collect information from stakeholders of multiple cross-functional business groups and within is short period of time. This context of the question is not related to this",
+          "babok_refs": [
+            "4.2.6",
+            "10.50"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Focus Group",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Focus Groups are used for identifying needs, understanding ideas from a particular group of stakeholders. As this context is related to a specific topic, so business analyst should check for information from a specific group of stakeholders from the specific business group in the organization",
+          "babok_refs": [
+            "4.2.6",
+            "10.21"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which are the following steps are completed during an active brainstorming session?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Elicit as many ideas as possible; discuss and evaluate ideas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Discussing and evaluating ideas are done subsequent to an active brainstorming session. BABOK Figure 10.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Elicit as many ideas as possible; rate ideas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Rating ideas is done subsequent to an active brainstorming session. BABOK Figure 10.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Share ideas; rate ideas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Rating ideas is done subsequent to an active brainstorming session. BABOK Figure 10.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Share ideas; build on others' ideas.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are two components along with record ideas and elicit as many ideas as possible. BABOK Figure 10.5.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following techniques is the most useful to understand the current state of the enterprise?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "AS IS analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a stated technique in the BABOK",
+          "babok_refs": [
+            "6.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "GAP analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a technique in the BABOK",
+          "babok_refs": [
+            "6.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Decision modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a stated technique for the analyze current state task",
+          "babok_refs": [
+            "6.1.6",
+            "10.17"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This technique is used in the analyze current state task to break down complex systems or relationships in the current state",
+          "babok_refs": [
+            "6.1.6",
+            "10.22"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "One of Jerry's coworkers stops by his desk and asks him what he is doing. Jerry says that he is performing document analysis by reviewing the procedure manual that was given to him by his stakeholder. Jerry's coworker states that he is not performing document analysis unless he also reviews the statement of work, a manual created by another stakeholder, and the customer suggestion log. Who is right, Jerry or his coworker - which of the following best describes the situation?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Jerry is correct. He is performing document analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Document analysis is an examination of the documentation of an existing system in order to elicit requirements. Reviewing even just one document qualifies as performing the technique. Document analysis has no specific documents prescribed. BABOK Glossary and 10.18",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Jerry's coworker is correct. Jerry is not performing document analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reviewing even just one document qualifies as performing the technique. BABOK Glossary and 10.18",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Neither is correct. Jerry is preparing for elicitation.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Jerry is performing document analysis. However, he may be performing document analysis as a component of preparing for elicitation! BABOK Glossary and 10.18",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Jerry is partially correct. If he reviews the other available manual he will be performing document analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reviewing even just one document qualifies as performing the technique. BABOK Glossary and 10.18",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Sooni and Arafrin are new to business analysis. They are trying to understand the elements in a concept model. Arafrin thinks that a noun concept is the same thing as a role and a verb concept is the same as a partitive connection. Sooni disagrees and explains the real difference. How does Sooni explain the difference between noun and verb concepts in a concept model?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Noun concepts are tangible while verb concepts describe the actions performed by nouns.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Verb concepts provide the connections between the noun concepts.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Noun concepts are the most basic concepts in the model and verb concepts make connections between them.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The most basic concepts in a concept model are the noun concepts of the domain, which are simply 'givens' for the space-- Verb concepts provide basic structural connections between noun concepts",
+          "babok_refs": [
+            "10.11.3.1.",
+            "10.11.3.1",
+            "10.11.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Sooni is incorrect. There are no noun and verb concepts in a concept model.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Noun and verb concepts are two elements of a concept model.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Both noun and verb concepts must be present in a concept model.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True but doesn't express the difference between them, which is what question is asking.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following activities is NOT suitable for eliciting information using the observation technique?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Evaluating knowledge-based activities.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Not suitable for evaluating knowledge-based activities since these are not directly observable",
+          "babok_refs": [
+            "10.31.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Recommendations for improvement supported by objective and quantitative evidence.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Observation is suitable for this activity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Informal tasks and workaround identification.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Observation is suitable for this activity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Eliciting information when there is no written documentation.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Observation is suitable for this activity.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a BA who recently worked on an effort to improve one of the sales processes in her organization, Christine received a number of inquiries from the call center about issues with the automated Daily Sales by Region reports. Although no new automation accompanied the change in process, she was asked to look into the issue. Christine's analysis showed that one of the sales assistants was inputting incorrect information into the system. What should Christine do next?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Track the identified problem to be sure it is resolved.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Christine needs to determine why incorrect information is being entered. However, before analyzing the cause, Christine needs to track the problem (item tracking) and determine the best way to resolve it",
+          "babok_refs": [
+            "8.3.6",
+            "10.26"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Analyze the automated system to see if incorrect information could be edited out so it is not allowed to be entered into the system.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be done, but not until the problem is tracked, its cause identified, and a resolution approved.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Model the sales data to ensure that accurate data is being entered.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Modeling the sales data cannot ensure that accurate data will be entered.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Conduct a requirements workshop to analyze the sales process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is seemingly irrelevant at this stage.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Tim is performing a risk analysis within the context of a business capability analysis. Which risk categories would likely be used to organize identified risks?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business, technology, market",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These, along with \"organizational\" characterize typical business categories of risk",
+          "babok_refs": [
+            "10.6.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business, technology, vendor",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "\"Vendor\" is not a typical business category of risk.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Process, organizational, market",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "\"Process\" is not a typical business category of risk.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Technology, vendor, organizational",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "\"Vendor\" is not a typical business category of risk.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "An up and coming financial institution is comparing its customer relations performance with respect to its competitors to identify best practices. What technique is the institution using?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Brainstorming.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Does not deal with comparing competitors, but rather an excellent way to foster creative thinking with the intention of producing broad or diverse set of options",
+          "babok_refs": [
+            "10.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Benchmarking and market analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Metrics and key performance indicators.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique does not involving comparing market trends",
+          "babok_refs": [
+            "10.28"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Vendor assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique assesses the ability of a vendor to meet commitments regarding the delivery and the consistent provision of a product or service",
+          "babok_refs": [
+            "10.49"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements best describes a business capability?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The ability of an enterprise to hire personnel with the desired skillset.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be a capability but does not provide a general description of a business capability",
+          "babok_refs": [
+            "10.6.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The ability of an enterprise to perform or transform something that helps achieve a business goal or objective.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "In addition, capabilities describer the purpose or outcome of the performance transformation, not how the transformation is performed",
+          "babok_refs": [
+            "10.6.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The ability of an enterprise to standardize practices therefore maintaining a stable environment with predictable results.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an invented answer",
+          "babok_refs": [
+            "10.6.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The ability of an enterprise to adapt to changing requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be a capability but does not provide a general description of a business capability",
+          "babok_refs": [
+            "10.6.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Gary is a lead business analyst and he and his team are working on a project to reroute a public bike path. They have identified, analyzed, and evaluated twenty risks on the proposed solution. What would be the next logical step for Gary and his team?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Risk mitigation.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is one of the treatments. There are other treatments. Hence not all inclusive answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Assess the probability of the risk occurring.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a part of risk analysis.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Determine the approach to address the risk.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a description of the term \"treatment\", which is the next element after identification, analysis and evaluation",
+          "babok_refs": [
+            "10.38.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Assess the impact to the project should the risk occur.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a part of risk analysis.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements is accurate about the financial analysis technique?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The lower the ROI, the better the investment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The opposite is true",
+          "babok_refs": [
+            "10.20.3.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Financial analysis allows executive decision makers to objectively compare very different investments from different perspectives.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "True, this is an advantage of financial analysis",
+          "babok_refs": [
+            "10.20.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Because financial analysis is forward looking, there will be no uncertainty about expected costs and benefits.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not true, there will always be uncertainties",
+          "babok_refs": [
+            "10.20.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Positive financial numbers represent a thriving business.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not true; the financials are just one part of the story",
+          "babok_refs": [
+            "10.20.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Observation is used by business analysts to elicit information by viewing and understanding activities and their context. A clear and specific objective establishes a defined purpose of the observation session. The following are possible objectives for observing an activity. Which one is LEAST likely?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Rating and appraising the observed.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Not usually used for employed appraisal (especially by BAs!)",
+          "babok_refs": [
+            "10.31.3.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Identifying opportunities for improvement.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a stated purpose.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Assessing solutions and validating assumptions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a stated purpose.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Establishing performance metrics.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a stated purpose.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which diagram is fundamental to organizational modeling?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Organizational chart.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.32.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Matrix model.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a type of an organization model.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Market-oriented model.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a type of an organization model.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Organizational interfaces.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes interactions with other organizational units; it is not a diagram",
+          "babok_refs": [
+            "10.32.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

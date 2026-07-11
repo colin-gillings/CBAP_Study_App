@@ -1,0 +1,1090 @@
+{
+  "exam_number": "32",
+  "exam_title": "Viewing Results for Drill, Exam #32 started on 2026-07-05 00:59:55",
+  "generated": "2026-07-05 17:47",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What is the role of the scribe in workshops?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Documents decisions in the format determined prior to the workshop, keeps track of items in the parking lot, and ensures all discussions stay on track.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This describes the role of the scribe but ensuring all discussions stay within the time limits is one of the responsibilities of the facilitator",
+          "babok_refs": [
+            "10.50.3.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To take minutes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is how you may define the role in your organization but the BABOK describes the role as \"documenting the decisions in the format determined prior to the workshop and keeping track of any items or issues that are deferred during the session.\"",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Documents decisions in the format determined prior to the workshop, keeps track of items in the parking lot, and tracks the time spent on each agenda item.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes the role of the scribe but tracking the time spent on each agenda item is the responsibility of the timekeeper",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To document the decisions in the format determined prior to the workshop and keep track of any items or issues that are deferred during the session.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the definition of the scribe's role in a workshop",
+          "babok_refs": [
+            "10.50.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are conducting a lessons learned session for the previous phase of a project so that the next phase can be even better. Brent is a developer who begins raising his voice and pointing fingers at the end users who \"change their minds all of the time and don't have a clue as to what they need!\" What would be the best way to handle this situation?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Tell Brent that finger pointing will not be tolerated during the meeting.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This will potentially embarrass Brent and will stop him (and perhaps others) from honestly sharing. Proactive facilitation may be required to ensure that the discussions remain focused on solutions and improvement opportunities",
+          "babok_refs": [
+            "10.27.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Agree with Brent; after all, he's absolutely right.! The end users did cause the team a ton of rework during the last phase of the project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The team's conversation should revolve around what the TEAM could have done differently. Proactive facilitation may be required to ensure that the discussions remain focused on solutions and improvement opportunities. Were requirements missed? Were the \"right\" stakeholders included as part of the requirements elicitation process?",
+          "babok_refs": [
+            "10.27.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Ignore his comment hoping that he will calm down. After all, you don't want to fuel the fire.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Ignoring his comment will probably lead to additional and even louder comments. Proactive facilitation may be required to ensure that the discussions remain focused on solutions and improvement opportunities",
+          "babok_refs": [
+            "10.27.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Acknowledge Brent's frustration and assure him that the team would like to hear more details.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "In addition, either refer back to the meeting ground rules that speak to \"no finger pointing\" or if ground rules were not developed, take the opportunity to do so with the meeting participants. Although the BABOK doesn't address this directly, it is general meeting facilitation best practice. The BABOK does say that if participants try to assign blame that honest discussion may not occur",
+          "babok_refs": [
+            "10.27.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Renee is a senior BA assigned to a project involving electronic health records. Renee has never worked on a project in the medical field before but was confident in her ability to elicit stakeholder and solution requirements through interviews. After the interviews, she confirmed the results with interviewees, specified and modeled the requirements, assembled a requirements package, and communicated them to the project team who informed her they were incomplete and asked her to \"try again\" and make it snappy! What went wrong?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Renee didn't have adequate knowledge of the domain to conduct quality interviews.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The level of understanding of the domain by the interviewer is a critical success factor for successful interviews",
+          "babok_refs": [
+            "10.25.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Renee didn't assemble the requirements package with a technical audience in mind.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence of that in the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Renee failed to establish rapport with her interviewees.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence of that in the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Renee most likely didn't ask enough open-ended questions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Open-ended questions can help uncover information of which the interviewer is unaware so this is a close answer, but there is no evidence of that in the scenario.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You have just completed your requirements workshop. Who should be involved with capturing the elicitation outcomes from the workshop?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business analyst",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the only resource listed",
+          "babok_refs": [
+            "4.2.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business analyst and project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Per the BABOK, no other resource than the BA is specified for capturing elicitation outcomes",
+          "babok_refs": [
+            "4.2.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analyst and scribe",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Per the BABOK, no other resource than the BA is specified for documenting elicitation outcomes",
+          "babok_refs": [
+            "4.2.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business analyst, project manager, and scribe",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Per the BABOK, no other resource than the BA is specified for capturing elicitation outcomes",
+          "babok_refs": [
+            "4.2.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are a BA working to define your overall business analysis approach. You are documenting stakeholder concerns and risks that are raised during discussions when building the approach. What technique are you using?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Meeting notes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Meeting notes are not a stated technique",
+          "babok_refs": [
+            "3.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point you are just documenting risks vs. assessing them",
+          "babok_refs": [
+            "3.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Brainstorming",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "You are documenting risks and concerns that are raised during discussions vs. specifically brainstorming items in those categories",
+          "babok_refs": [
+            "3.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Item tracking",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Item tracking is used to track any issues or risk-related items raised during planning activities",
+          "babok_refs": [
+            "3.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "ABC College has been receiving a lot of complaints on the time it takes to apply and register for courses. You have been hired on as the business analyst on the process improvement project to help reduce the time it takes to complete this task. You have constructed process models of the current state to provide understanding and agreement as to what happens now. What is the most logical next step?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Process analysis.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Process modeling is a foundation for process analysis",
+          "babok_refs": [
+            "10.35.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Activity diagram.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Activity diagram is a process modeling diagram and process modeling is already done",
+          "babok_refs": [
+            "10.35.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Analyze cycle time data.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point there may be no data available for analysis. The next logical step is to understand the current processes and to identify opportunities for improvement in those processes.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Value stream mapping(VSM).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be a good next step but this answer is too specific. Always look for the most representative answer.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are in the process of selecting people to participate in a particular elicitation event. You are considering whether the type of questions will be open-ended or closed-ended. You are also considering the best mode of distribution. Which technique are you likely planning?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Interview",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The distribution mode is not a relevant element for an interview",
+          "babok_refs": [
+            "10.25.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Focus group",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Questions are open-ended in a focus group and the distribution mode is not a relevant element",
+          "babok_refs": [
+            "10.21.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Workshop",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The distribution mode is not a relevant element for an workshop",
+          "babok_refs": [
+            "10.50.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Survey or questionnaire",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Defining the target survey group, choosing the appropriate survey type, along with the distribution mode are all stated elements for surveys or questionnaires",
+          "babok_refs": [
+            "10.45.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Sarah documented what circumstances must be in place prior to the steps outlined in a use case she was creating. What term addresses what Sarah was documenting?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Precondition",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.47.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Boundaries",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Pre and post conditions define the boundaries of the use case, so while this is partially correct, it is does not answer the question.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Alternative flow",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An alternative flow describes a scenario or other path that could be followed to arrive at the post-condition, but which is different from the primary or \"happy\" path. One can think of an alternative flow as a slight \"detour!\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Post condition",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This term describes what is true when the use case is completed.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Kyle is a BA negotiating a service level agreement (SLA) with a customer associated with a new product currently in development. What type of requirement is Kyle negotiating?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Non Functional",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Non-functional requirements define how well the functional requirements must perform",
+          "babok_refs": [
+            "10.30.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "SLAs are a type of non-functional requirement. Solution requirements include functional requirements",
+          "babok_refs": [
+            "10.30.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Transition",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "SLAs are a type of non-functional requirement",
+          "babok_refs": [
+            "10.30.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Functional",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "SLAs are a type of non-functional requirement",
+          "babok_refs": [
+            "10.30.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Finn wants to ensure key stakeholders have a unified vision of a business solution. He has decided to facilitate a session during which participants will construct a product box. What elicitation technique is Finn using?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Prototyping",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A product box is an example of a collaborative game, not prototyping.  and Table 10.10.1",
+          "babok_refs": [
+            "4.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Workshop",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Finn is conducting a workshop but is utilizing a specific technique within the workshop called a collaborative game.  and Table 10.10.1",
+          "babok_refs": [
+            "4.5.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Collaborative games",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A product box is a collaborative game during which participants construct a box for the product as if it was being sold in a retail store.  and Table 10.10.1",
+          "babok_refs": [
+            "4.5.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Mind mapping",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A product box is an example of a collaborative game, not mind mapping.  and Table 10.10.1",
+          "babok_refs": [
+            "4.5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique would help Gary categorize his stakeholders by the systems that support their business processes?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Brainstorming",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Brainstorming is not a good technique for categorizing stakeholders. It is primarily used to identify stakeholders and their roles and responsibilities",
+          "babok_refs": [
+            "3.2.6",
+            "10.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Process modeling",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Process models help identify what stakeholder groups engage in the process",
+          "babok_refs": [
+            "3.2.6",
+            "10.35"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "System processing",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such technique in the BABOK",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organizational modeling",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Organizational models describe the roles and functions in the organization and the ways in which stakeholders interact",
+          "babok_refs": [
+            "3.2.6",
+            "10.32"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following best qualify as a \"value attribute\" for acceptance criteria?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Pass or Fail.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Represents a general way of expressing test results for acceptance criteria. BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Performance.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Solution Value ranking.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A way of expressing the results when measuring several solutions utilizing evaluation criteria. BABOK Figure 10.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Made up answer!",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "The lead business analyst has assigned you to create a requirements model that would help the project team understand roles, responsibilities, and their relationship not only within an organization, but to a solution. Which of the following is NOT a technique the BA could utilize to accomplish this task?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Organization chart.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not a listed technique related to this task in the BABOK",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Roles and permissions matrix.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a listed technique related to this task in the BABOK. Roles and Permissions Matrix is used to ensure coverage and allocation of solution activities by identifying roles, denoting role responsibilities, discovering any missing roles, and determining roles to communicate results of a planned change.  & 7.1.6",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholder list, map, or personas.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a listed technique related to this task in the BABOK. The Stakeholder List, Map, or Personas is used to identify the stakeholders and their characteristics.  & 7.1.6",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organization modeling.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a listed technique related to this task in the BABOK. Organizational modeling is used to allow business analysts to model the roles, responsibilities, and communications within an organization.  & 7.1.6",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "BA's level of understanding programming technologies, BA's interviewing skill, interviewee's readiness to provide information, interviewee's clarity regarding the goal of the interview.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Understanding programming technology is not required by the BA",
+          "babok_refs": [
+            "10.25.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "BA's interviewing skill, interviewee's readiness to provide information, interviewee's clarity regarding the goal of the interview, interviewee's expertise in user interface design, BA and interviewee rapport.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviewee expertise in interface design is not required",
+          "babok_refs": [
+            "10.25.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "BA's level of understanding of the domain, BA's presentation skills, interviewee's readiness to provide information, interviewee's clarity regarding the goal of the interview, BA and interviewee rapport.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Presentation skills are not relevant to interviews in general",
+          "babok_refs": [
+            "10.25.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "BA's level of understanding the business, BA's interviewing skill, interviewee's readiness to provide information, interviewee's clarity regarding the goal of the interview, BA and interviewee rapport.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are the factors the BABOK lists for interviewing success",
+          "babok_refs": [
+            "10.25.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are reviewing several documents in preparation for eliciting requirements. One document describes the rationale for and the benefits of the solution from the business point of view. What document is this?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Vision statement",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A vision statement describes the high level goals of the organization or enterprise. It does not include the rationale for and benefits of the recommended solution",
+          "babok_refs": [
+            "11.1.2.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Project charter",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK refers to \"Needs\" as an input to preparing for elicitation but does not refer to a project charter, which is a project initiation document",
+          "babok_refs": [
+            "4.1.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Feasibility study",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Feasibility determines whether or not the recommended solution is viable. It does not address the rationale for and benefits of the solution. BABOK Glossary",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Business case",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The business case includes the need, desired outcome, recommended solution, and value estimates related back to strategic goals and objectives",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Financial analysis and value assessment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close but there is a better answer; this response is at a solution level.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Recommended solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The solution is not a \"factor.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Feasibility and scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Feasibility is irrelevant and scope is at the solution level and therefore not a \"factor.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Assumptions, risks, and constraints.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following statements is true about the focus group technique?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Results of focus groups are direct inputs to functional decomposition.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Focus groups are a means to elicit ideas and opinions about a specific product.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "A form of quantitative research.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not true. It's a form of qualitative research",
+          "babok_refs": [
+            "10.21.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A form of qualitative research.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.21.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A form of a systematic group interview to create formal requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Its purpose is not to create requirements but to understand perspectives and attitudes about a given topic or product.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Omar has been researching a business problem for several days trying to understand why it happened. What is Omar performing?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This occurs after the problem is fully identified",
+          "babok_refs": [
+            "6.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Decision analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Decision analysis supports making decisions, not understanding why problems occurred",
+          "babok_refs": [
+            "6.1.6",
+            "10.16"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Root cause analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Root cause analysis is used to identify and evaluate the underlying causes of a problem",
+          "babok_refs": [
+            "6.1.6",
+            "10.40"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Defect analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not a term used in the BABOK",
+          "babok_refs": [
+            "6.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "A conflict may arise among stakeholders as a result of different interpretations of requirements or designs and conflicting values placed on them. Which technique would you use to resolve issues and gain agreement?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Decision analysis",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Decision analysis examines the possible consequences of alternative outcomes and so is a valuable tool for resolving issues and gaining agreement",
+          "babok_refs": [
+            "5.5.6",
+            "10.16"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Acceptance and evaluation criteria",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to define the approval criteria",
+          "babok_refs": [
+            "5.5.6",
+            "10.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Item tracking will track issues identified during the agreement process but not resolve them",
+          "babok_refs": [
+            "5.5.6",
+            "10.26"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Workshops may be held with relevant stakeholders to facilitate obtaining approval of requirements and designs",
+          "babok_refs": [
+            "5.5.6",
+            "10.50"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "How is the technique of risk analysis and management used in the plan stakeholder engagement task?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Used to analyze stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes stakeholder analysis",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Used to identify risky stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Risk analysis and management is used to identify risks associated with stakeholders vs. risky stakeholders",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Used to identify risks associated with stakeholder activities and engagement level",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Close but the BABOK does not cite stakeholder activities and overall engagement level",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Used to identify risks resulting from stakeholder attitudes",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "In addition, this technique is used to identify the inability of key stakeholders to participate in the initiative",
+          "babok_refs": [
+            "3.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

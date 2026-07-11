@@ -1,0 +1,1331 @@
+{
+  "exam_number": "24",
+  "exam_title": "Viewing Results for Drill, Exam #24 started on 2026-06-29 07:18:59",
+  "generated": "2026-06-30 00:19",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization has delayed replacing the operating system for employees' computers for years due to the costs associated with the change. Microsoft stopped supporting the operating system and employee productivity has suffered as repairs are delayed, if they happen at all. A BA recommends that the operating system be retired and replaced with the latest and greatest. Which of the following financial factors carried the most weight in the recommendation?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Ongoing cost vs initial investment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partly true as it more expensive to maintain than replace the solution component",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Opportunity cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This represents the potential value that could be realized by pursuing a different course of action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Necessity",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The solution component is obsolete and next to impossible to maintain",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Sunk cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes the money and effort already expended on an initiative",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the term which describes the discrepancy between expected and actual performance?",
+      "your_answer": "a",
+      "image_link": "/graphics/24_02.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Variance",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Known errors",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is term many IT organizations use to describe a problem for which a root cause has been discovered. Though you may use it in your organization, the BABOK does not.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Error",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Many organizations calls defects \"errors\"; see explanation for answer \"a.\"",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Defect",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Any result over 4 minutes may be considered a defect but the \"discrepancy\" between expected and actual results has another term.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Requirements change assessment is an output of which of the following tasks?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess capability gaps",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a BABOK task",
+          "babok_refs": [
+            "5.4.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Approve requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Approve requirements outputs are requirements (approved) and designs(approved)",
+          "babok_refs": [
+            "5.5.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Requirements change assessment",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The name of the task is \"assess requirements changes.\"",
+          "babok_refs": [
+            "5.4.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Assess requirements changes",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Designs change assessment is the second output of this task",
+          "babok_refs": [
+            "5.4.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Just prior to the launch of a new system, Heidi is hearing a fair amount of grumbling from end-users about the solution. Heidi recommends delaying the deployment of the system until she can perform an enterprise culture assessment. The sponsor initially rejects that recommendation. What rationale might convince the sponsor to delay deployment?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The assessment will save money in the long run.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True, but not enough information to support the recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The assessment will help the sponsor understand how various stakeholder groups will be impacted so that needs can be proactively addressed, thus paving the way to faster acceptance of the solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is describing a Stakeholder Impact Analysis vs. an Enterprise Culture Assessment.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "It will allow the BA to identify which processes and tools within the enterprise will support the solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes more of an Operational Assessment which isn't correlated to attitudes or beliefs (which is what \"grumbling\" is typically aligned to).",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "The assessment will reveal how widespread and deep the grumblings are so that communications can be targeted in a way so that stakeholders will accept the solution.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Jillian works in the IT department at a financial institution. She is responsible for ensuring that requirements and designs are supportable within the constraints imposed by technology standards and organizational capability plans. She may also have a role in reviewing and approving requirements. What type of stakeholder is Jillian?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Operational support",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The scenario presented this role's responsibilities for the task of approve requirements",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Sponsor",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sponsors are responsible to review and approve the business case, solution or product scope, and all requirements and designs",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Domain subject matter expert",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The domain SME is involved in the review and approval of requirements and designs as defined by stakeholder roles and responsibilities designation",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Regulator",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Regulators are responsible for providing opinions on the relationship between stated requirements and specific regulations, either formally in an audit or informally as inputs to requirements life cycle management tasks",
+          "babok_refs": [
+            "5.5.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "As the business analysis activity advances during an initiative, major budgetary constraints suddenly arise. The sponsor asks the team to focus their effort only on the most critical requirements. What should the Business Analyst do?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Validate Requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Validate Requirements ensures that a set of requirements or designs delivers business value and supports the organization's goals and objectives",
+          "babok_refs": [
+            "7.3.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Prioritize Requirements",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The purpose of Prioritize Requirements is to rank requirements in the order of relative importance",
+          "babok_refs": [
+            "5.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Verify Requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Verify Requirements ensures that a set of requirements or designs has been developed in enough detail to be usable by a particular stakeholder, is internally consistent, and is of high quality",
+          "babok_refs": [
+            "7.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Organize Requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Organize Requirements is a task name from  The 3.0 task is Define Requirements Architecture, and it is the process of placing requirements into structures relevant to different stakeholders",
+          "babok_refs": [
+            "2.0.",
+            "7.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Susan is in the process of evaluating the implications of proposed changes to requirements and designs. She consults with knowledgeable stakeholders to fully understand the proposed change in relationship to the business. Which guideline is Susan observing?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements architecture",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus of this guideline in the assess requirements changes task is the impact a proposed change will have on other requirements",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The focus of this guideline in the assessments requirements changes task is to fully understand the impact of the proposed change on the solution vs. the business",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Domain knowledge",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Knowledge of and expertise in the business domain is needed to assess proposed requirements changes",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Impact analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a stated guideline in the BABOK. During the assess requirements changes task, the business analyst performs an impact analysis to fully understand the ramifications the change would have on other requirements, the business, and the solution itself",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following statements is NOT true about the prioritization of requirements?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Priority can refer to the relative value of a requirement, or to the sequence in which it will be implemented.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Priority can be relative to the stakeholders engaging in the activity",
+          "babok_refs": [
+            "5.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Prioritization is an ongoing process, with priorities changing as the context changes.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Prioritization is a dynamic process",
+          "babok_refs": [
+            "5.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Solution scope is not considered when prioritizing requirements.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Solution scope is considered during the prioritization process to ensure the scope is managed, making this the correct answer",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "When a requirement is prioritized, it is given greater or lesser priority.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the essence of prioritization",
+          "babok_refs": [
+            "5.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Lucas is a BA on a high profile project. He has determined that that the solution is consistently or repeatedly producing ineffective outputs. What should Lucas do in order to address the source of the problem?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business rules analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique may be used to illustrate the changes needed to achieve potential value of the change, but only after the source of the problem is identified",
+          "babok_refs": [
+            "8.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Impact assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This will not get at the source of the problem, only the impact it has on the value of the solution",
+          "babok_refs": [
+            "8.3.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Problem analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This approach will identify root cause and issues that contribute to the creation of the ineffective results",
+          "babok_refs": [
+            "8.3.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Cultural assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is performed to determine if and what cultural changes are required to better realize value from a solution",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Katelyn is a BA who has recommended that she perform an enterprise cultural assessment to understand why stakeholders aren't using a new solution to the extent forecasted. Which of the following is the best way to define enterprise culture?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "They are the deeply rooted beliefs, values, actions, and norms shared by members of an enterprise.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Actions are not a part of the definition of enterprise culture.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "They are the deeply rooted beliefs, values, actions, thoughts, and norms shared by members of an enterprise.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Actions and thoughts are not part of the definition of enterprise culture.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "They are the deeply rooted beliefs, values, thoughts, and norms shared by members of an enterprise.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Thoughts are not a part of the definition of enterprise culture as culture is shared among members.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "They are the deeply rooted beliefs, values, and norms shared by members of an enterprise.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Which guideline and tools are leveraged to support assessing solution limitations?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Change strategy, risk analysis results, and solution scope",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis results, future state description, and solution scope",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Future state description is incorrect",
+          "babok_refs": [
+            "8.3.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Change strategy, risk mitigation results, solution scope implementation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Only change strategy is correct",
+          "babok_refs": [
+            "8.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Solution scope decomposition, risk mitigation analysis, and change management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "None of these are correct",
+          "babok_refs": [
+            "8.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Carl is a new BA who is anxious to align his activities to best practices and is trying to decide if the tasks in Strategy Analysis or Solution Evaluation knowledge area should be used for his current assignment. They appear to be so similar. He asks his BA coach how to discern which to use. Which of the following pieces of guidance is the most straightforward?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Well, that depends. Is your focus on a business problem or opportunity or on a solution that is either deployed, about to be deployed, or deployed as a pilot?",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a close second but isn't the most straightforward.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Use whatever you believe will provide the most value to your current assignment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not straightforward and somewhat erroneous guidance.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "If an actual solution exists, Solution Evaluation is probably more pertinent.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Take a look at the tasks, and then score your current assignment against those tasks. Use decision analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might work but is a long and laborious process.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Jake is evaluating an existing solution. He determines that the existing metrics can't be considered quality indicators and recommends modifications. He adds in his report that he does, however, consider them valid. What could lead Jake to his conclusion?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder expectations have changed and so the existing indicators aren't reliable.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This speaks to the validity of metrics.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The environment has changed and so the existing indicators aren't reliable.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This speaks to the validity of metrics.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "There seemingly aren't \"key\" performance indicators which every solution is required to have.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Existing indicators can't be considered reliable because they aren't collected frequently enough.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "While valid, quality metrics must also be reliable and timely",
+          "babok_refs": [
+            "10.28.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Which task of solution evaluation identifies root causes and describes how enterprise factors limit the solution's value realization?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess enterprise limitations",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Assessing enterprise limitations determines how factors \"external\" to the solution are restricting value",
+          "babok_refs": [
+            "8.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Measure solution performance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to define performance measure for evaluating the effectiveness of the solution, not not to identify root causes of limitations",
+          "babok_refs": [
+            "8.1.1",
+            "8.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Analyze potential value and recommend solution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a task in the Requirements Analysis and Design Definition knowledge area, not the Solution Evaluation knowledge area and does not identify root causes of solution limitations",
+          "babok_refs": [
+            "7.6",
+            "8.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Assess solution limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to determine factors \"internal\" to the solution that restrict the full realization of value, not to identify root causes of limitations",
+          "babok_refs": [
+            "8.3.1",
+            "8.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What did the bank neglect to take into consideration?",
+      "your_answer": "a",
+      "image_link": "/graphics/24_15.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The risk tolerance of stakeholders",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "In this case the risk analysis and management technique was apparently not done to assess the risks perceived by the customers of this process along with their tolerance level",
+          "babok_refs": [
+            "8.4.6",
+            "10.38"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The issue is outside of the scope of the internal solution.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Enterprise limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is correct but another answer is more specific to the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Cultural change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Cultural change takes time but in this case perhaps way too much time to realize value from the investment.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Anxious to persuade customers to give the new, secure technology a try, what could the BA do to help determine the appropriate remedy?",
+      "your_answer": "d",
+      "image_link": "/graphics/24_15.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops could be used to identify specific customer concerns and identify how to best address them but given the geographic location of the customers this option wouldn't be feasible.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This will not help determine the appropriate remedy.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholder impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might uncover concerns but another option may provide more or more relevant information.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Survey or questionnaire",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Sending a survey or questionnaire to members of the targeted customer segment would offer insight (if the questions were developed carefully)!  or 10.45",
+          "babok_refs": [
+            "8.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "The votes are in; customers mistrust this service and won't use it. The infrastructure costs over $500,000 per year to maintain. What will the BA most likely recommend?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Organizational change initiatives to promote trust and adoption.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This isn't cost effective and would take too much time given the market.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Maintain the infrastructure because the cost of rebuilding it in the future is less than maintaining it.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is pure speculation and not likely given the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Identify additional capabilities of the service.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option isn't plausible given the scenario.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Retire the solution.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The cost clearly outweighs the benefit",
+          "babok_refs": [
+            "8.5.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What are ALL of the core concepts used in Solution Evaluation?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Change, need, solution, context, validation, stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "BABOK Table 8.0.1. All the core concepts are used in each knowledge area. Validation is not a core concept.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Change, need, solution, context, value, stakeholders.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "BABOK Table 8.0.1. All the core concepts are used in each knowledge area.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Comparison, analysis, evaluation context, stakeholders, validation, need.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "BABOK Table 8.0.1. All the core concepts are used in each knowledge area. Comparison, analysis, evaluation context are not core concepts.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Evaluation context, change, solution, stakeholders, value, need, validation, analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "BABOK Table 8.0.1. All the core concepts are used in each knowledge area. Evaluation context, validation, and analysis are not core concepts.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "You have received a request to change some key requirements on a project. What should you do before you assess the impact of the change?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Ensure the change request traces back to a business need and aligns with the overall strategy",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Business analysts must ensure each proposed change can be traced back to a need and aligns with the overall strategy",
+          "babok_refs": [
+            "5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Determine the specific stakeholder who will implement the change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The implementation person would typically be determined after the request has been approved.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Analyze the impact(s) of the change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The impact would typically be analyzed during the assessment of the change",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Determine the cost of the change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The cost may be determined during or after the request",
+          "babok_refs": [
+            "5.4.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "The XYZ organization utilizes a change strategy for assessing requirement changes. What is the purpose of the change strategy for assessing requirement changes?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A change strategy provides guidance regarding the change control and decision-making processes.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is the description of governance approach for assessing requirement changes",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A change strategy describes legislative rules or regulations that must be followed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the description of legal/regulatory information for assessing requirement changes",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A change strategy supplies information to assist in managing stakeholder consensus regarding the needs of all stakeholders concerning a potential change.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the description of change strategy for the task Approve Requirements",
+          "babok_refs": [
+            "5.5.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A change strategy describes the purpose and context for changes, and identifies the critical components for change.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is essentially the description of a change strategy for assessing requirement changes",
+          "babok_refs": [
+            "5.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "What is the purpose of prioritizing requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To determine which requirements should be completed first.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an outcome of prioritizing requirements, but it is not the purpose of prioritization",
+          "babok_refs": [
+            "5.3.1",
+            "5.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To rank requirements in the order of relative importance.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Prioritization is a critical exercise that seeks to ensure the maximum value is achieved",
+          "babok_refs": [
+            "5.3.1",
+            "5.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To determine which requirements carry the most risk.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the factors that influences prioritization, but it is not the purpose of prioritization",
+          "babok_refs": [
+            "5.3.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To ensure requirements align to one another and manage the effects of any proposed change.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the purpose of tracing requirements",
+          "babok_refs": [
+            "5.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Which of the following is needed to assess a change to requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Traced designs",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Designs (Traced) is not one of the inputs of Assess Requirements Change but \"Designs\" is an input",
+          "babok_refs": [
+            "5.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Proposed change",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The proposed change is an input of Assess Requirements Changes",
+          "babok_refs": [
+            "5.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Current state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an input into Strategy Analysis (6.4.3) and Solution Evaluation (8.4.3), but not Assess Requirements Changes.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Traced needs",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Invented answer - there is no such thing as traced needs.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "When does the requirements life cycle end?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "When all requirements have been approved and the solution is deployed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle ends when the solution and the requirements that represent it are retired",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "When the solution is retired and any eligible requirements are made re-usable.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle ends when the solution and the requirements that represent it are retired",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "When the solution and the requirements that represent it are retired.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "According to the BABOK, this is when the requirements life cycle ends",
+          "babok_refs": [
+            "5.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "When the solution is retired and its associated requirements are archived.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The requirements life cycle ends when the solution and the requirements that represent it are retired",
+          "babok_refs": [
+            "5.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "Approval of requirements and designs may be formal or informal. Which of the following refer to requirements that have been approved?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements (approved)",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Approved and ready for use in subsequent business analysis efforts",
+          "babok_refs": [
+            "5.5.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Milestone (approved)",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Partially true, because milestones present significant events in the progress of a project and the team would typically identify this as a milestone. However, it is more a project management milestone.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "WBS",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A work breakdown structure defines the scope of work by identifying and decomposing deliverables. BABOK Glossary",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Statement of work (approved)",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is typically a scope of work that is contractual in nature; a written description of the services or tasks that are required to be performed. BABOK Glossary",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Life Cycle Management",
+      "question_text": "You have been hired as the business analyst for an initiative. You discovered there are several requirements that are candidates for long-term use by the organization. As a new hire, which guideline would provide information for how requirements will be managed and reused?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Legal/regulatory information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Information management approach is the only guideline/tool the BABOK lists for the maintain requirements task",
+          "babok_refs": [
+            "5.2.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Domain knowledge",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Information management approach is the only guideline/tool the BABOK lists for the maintain requirements task",
+          "babok_refs": [
+            "5.2.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Information management approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the only guideline/tool the BABOK lists for the maintain requirements task",
+          "babok_refs": [
+            "5.2.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Governance approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Information management approach is the only guideline/tool the BABOK lists for the maintain requirements task",
+          "babok_refs": [
+            "5.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

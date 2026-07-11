@@ -1,0 +1,1323 @@
+{
+  "exam_number": "33",
+  "exam_title": "Viewing Results for Drill, Exam #33 started on 2026-07-05 01:21:38",
+  "generated": "2026-07-05 18:16",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "After a long and challenging project, Roger has to determine if an enterprise is able to adapt to or effectively use the solution. What does Roger need to do in order to accomplish his goal?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess the enterprise structure",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is done to assess how the organization's structure is impacted by the solution",
+          "babok_refs": [
+            "8.4.4.3",
+            "8.4.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Perform stakeholder impact analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This only addresses a particular stakeholder group, not the enterprise",
+          "babok_refs": [
+            "8.4.4.2",
+            "8.4.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conduct a cultural assessment",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Two of the reasons this is done is to identify whether or not stakeholders understand the reasons why a solution exists and whether they view the solution as beneficial",
+          "babok_refs": [
+            "8.4.4.1",
+            "8.4.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Conduct an operational assessment",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.4.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Alan found that as the population of the customer segment subscribing to this service aged, the 5 gallon jugs were simply too heavy to hoist onto the water dispenser causing them to cancel the service. Alan brainstormed potential solutions and immediately completed a financial analysis to understand the cost/benefit of manufacturing jugs that held 2.5 vs. 5 gallons. He was proud of the fact that the 2.5 gallon jugs could have the same neck and so would fit existing dispensers. His recommendation was to go ahead with the manufacture of the new jugs along with a \"win-back\" campaign for lost customers. What might he be missing in his recommendation?",
+      "your_answer": "d",
+      "image_link": "/graphics/33_02.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "He needs to complete a risk analysis.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Alan is assuming that people will be able to lift a 2.5 gallon jug. Assumptions are risks",
+          "babok_refs": [
+            "8.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "He needs to provide decision makers with a view of what will happen if they do nothing.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is also true but in the is case, a risk analysis is more pertinent.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Nothing is missing in his recommendation. Al's process and recommendation was right on!",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There still is potential risk.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "He needs to provide alternative actions in addition for consideration.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is also true but in this case, a risk analysis is more pertinent.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Roberto is a BA working on a process improvement project. He has completed an assessment right before the new processes were scheduled to be fully deployed. The assessment concluded that a great deal of work will need to be done in order for the stakeholder groups he's been working with to effectively use the processes. He has found that no new policies have been issued, no procedures have been written, and little training has been done. What type of assessment was Roberto doing?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholder impact analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Not the best answer. Roberto is concerned with how the stakeholders can effectively use the solution, in this case a new process, not how the change will affect them.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Operational assessment",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Operational assessments are performed to determine if an enterprise is able to adapt and effectively use a solution",
+          "babok_refs": [
+            "8.4.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Technical assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Cultural assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not the best answer. Roberto is concerned with how the stakeholders can effectively use the solution, in this case a new process, not whether the stakeholder groups genuinely want the change to be successful. He assessed the operations, not the beliefs, attitudes, and feelings of the stakeholders.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Ed is working on making recommendations to increase value of a solution. He has discovered that different stakeholder groups may have common needs that can be met with a single solution. What recommendation is the best option for Ed?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Avoid waste",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The aim of avoiding waste is to remove the activities that do not add value, but are unlikely to result in a single solution",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Retire the solution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is only an option if the solution has reached the end of its life, but will not result in a single solution",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Identify additional capabilities",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Adding capabilities is useful when future needs have been recognized, but are unlikely to result in a single solution",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Eliminate redundancy",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What are the guidelines and tools that are used to support analyzing performance measures?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Solution performance analysis, solution performance measures, solution limitations, and recommended actions.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These are outputs of this knowledge area.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Change strategy, future state description, risk analysis results, and solution scope.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Project strategy, implementation scope, risk mitigation response, and performance analysis metrics.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Made up answers",
+          "babok_refs": [
+            "8.2.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Acceptance and evaluation criteria, metrics and key performance measures, data mining, and root cause analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are techniques, not guidelines and tools",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What are the guidelines and tools that are used for the Recommend Actions to Increase Solution Value task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Decision analysis, organization modelling, and risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are techniques for this task",
+          "babok_refs": [
+            "8.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business objectives, change strategy, and risk analysis results",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are guidelines and tools for the Assess Enterprise Limitations task",
+          "babok_refs": [
+            "8.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business objectives, current state description, and solution scope",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.5.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Current state description and solution scope",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Business objectives is missing",
+          "babok_refs": [
+            "8.5.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Phil is a BA on a project and is planning activities to evaluate the solution. The project is planned to have a total of four releases approximately four to six months apart. Each release builds upon the functionality in the prior release. When should Phil plan the assessments?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "During each proof of concept, before delivery, and after deployment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence of a proof of concept for Phil's project. This would be the most correct answer if it was a general vs. scenario-specific question.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "When it would add value but minimally after each release.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Evaluations may be needed prior to deployment especially from an enterprise perspective",
+          "babok_refs": [
+            "8.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "When there is indication that the solution isn't delivering expected value once deployed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is also true but when associated with a project, the solution must be evaluated to determine whether expected value is being achieved.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "It depends; whenever warranted or Phil believes evaluation would lend value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "No; far too general a response.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Which of the following options would help Leah understand the customer experience?",
+      "your_answer": "b",
+      "image_link": "/graphics/33_08.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Create use cases and scenarios.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Creating use cases and scenarios would help her understand the expectations the user had about their interaction with the website",
+          "babok_refs": [
+            "8.1.6",
+            "10.47"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Conduct focus groups.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This would probably reveal the same information as the complaints and it wouldn't be a \"quick\" process.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Utilize a survey or questionnaire.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would probably reveal the same information as the complaints and it wouldn't be a \"quick\" process.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Reading all of the complaints.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would give her insight into the complaints but another option would more fully communicate the customer experience.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Hindsight being 20/20, what is Leah's biggest \"lesson learned\" from this experience?",
+      "your_answer": "a",
+      "image_link": "/graphics/33_08.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Even though requirements appeared to reflect users' wants, piloting the site using a prototype with users representing various customer segments may have uncovered areas of discontent before full deployment.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.1.6",
+            "10.36"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "She should have benchmarked against competitors to ensure her site's functionality was similar.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might have helped also but benchmarking doesn't provide \"new\" ideas.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "User requirements can change suddenly and unexpectedly.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "True but not the right answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "She should've gotten more users involved in user acceptance testing to get more comprehensive feedback.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might've uncovered some of the areas of discontent but UAT would've only tested against the requirements.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "For the stakeholders that support analyzing performance metrics, which one can identify risks, and provide insights into the data and potential value of a solution?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sponsor",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Data analyst",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a stakeholder in the BABOK",
+          "babok_refs": [
+            "8.2.7."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Project Manager is responsible for overall risk management, not determining potential value of a solution",
+          "babok_refs": [
+            "8.2.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Domain subject matter expert",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The Domain Subject Matter Expert only provides input into the data for analyzing the performance, not the potential value",
+          "babok_refs": [
+            "8.2.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization's strategic vendor is having a year-end sales promotion on new software. The CIO is getting mixed opinions from his team and has asked Amy who is a BA to objectively assess both the in-place and new software and provide a recommendation. Amy finds that the functionality that would lend immediate value to the organization is basically the same. What might Amy do as a next step in her assessment?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Submit a recommendation that supports the status quo since little to no value would be realized.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Amy needs to do some analysis before she can settle on this recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Complete a decision matrix to support her contention that the features are basically the same.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This assumes that Amy is basically ending her assessment and is now just supporting her recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Complete a financial analysis to support how the cost would exceed the benefits.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This assumes that Amy is basically ending her assessment and is now just supporting her recommendation.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Explore how the additional capabilities in the new software could add future value.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Benefits of a solution that could be used in the future are part of a value assessment of the solution",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "You have worked on a project to implement a new system. When the system was first deployed, it seemed to be performing well. However, as transactions increased over a six-month period, the application slowed to a level deemed unacceptable by the end-users. You have been asked to evaluate this performance. In order to get to the bottom of this, what do you need to have access to?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The current state description, the implemented solution, and solution performance analysis.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These are the inputs Assess Enterprise Limitations task. The scenario suggests you are assessing the solution limitations",
+          "babok_refs": [
+            "8.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The implemented solution and the results of the solution performance analysis.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "You are performing the Assess Solution Limitations task. This answer lists the prescribed inputs",
+          "babok_refs": [
+            "8.3.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An assessment of the solution performance.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close but you also need access to the solution itself",
+          "babok_refs": [
+            "8.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The implemented solution and business objectives.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are inputs to the Measure Solution Performance task",
+          "babok_refs": [
+            "8.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization purchased a new project management system three years ago. While the system has several bells and whistles, the organization has been using it primarily as a project repository and time tracking system. The CIO golfs with another project management vendor and has learned of a new system that sounds awesome! David has been assigned as the BA to assess the new solution based on stakeholder needs. What might be his recommendation?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To address the organizational change aspects of the proposed change proactively, as getting people to use the current system took over a year.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is premature and there is no evidence in the scenario to support this response.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "To retire the current solution and purchase the new.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "David's assessment may lead to this solution but it isn't likely.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "To review and compare the two systems to objectively make a decision regarding replacement based upon stakeholders' perception of value of the various features and functions of each system.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Given the CIO wants you to assess the new solution, as a BA, you should find out what the features and functions are in the new system and then determine if the existing system provides similar features and functions. You will also want to find out which features and functions the stakeholders' value, then make a recommendation as to the best solution to meet their needs",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To utilize the additional functionality of the current system, thereby fully utilizing the in-place system and eliminating the need for further investment.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be partially true. However, given the CIO wants you to assess the new solution, as a BA, you must at least find out what the features and functions are in the new system and then determine if the existing system provides similar features and functions",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Financial analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a technique, not a task used in Recommend Actions to Increase Solution Value",
+          "babok_refs": [
+            "8.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Measure solution performance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to define performance measures to evaluate the effectiveness of a solution",
+          "babok_refs": [
+            "8.1.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Assess solution limitations",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Asses enterprise limitations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to determine how factors external to the solution are impacting the value the solution delivers",
+          "babok_refs": [
+            "8.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the circuit in this scenario?",
+      "your_answer": "d",
+      "image_link": "/graphics/33_15.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Solution component",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Risk",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The circuit does not have an element of uncertainty; it is an issue.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Enterprise limitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The issue is internal to the solution.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Solution limitation",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is correct but another answer is more specific.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Per Robbie's recommendation, a new, high-speed circuit was installed on an expedited basis but the application continued to exhibit outages. Now what should Robbie do?",
+      "your_answer": "c",
+      "image_link": "/graphics/33_15.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Problem analysis",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Error investigation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Root cause analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a synonym for the correct answer stated in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Impact assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Robbie already knows the impact.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "What is the purpose of analyzing performance measures?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assist in developing the project schedule once it has been determined that changes are required.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Analyzing performance doesn't have impact on creating the project schedule. Hint: If you see project schedule in an answer, it's probably incorrect",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Provide understanding of the performance of the solution in order to pass potential audits.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Provide insights into the performance of a solution in relation to the value it brings.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Prepare clients for upcoming changes based on results of measuring a solution's performance.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While this can occur for future planning it is not the purpose",
+          "babok_refs": [
+            "8.2.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Which of the following are the inputs for the Measure Solution Performance task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Solution performance measures",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the output of this task. Figure 8.1.1,",
+          "babok_refs": [
+            "8.1.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Validation of implemented solution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Made up answer.Figure 8.1.1,",
+          "babok_refs": [
+            "8.1.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business objectives, implemented solution",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Figure 8.1.1,",
+          "babok_refs": [
+            "8.1.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Current state description, business objectives, potential value",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Only \"business objectives\" is an input for this task. Figure 8.1.1,",
+          "babok_refs": [
+            "8.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "An organization has sunk $50,000 into a piece of equipment for required repairs. It has broken down once again and the new fix is estimated to cost $20,000. Team members are clamoring to buy new equipment but the boss said, \"I've already put $50,000 into this thing, what's $20,000 more at this point?\" As the team's BA, how do you contribute to the conversation?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Agree with the team; who wants to lose $50,000?",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Probably a popular sentiment, but sunk costs cannot be recovered so are effectively irrelevant when considering future action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Conduct a financial analysis excluding the $50,000.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might be the next step but the question asked how you'd contribute to the conversation",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Conduct a financial analysis including the $50,000.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The $50,000 is sunk cost and should not be included in the financial analysis",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The $50,000 is \"water under the bridge\" and though tempting, it shouldn't be used when considering future action.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The $50,000 is sunk cost. Sunk costs cannot be recovered so are effectively irrelevant when considering future action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Regulator, sponsor, project manager, domain subject matter expert.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Project manager is not listed as a stakeholder for this task",
+          "babok_refs": [
+            "8.4.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Customer, sponsor, domain subject matter expert, regulator",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Customer, sponsor, implementation subject matter expert, business architect",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Implementation subject matter expert and business architect are not listed as a stakeholder for this task. In addition, a business architect is another role that a business analysts performs and business architecture is considered part of business analysis",
+          "babok_refs": [
+            "8.4.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "End user, project manager, regulator, customer",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Project manager is not listed as a stakeholder for this task",
+          "babok_refs": [
+            "8.4.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Cheryl has just completed her analysis of a solution's performance measures that she collected to determine the value the solution provides to the enterprise. What will she do next?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Assess the solution limitations and identify the causes for the limitations.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Determine if the solution aligns with the goals and objectives.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Goals and objectives are sources of performance measures",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Create key performance indicators.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would have been done as part of the performance measures analysis",
+          "babok_refs": [
+            "8.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Determine if the measures are qualitative or quantitative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is done as part of measuring the solution's performance",
+          "babok_refs": [
+            "8.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "How could this current situation be described from a value realization standpoint?",
+      "your_answer": "a",
+      "image_link": "/graphics/33_22.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Enterprise limitation",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Solution limitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The phone system and computer integration are working just as planned",
+          "babok_refs": [
+            "8.3.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Opportunity cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Opportunity cost refers to the dollars lost by pursuing an alternative course of action",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Sunk cost",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sunk cost has to do with money that has been spent on an initiative that wasn't utilized. This solution is still in production",
+          "babok_refs": [
+            "8.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "How could this situation have been mitigated or avoided altogether?",
+      "your_answer": "c",
+      "image_link": "/graphics/33_22.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "By identifying the risk of some personnel resisting the new technology and developing an effective mitigation strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is correct but another answer is more robust.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "By performing rigorous problem analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "That is what is happening now - after the fact!",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Performed a more rigorous enterprise readiness assessment as part of the initial project.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Stakeholder sentiment could have been discovered and resulting resistance lessened or avoided if the cultural readiness of stakeholders was initially assessed and effectively addressed. 6.4.4.3",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "By focusing on process improvements vs. expensive new systems.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "That's what resistant personnel wish would've happened!",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "Some of the probation officers still use a Dictaphone to record lengthy reports for court review and disposition, and administrative assistants transcribe what was dictated. With the new system, the Dictaphones don't work and court imposed deadlines are being missed causing public scrutiny. How was this crucial finding missed?",
+      "your_answer": "b",
+      "image_link": "/graphics/33_22.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' concerns.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This concern probably wouldn't have surfaced as the probation officers would probably have assumed their Dictaphones would still work.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' functions.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This would've provided insight as to how the new system would impact that group of probation officers conducting their processes (functions)",
+          "babok_refs": [
+            "8.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' locations.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Focusing on the geographic location of this group of probation officers wouldn't have identified the concern with the Dictaphone.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "An impact analysis wasn't conducted focusing on stakeholders' technological maturity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an fabricated category of a stakeholder impact analysis.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Solution Evaluation",
+      "question_text": "After solution performance measures are defined, who is responsible to decide which measures are used to evaluating the solution performance?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Project manager.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not the role of the project manager.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Any stakeholder with decision-making authority.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "8.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The business analyst.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The BA is the \"recommender\", not the approver.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "The sponsor.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is typically the role but not always; another answer is more encompassing.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

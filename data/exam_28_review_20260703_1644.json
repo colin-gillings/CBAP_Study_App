@@ -1,0 +1,1337 @@
+{
+  "exam_number": "28",
+  "exam_title": "Viewing Results for Drill, Exam #28 started on 2026-07-02 23:08:30",
+  "generated": "2026-07-03 16:46",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Liz conducted focus groups with dissatisfied customers to identify the root cause(s) of declining customer satisfaction scores, researched cost-effective solutions, performed a detailed cost/benefit analysis for each option, and presented a recommendation to the Director of Support Services in a business case. Liz was incredibly proud of her work. The director and other key stakeholders were not impressed and deferred her recommendation. What is the most likely reason for the lack of support for Liz's recommendation?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Liz failed to use multiple elicitation techniques so decision-makers were hesitant to believe the identified root cause(s).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be partially true but the scenario suggests a bigger issue. BABOK Table 6.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The director didn't support the financial assumptions in the analysis and so had little faith in the overall cost/benefit analysis.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is pure speculation but the scenario suggests a bigger issue. BABOK Table 6.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Liz presented her work to a key stakeholder vs. the decision-maker (sponsor).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence in the scenario to support this contention. BABOK Table 6.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Liz conducted the work on her own and failed to collaborate with stakeholders.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The theme of collaboration to promote and ensure buy-in is prevalent throughout strategy analysis but is introduced in the BACCM for the chapter. BABOK Table 6.0.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is this statement an example of?",
+      "your_answer": "a",
+      "image_link": "/graphics/28_02.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business objective",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The answer does contain a business objective but contains a broader statement as well",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business goal and objective",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Business goals are statements of what the organization hopes to achieve, and objectives are measurable results to indicate if the goal is achieved",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business vision and mission",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Some organizations may call it that but the BABOK utilizes different terms",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business goal",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The answer does contain a business goal but contains a more specific measurement as well",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How can the above statement be utilized?",
+      "your_answer": "d",
+      "image_link": "/graphics/28_02.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "As input to define the change strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Before you can define the change strategy, the current and future state must be defined. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "As a way to describe gaps between the current and future states.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The statement fully describes what the organization is striving toward vs. the gap between here and there",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "As a constraint in the development of the solution scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an invented answer",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "As a way to describe the future state and to guide the change strategy.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Business goals and objectives describe the ends that the organization is seeking to achieve",
+          "babok_refs": [
+            "6.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Consider a scenario in which a sponsor has initiated an effort to purchase and install a COTS (commercial off-the-shelf) package. You discover that no other analysis work has been performed. What is the first thing you do?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Determine the approach to implementing the COTS solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It may well happen in many cases, but the BABOK does not advocate jumping into the solution as presented. You need to be determine the business needs first",
+          "babok_refs": [
+            "6.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Define the business need that the COTS package is intended to address.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "When confronted with a change to a system, the first task is to define why the change is warranted by defining the business need",
+          "babok_refs": [
+            "6.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Determine if and how the COTS package meets the business need.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would be performed as part of defining the change strategy which would come later in the process. You need to be determine the business needs first",
+          "babok_refs": [
+            "6.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Perform a gap analysis to ensure capabilities exist in the current state organization to support the COTS solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It may well happen in many cases, but the BABOK does not advocate jumping into the solution as presented. You need to be determine the business needs first",
+          "babok_refs": [
+            "6.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Functional decomposition can be used by a BA to analyze which type of scope?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Project scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Functional decomposition can help break down project scope, but that would be a project management activity.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Organizational scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This type of scope isn't mentioned in the BABOK, and if it was, it would not be within a BA role to decompose it.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Process scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK mentions that functional decomposition can apply to processes, but it does not refer to process scope.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Product scope.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A BA would use functional decomposition to help break down the product or solution scope",
+          "babok_refs": [
+            "6.4.6",
+            "10.22"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Moira is a BA facilitating a discussion with stakeholders regarding the implementation strategy for a solution. The sponsor is pressuring the team to implement the solution by year end; their busiest time of year with the holidays. She ensures the conversation takes into consideration which of the following critical factors?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Key stakeholder requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This response is too high level",
+          "babok_refs": [
+            "6.4.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Ability to train end-users by year end given the fact that it is their busiest time of the year.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be true, but training is too specific an activity; another answer is more encompassing",
+          "babok_refs": [
+            "6.4.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Minimal disruption to business activities and related organizational impacts.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Given the information in the scenario, you can infer this is the most critical factor of those listed given the business activity at the end of the year",
+          "babok_refs": [
+            "6.4.4.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Availability of the delivery team due to the holidays and resources' vacation schedules.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Resource availability is always a consideration but is not the most critical given the scenario",
+          "babok_refs": [
+            "6.4.4.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "You have been instructed to compare your organizational practices against the best-in-class practices at other companies. What do you need to perform?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A benchmark study",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This technique compares an organization with other organizations",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Market analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This involves researching customers in order to determine what they need or want",
+          "babok_refs": [
+            "10.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "A focus group",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is to gain customers' opinions on new products",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A feasibility study",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This focuses on the viability of a solution given the current environment. BABOK Glossary",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Marc and his team are working to complete a gap analysis in order to write a business case to obtain funding for an initiative. The future state is defined and risks have been identified and assessed. Before long, the team realizes they are missing a key input to complete the analysis. What is it?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The change strategy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Defining the change strategy is a task, and gap analysis is an element in that task",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A comparison of requirements from key stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a component of a gap analysis. ABOK 6.4.4.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "The definition of the current state",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The current state capabilities are needed to determine the gap between today and what will be needed in the future state",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Transition requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Transition requirements are not a component of a gap analysis",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Your assignment over the past few weeks has been to research off-the-shelf software vendors who might be invited to bid on a request for proposal (RFP). The executive team is very near to making a decision whether to go forward with the project. However, you have recently uncovered a new constraint associated with the technical architecture that precludes an off-the-shelf solution. What deliverable might be most significantly impacted by your discovery at this stage of the project?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Enterprise architecture framework.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The enterprise architecture would typically be updated prior to this point. Plus, the architecture is the cause of the impact, not the impact itself.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Requirements baseline.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is premature as detailed requirements have not been elicited.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Work division strategy.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Not part of the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Business case.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A key component in a business case is the assessment of alternatives. A constraint that precludes a COTS package would significantly alter alternatives. The key to this question is that it is occurring prior to project initiation",
+          "babok_refs": [
+            "10.7.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Sangreeta is a BA assigned to the R&D function of a cell phone manufacturing company. The developers would like to obtain funding to create a phone battery that will automatically charge itself whenever it detects a wireless connection. Sangreeta has been charged with writing the business case to obtain funding for this exciting new venture. She has all the information she needs about the limitations of the current technology and the angst it causes customers who desire a longer battery life. She wants to ensure that she fully understands this opportunity. In order to do so, what might be her course of action?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sangreeta could conduct focus groups with representatives of the target market to understand what they would pay for the battery.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sangreeta could do this but the information wouldn't be as reliable as another response.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Sangreeta could survey customers who have submitted complaints regarding the current battery life in order to understand a viable price point for the battery.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sangreeta could do this but the information wouldn't be as reliable as another response.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Write a business case using different scenarios in order to quantify benefits using a pessimistic, optimistic, and most likely view of sales velocity.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Sangreeta could do this but the information wouldn't be as reliable as another response.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Understand the size of the market, and gain competitive intelligence to hopefully understand potential price points for the battery.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a tall order but Sangreeta is going to need to quantify benefits for a business case. To do this, she'll need to do market analysis to comprehensively and realistically understand the market opportunity",
+          "babok_refs": [
+            "10.4.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "The business analyst has completed the identification and definition of why a change to a system is required. The business analyst has also identified new capabilities that the current system cannot perform and are required by the enterprise to achieve the business need. Risks have been identified and assessed. What is the business analyst's next step?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Determine the change strategy.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The current state has been analyzed, the future state has been defined, and risks have been assessed. The next step is to perform the task of \"Define Change Strategy.\" BABOK Figure 6.4.3",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Determine the business process gaps.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Gaps have been determined.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Determine the organizational impacts.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Impacts have been determined.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Determine architectural gaps.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Gaps have been determined.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What activity is Ashish performing?",
+      "your_answer": "c",
+      "image_link": "/graphics/28_12.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "SIPOC modeling the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An invented answer, since a SIPOC is part of process modeling and not a technique in its own right",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Defining the future state for the process.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The scenario states Ashish is \"specifying the conditions required to meet the business need\" which is another way of saying defining the future state",
+          "babok_refs": [
+            "6.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Defining a value chain for the process.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A value chain is a broader view of an enterprise and not usually done at a specific process level. Figure 5.1.1 and",
+          "babok_refs": [
+            "11.5.5.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Modeling requirements for the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario description does not support this answer. It does not say he is working to \"analyze, synthesize, and refine elicitation results into requirements and designs,\" which is what modeling requirements is about",
+          "babok_refs": [
+            "7.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which component is Ashish missing from his SIPOC diagram?",
+      "your_answer": "b",
+      "image_link": "/graphics/28_12.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A process step for providing the claim receipt.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Since there is an output of a claim receipt, there should be a step for it in the SIPOC",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A customer representing the claims database.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "One could argue this is missing, but a counter-argument is that the Claims Adjustment customer could contain the claims database. A more glaring thing missing is the claim receipt output",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "An output of the attached video.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The attached video is an input, not an output of the process. The process transforms it into the claim, but since the attached video itself does not get transformed, it cannot be an output of the process",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "An input for the vehicle involved in the accident.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The vehicle is already represented by the input of \"claim details.\"",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "During a peer review of the SIPOC, a colleague of Ashish's commented that one of the process steps was unneeded in the diagram. Was he correct and if so, which one is unneeded?",
+      "your_answer": "a",
+      "image_link": "/graphics/28_12.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Record Video because it can be assumed to be a precondition of the process.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Recording the video is the most likely to be a precondition and excluded from the process, especially since it is an input",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Open XYZ Claim App because it can be assumed to be a precondition of the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Opening the App makes sense to be included as part of the process. Recording the video is more likely to be excluded from the process, especially since it is an input",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Enter Claim Details because the details are an input to the process.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Entering the details would be a necessary part of the process. The fact that they are an input does not exclude a step for entering them",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The colleague is not correct. All steps are needed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The process of recording the video is likely a separate process, making this answer incorrect",
+          "babok_refs": [
+            "10.34.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How does a business analyst decide if a change strategy is needed?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "When the organization needs to create missing capabilities to achieve the future state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially true but another answer is more comprehensive",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "When the business analyst determines a change strategy would help the enterprise transition to its future state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is too broad an answer",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "When the organization needs to create missing or improve existing capabilities in order to achieve the future state.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "If the enterprise can meet the need with the current state capabilities, then the change may be relatively small or not needed. A change strategy will be needed if there are missing capabilities or ones that must be improved to meet the business need",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "When an organization is moving from a current to future state.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "If the enterprise can meet the future state need with current state capabilities, a change strategy is not needed",
+          "babok_refs": [
+            "6.4.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Jasmine has gained consensus on the business requirements for a new initiative. What did those business requirements include?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The problem or opportunity that has been defined through analyzing the current state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Close, but the BABOK lists one additional attribute of business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The problem, opportunity, assumptions, and constraints that have been defined through analyzing the current state.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK does not list assumptions as part of business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The problem, opportunity, or constraint that has been defined through analyzing the current state.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are included in business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The problem, opportunity, and high level desired business outcomes that have been defined through analyzing the current state.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The BABOK does not list high level desired business outcomes as part of business requirements",
+          "babok_refs": [
+            "6.1.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Kate is studying an enterprise's current key metrics and performance indicators, IT systems, organization charts, business architecture, and policies. What sort of initiative is Kate most likely working on?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A process improvement initiative.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The listed inputs are needed for a process-centric view of an organization which is necessary for process improvements",
+          "babok_refs": [
+            "6.1.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "There is not enough information in the scenario to infer what type of project Kate is working on.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Reviewing the inputs, one is able to infer a process-centric initiative.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "A system integration initiative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Current technology and infrastructure would also be important to understand for this sort of initiative.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "An organizational change initiative.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is too broad. Almost all initiatives involving people include some element of organizational change.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Jessica is the lead business analyst for a major upgrade of enterprise resource planning (ERP) software for her company. She is concerned about the risks associated with achieving the future state that the sponsor wants for the enterprise. Besides the sponsor, which of the following stakeholders would be sensible to invite to the meeting?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "End-users",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "End-users are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business analysts",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business analyst are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Suppliers",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Suppliers are listed as a stakeholder type for the assess risks task. They would be logical participants given the scenario's mention of an ERP system",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Customers",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Customers are not a listed stakeholder for the assess risks task",
+          "babok_refs": [
+            "6.3.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "When should strategy analysis be performed?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Before requirements are elicited for any given change",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "All changes may not be strategic in nature; too general an answer",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "When a business need is identified",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "By performing strategy analysis as the need is identified, stakeholders can decide whether to address the need or not",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Prior to planning the business analysis approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The business analysis approach is an input to the tasks that comprise strategy analysis",
+          "babok_refs": [
+            "6.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Anytime it makes sense to do so",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be true but not the reason the BABOK states; too general an answer",
+          "babok_refs": [
+            "6.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following is NOT a direct input in the define change strategy task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Risk analysis results",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Solution recommendations",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is not an input; rather, a guideline and tool along with business analysis approach and design options. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Future state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder engagement approach",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a direct input. BABOK Figure 6.4.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Where does strategy analysis fall on the value spectrum?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Strategy analysis focuses on defining value for the organization.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Defining value is a component of strategy analysis but is more of a guideline and tool than a knowledge area descriptor. BABOK Figure 6.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Strategy analysis focuses on potential value, designing that value, and delivering actualized value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Designing value is a component of requirements analysis and design definition",
+          "babok_refs": [
+            "7.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Strategy analysis focuses on potential value, defining that value, and delivering actualized value.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Defining value is a component of strategy analysis but is more of a guideline and tool than a knowledge area descriptor. BABOK Figure 6.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Strategy analysis focuses on potential value.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Strategy analysis comes before requirements analysis and design definition. BABOK Figure 6.0.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "Which of the following techniques can be used to help define the solution scope?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Root cause analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This used to define the problem",
+          "babok_refs": [
+            "6.1.6",
+            "10.40"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Work breakdown structure",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "WBS is not a technique; it is a document or artifact. BABOK Glossary",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Functional decomposition is used to break down the components of the solution into parts when developing a change strategy",
+          "babok_refs": [
+            "6.4.6",
+            "10.22"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Cost-benefit analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is done as part of a business case and is an element of financial analysis",
+          "babok_refs": [
+            "10.20.3.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What's most likely happening?",
+      "your_answer": "a",
+      "image_link": "/graphics/28_23.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "There are most likely internal and external influencers at play that are altering the current state.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "\"The current state of an enterprise is rarely static while a change is being developed and implemented.\" As such, the current state can never really be \"baselined.\"",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "The original year-to-date results were most likely flawed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no evidence to support this contention and would not typically be the \"most likely.\"",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "There was a software update and the help desk was flooded with calls that were easy to resolve.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might have happened but there is nothing in the scenario to suggest this is the case",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The help desk obtained new resources that were more knowledgeable and therefore could resolve more calls initially.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This might have happened but is too specific at this point; there is a more general answer that could even account for this scenario",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "What is Miriam's best next step before continuing with root cause analysis?",
+      "your_answer": "d",
+      "image_link": "/graphics/28_23.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Modify root cause analysis activities to the categories of calls that were not resolved on the first call during the last two months.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Double check the year-to-date results to ensure data precision and integrity.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Report to the sponsor that the problem is improving on its own and that pursuing the initiative isn't cost-effective at this point.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may end up being the best course of action but is not the best next step",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Research what, if anything, in the environment changed to understand the cause for the marked improvement.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Before determining how to continue, Miriam has to discern what, if anything, changed in the environment and if whatever changed will significantly modify the current state definition and/or analysis activities",
+          "babok_refs": [
+            "6.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Strategy Analysis",
+      "question_text": "How would a SWOT analysis be beneficial to the business case?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Establishes key metrics to ensure the project performance goals are being met.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Establishment of metrics is not part of SWOT",
+          "babok_refs": [
+            "6.4.6",
+            "10.46"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Provides a vendor assessment for the purchasing or outsourcing of the solution to ensure the right vendor is selected.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Procurement (using a vendor) is not part of the SWOT and would come long after the business case is made",
+          "babok_refs": [
+            "6.4.6",
+            "10.46"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Provides side-by-side comparison of the various change strategies.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "SWOT outlines strengths, weaknesses, opportunities, and threats. As such, it could be used to support a decision regarding a change strategy",
+          "babok_refs": [
+            "6.4.6",
+            "10.46"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Forecasts the size of the investment required to deploy and operate the proposed solution.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "SWOT is about strengths and weaknesses, not size of investments",
+          "babok_refs": [
+            "6.4.6",
+            "10.46"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

@@ -1,0 +1,1383 @@
+{
+  "exam_number": "25",
+  "exam_title": "Viewing Results for Drill, Exam #25 started on 2026-06-30 02:02:40",
+  "generated": "2026-07-10 14:53",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What information does Devin need to obtain and from who in order to perform the calculations for this matrix?",
+      "your_answer": "a",
+      "image_link": "/graphics/25_01.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Total votes and final ranking from the team for the alternatives being ranked.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "True, that has to be performed. But the votes from stakeholders are the information that has to be obtained to perform the calculations.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Votes that stakeholders assign to each criterion for the alternatives being ranked.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The votes can then be multiplied by the weights and added up to get the final rankings",
+          "babok_refs": [
+            "5.3.6",
+            "10.16.3.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Requirements and designs from the team to explain the details of the features.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is true that requirements and designs are input to the task Prioritize Requirements. However, the question is asking how to complete the matrix and stakeholder votes are what is needed",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Domain knowledge from domain SMEs who work with the commercial banking application.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Domain knowledge is a Guideline/Tool of the task Prioritize Requirements. It is too obtuse to be an answer to this question and the votes from stakeholders are more precise and better answer the question",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following are the techniques that are used to trace requirements?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business rules analysis, scope modeling, process modeling, and functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "All are valid techniques used for tracing requirements",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business rules decomposition, scope validation, process modeling, and functional analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such thing as business rules decomposition",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Data modeling, process modeling, and functional decomposition",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Data Modeling in not included as a technique for tracing requirements",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Process modeling, functional decomposition, scope validation, and prototyping",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Scope validation and prototyping not included",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Elizabeth is a project stakeholder on your project and she is asking for a change in one of the project requirements. Before this change can be approved, you'll need to determine the effect of the change on all other project requirements. What term best describes the examination of the relationships that may be affected by the change in requirement?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Traceability",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Traceability is a useful tool when analyzing the impact of a change",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Interface analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Although Interface Analysis can be used in assessing changes to requirements, its focus is on identifying the interfaces that are impacted by the change, not the relationships between all the requirements, so traceability is a better answer",
+          "babok_refs": [
+            "5.4.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Functional decomposition",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Functional decomposition helps manage complexity and reduce uncertainty by breaking down processes, systems, functional areas, or deliverables into their simpler constituent parts and allowing each part to be analyzed independently",
+          "babok_refs": [
+            "10.22"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Change control process",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Change control process is a set of activities, tools, and techniques to address change during a change initiative, primarily addressing the needs of the people who will be most affected by the change.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As business analyst for an initiative, you are evaluating the implications of proposed changes to requirements and designs. Which technique would you use to determine the level of risk associated with the changes?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Risk identification",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a BABOK technique and the activity of risk identification is included within risk analysis and management",
+          "babok_refs": [
+            "5.4.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Root cause analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is used to identify and evaluate the underlying causes of a problem, and not the level of risk within the assess requirements changes task",
+          "babok_refs": [
+            "5.4.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops are used to gain an understanding of change impacts or to resolve changes in a group setting. The technique of risk analysis and management could be used within a workshop setting",
+          "babok_refs": [
+            "5.4.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Risk analysis and management",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Risk analysis and management identifies and analyzes risks associated with changes",
+          "babok_refs": [
+            "5.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following are stated approaches to prioritization in the BABOK?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "MoSCoW; ranking; negotiation, grouping",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "MoSCoW is not listed as an approach; however, it is an example of \"grouping.\"",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Classification; ranking; negotiation; MoSCoW",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Classification and MoSCoW are not approaches to prioritization, although MoSCoW is an example of Grouping",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Classification; ranking; time boxing/budgeting; weighted ranking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Classification and weighted ranking are approaches to prioritization",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Grouping; ranking; negotiation; time boxing/budgeting",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Item tracking is an organized approach used by business analysts to address stakeholder concerns. Which subset BEST represents item types that stakeholders may identify in item tracking?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Actions, assumptions, dependencies, constraints, defects, enhancements, requirements, and issues.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements are not one of the listed item types",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Actions, assumptions, constraints, dependencies, defects, enhancements, and issues.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These elements are all listed as item types",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Actions, risks, assumptions, constraints, impacts, defects, enhancements, and issues.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Risks and impacts are not listed item types",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Actions, risks, assumptions, constraints, dependencies, defects, enhancements, and issues.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Risks are not one of the listed item types",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What information does Devin need to obtain and from who in order to perform the calculations for this matrix?",
+      "your_answer": "b",
+      "image_link": "/graphics/25_07.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Votes that stakeholders assign to each criterion for the alternatives being ranked.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The votes can then be multiplied by the weights and added up to get the final rankings",
+          "babok_refs": [
+            "5.3.6",
+            "10.16.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Total votes and final ranking from the team for the alternatives being ranked.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "True, that has to be performed. But the votes from stakeholders are the information that has to be obtained to perform the calculations.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Requirements and designs from the team to explain the details of the features.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is true that requirements and designs are input to the task Prioritize Requirements. However, the question is asking how to complete the matrix and stakeholder votes are what is needed",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Domain knowledge from domain SMEs who work with the commercial banking application.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Domain knowledge is a Guideline/Tool of the task Prioritize Requirements. It is too obtuse to be an answer to this question and the votes from stakeholders are more precise and better answer the question",
+          "babok_refs": [
+            "5.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of these techniques is NOT applicable in assessing requirement changes?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Business cases, business rules analysis, decision analysis, document analysis, estimation, financial analysis, interface analysis, interviews, item tracking, risk analysis and management, and workshops are listed as techniques in assessing changes",
+          "babok_refs": [
+            "5.4.6.",
+            "5.4.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business cases, business rules analysis, decision analysis, document analysis, estimation, financial analysis, interface analysis, interviews, item tracking, risk analysis and management, and workshops are listed as techniques in assessing changes",
+          "babok_refs": [
+            "5.4.6.",
+            "5.4.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Functional decomposition is not listed as a technique for assessing requirement changes",
+          "babok_refs": [
+            "5.4.6."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business cases, business rules analysis, decision analysis, document analysis, estimation, financial analysis, interface analysis, interviews, item tracking, risk analysis and management, and workshops are listed as techniques in assessing changes",
+          "babok_refs": [
+            "5.4.6.",
+            "5.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the features should the team prioritize as the most important?",
+      "your_answer": "a",
+      "image_link": "/graphics/25_09.png",
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Add New Company",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This option has a weighted total of 2.5 and is the highest priority. (3*.5) + (2*.3) + (2*.2) = 2.5. , 10.16.3.2, and 10.33.3.3",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Admin interface",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option has the lowest total of .9 (3*.3).",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "User Help screens",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option has a weighted total of 1.6, which is not the highest. (2*.5) + (3*.2) = 1.6.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Update address",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This option has a weighted total of 1.0, which is not the highest. (1*.5) + (1*.3) + (1*.2) = 1.0.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following is an example of a technique to help maintain requirements?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business Constraint Analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business Constraint Analysis is an invented term",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Data Modeling",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Data Modeling is \"used to identify data structures that may be similar across the enterprise in order to facilitate reuse.\"",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Acceptance and Evaluation Criteria",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a technique used in approving requirements",
+          "babok_refs": [
+            "5.5.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Item Tracking",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Item Tracking is a technique \"used to track issues or conflicts discovered during impact analysis.\" That activity is part of assessing requirements changes",
+          "babok_refs": [
+            "5.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Mary Jo is a BA who was assigned to a large project that included several work streams. Before long, requests and requirements were pouring in from all directions. Mary Jo requested that a BA be assigned to each work stream. The sponsor replied to \"address the high priority items and get to the rest when you can.\" What technique could Mary Jo leverage to execute the sponsor's guidance?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Prioritization",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Prioritization is only one component needed and therefore an incomplete answer",
+          "babok_refs": [
+            "10.2.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Facilitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Facilitation is an underlying competency vs. a technique that Mary Jo may need to utilize during workshops to prioritize work items",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Creative thinking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Creative thinking is an underlying competency vs. a technique",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Backlog management",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Utilizing backlog management would allow Mary Jo to record, track, and prioritize work items",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique would a business analyst use to identify requirements associated with a story that may be available for reuse?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Use cases and scenarios",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Identifies a solution component that may be available for reuse; the scenario is referring to user stories.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Process modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Identifies requirements associated with the processes that may be available for reuse; the scenario is referring to user stories.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Story points",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Story points are a method of relative estimation on agile projects. As such, they would not be used to identify requirements for reuse.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "User stories",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The scenario refers specifically to \"story.\" The scenario is most likely describing an agile project that expresses requirements in user stories",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which techniques can be used to attain approvals of the requirements?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements and design modeling is the only technique required",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Numerous requirements and design models are used to understand the current and future state, not to attain approval",
+          "babok_refs": [
+            "5.5.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Acceptance and evaluation criteria, decision analysis, item tracking, and workshops",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Acceptance and evaluation criteria, decision analysis, item tracking, reviews and workshops are all listed as techniques that may be used to attain approvals",
+          "babok_refs": [
+            "5.5.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Decision analysis, item tracking, reviews, workshops, and client consensus",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Client consensus is an invented term and is not a technique used to attain requirements approvals",
+          "babok_refs": [
+            "5.5.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Interviews, prototyping, item tracking, and root cause analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviews and prototyping are elicitation techniques, and are not used to attain requirements approvals",
+          "babok_refs": [
+            "5.5.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "What is the primary purpose of backlog management?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To communicate with stakeholders regarding the status and projected completion date of the work",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This may be an outcome of backlog management but it's not the primary purpose of the technique",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To record, track, and prioritize remaining work items",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To allocate required resources to effectively clear the backlog",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Allocating resources may be an outcome in some situations, but because this cannot be applied to all situations in all organizations, this cannot be the correct answer",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To provide management with reports of work that has not been started",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Backlog management might include reports in some situations in some organizations, but because this cannot be applied to all situations in all organizations, this cannot be the correct answer",
+          "babok_refs": [
+            "10.2.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Jan and Lisa are Enterprise Analysts who have been assigned to a multi-million dollar system integration project that will merge a newly purchased company's system functionality onto the current company platform. Because there are two more mergers planned for the near future, Jan and Lisa's manager has asked them to identify and document which requirements could be reused for future mergers and acquisitions. Lisa has scheduled a meeting with several of her colleagues to brainstorm ideas about which requirements could be reused. Which technique/tool may be best suited for this task?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements Architecture",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements Architecture is not used not used for requirements reuse. It is used in other tasks in Requirements Life Cycle Management",
+          "babok_refs": [
+            "5.3.5",
+            "5.4.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Requirement management tools/repository",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirement Management Tools/Repository is not used for requirements reuse. It is used in other tasks in Requirements Life Cycle Management. , 5.3.5, and 5.5.5",
+          "babok_refs": [
+            "5.1.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Decision analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Decision Analysis is not a tool or technique used for reuse",
+          "babok_refs": [
+            "5.2.5",
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Functional decomposition",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Functional decomposition is the best tool to identify reusable requirements",
+          "babok_refs": [
+            "5.2.5",
+            "5.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "During a conversation with business stakeholders, the business analyst had reached an impasse on the prioritization of the requirements. Which element of prioritization would be best utilized in order to resolve the impasse?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Negotiation by establishing consensus",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The negotiation approach involves establishing a consensus among stakeholders as to which requirements will be prioritized",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Budgeting by establishing time boxes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This approach would not resolve the impasse; the issue would remain as to what requirements should be done within the time box",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Grouping using MoSCoW",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Grouping may help but another approach will more effectively facilitate consensus among the stakeholders",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Ranking using weighted options",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Ranking may help but another approach will more effectively facilitate consensus among the stakeholders",
+          "babok_refs": [
+            "10.33.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "You are the business analyst in an agile initiative that has several artifacts being produced within a sprint. Your manager has asked you to manage the releases by creating a tool to store and track the artifacts that are under review and to post them once approved, for the downstream consumers. What are you likely to create?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A Kanban board",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A Kanban board is typically used to display tasks that are in the pipeline, in progress, or completed within an iteration/sprint. BABOK Table 11.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "information management approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an approach that indicates how requirements will be managed for reuse.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "User story",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A user story is the initial way requirements are documented in a product backlog",
+          "babok_refs": [
+            "10.48"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "A repository",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The scenario is asking for a tool to store and track the artifacts which is the primary purpose for a repository, which is a guideline/tool for the requirements life cycle management knowledge area",
+          "babok_refs": [
+            "5.1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique is leveraged to visually show the future state process?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "User stories",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User Stories depicts the goal of the user for a given scenario, and is not focused on the future state process steps",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business rules analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Analysis of business rules is important but doesn't capture the future state of the solution",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Process modeling",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Process Models can visually show the future state process as well as assist in tracing the requirements to the future state process",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Functional decomposition",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A Functional Decomposition shows the breakdown of the solution scope",
+          "babok_refs": [
+            "5.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which technique is used to gain an understanding of the basis for prioritization by various stakeholders in a group setting?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Shareholder assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "'Shareholder' in this context is an invented word and this is not a technique",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Risk analysis and management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Risk Analysis and Management is used to understand the risks as a basis of prioritization, not to understand the basis for stakeholders to prioritize",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Interview",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Interviews are a close answer in that they can be used to gain understanding of single or small group or people for the prioritization, but not in a group setting",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Workshops can be used to gain an understanding of stakeholders' prioritization in a facilitated group setting",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "All but one of the following techniques is used when prioritizing requirements. Which of the following is NOT a technique used when prioritizing requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Financial analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to assess the financial value of a set of requirements and how the timing of delivery will affect that value",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "SWOT analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This technique is not associated with the prioritize requirements task",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to gain an understanding of stakeholders' basis of prioritization or priorities in a facilitated group setting",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This technique is used to track issues raised by stakeholders during prioritization",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "The volume of work items to be completed sometimes exceeds the capacity to complete them. Which of the following techniques identifies an approach for addressing this situation?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Capacity planning",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a stated technique in the BABOK. Capacity planning may come into play in the final plan to manage the backlog",
+          "babok_refs": [
+            "10.2.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Backlog management",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "True definition of backlog management",
+          "babok_refs": [
+            "10.2.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Requirement management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements management is not a technique",
+          "babok_refs": [
+            "10.2.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Collaborative games",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While the facilitator may use collaborative games to identify an approach to effectively address the backlog situation, there is another technique more specific to the question",
+          "babok_refs": [
+            "10.2.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Barb is facilitating a meeting with her agile project team to rank requirements to determine their relative importance to stakeholders. From the meeting discussions, it is clear that the volume of work items to be completed exceeds the capacity of the team to complete them. How would Barb record and track the remaining items?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Through estimation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Estimation is used to produce estimates for the basis of prioritization; the scenario asks how Barb should record and track prioritized items",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Through backlog management",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Backlog management is used to maintain prioritization",
+          "babok_refs": [
+            "5.3.6",
+            "10.2.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Through item tracking as there is an issue of limited resources",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Item tracking is used to track issues raised by stakeholders during prioritization",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Through prioritization",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The scenario asks how Barb should record and track prioritized items",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "As a business analyst, you are working to identify a data structure that may be similar across the enterprise in order to facilitate requirements reuse. Which technique would be helpful?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Document analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Document analysis is used to analyze existing documentation about an enterprise which can serve as a basis for maintaining and reusing requirements but data modeling is a better answer",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Data modeling",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Data models will identify similar data structures across the enterprise to facilitate reuse",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Structural design",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Data flow diagrams",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are used to identify information flow vs. data structures across the enterprise. , 10.13",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Which of the following techniques are NOT applicable when a business analyst is maintaining requirements?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Data flow diagrams",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Business rules analysis, data flow diagrams, data modeling, document analysis, functional decomposition, process modeling, use cases and scenarios and user stories are all listed techniques for maintaining requirements",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business rules analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business rules analysis, data flow diagrams, data modeling, document analysis, functional decomposition, process modeling, use cases and scenarios and user stories are all listed techniques for maintaining requirements",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Data modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business rules analysis, data flow diagrams, data modeling, document analysis, functional decomposition, process modeling, use cases and scenarios and user stories are all listed techniques for maintaining requirements",
+          "babok_refs": [
+            "5.2.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Backlog management",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Applies to prioritization of requirements not maintaining requirements",
+          "babok_refs": [
+            "5.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Techniques",
+      "question_text": "Anna is a business analyst responsible for ensuring clear communication of requirements, designs, and other business analysis information to key stakeholders responsible for approving her artifacts. Which technique would you recommend to help Anna facilitate obtaining approval for her completed artifacts?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Decision analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Decision analysis is used in the approve requirements task to resolve issues and gain agreement",
+          "babok_refs": [
+            "5.5.6",
+            "10.18"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Item tracking is used in the approve requirements task to track issues identified during the agreement process",
+          "babok_refs": [
+            "5.5.6",
+            "10.26"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Reviews",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Partially true as reviews are used in the approve requirements task to evaluate requirements, but workshops is a better answer",
+          "babok_refs": [
+            "5.5.6",
+            "10.37"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Anna is conducting the approve requirements task. Workshops bring relevant stakeholders together for a stated purpose, which in this task is to gain approvals",
+          "babok_refs": [
+            "5.5.6",
+            "10.50"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

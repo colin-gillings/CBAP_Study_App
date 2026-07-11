@@ -1,0 +1,1353 @@
+{
+  "exam_number": "11",
+  "exam_title": "Viewing Results for Drill, Exam #11 started on 2026-06-18 07:44:58",
+  "generated": "2026-06-21 20:40",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What is business model canvas?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "A technique that describes the rationale for requirements.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.1.6",
+            "10.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A process that describes the rationale for requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is not a process.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "A model that describes requirements in picture form.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "A business modeling tool for drawing pictures.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The system shall provide a maintenance function for correcting any missing data.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "While this is a bit high-level it is still a valid functional requirement and meets the characteristics of quality requirements",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Bond prices will be viewable and sort able by maturity date, length of security, yield, and rating.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a valid functional requirement and meets the characteristics of quality requirements",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The system shall display bond prices using 3 decimal places instead of fractions.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a valid functional requirement and meets the characteristics of quality requirements",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The system shall read the tracking database and feed the bond prices to the web database using XML.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is a poorly written requirement because it names technologies and constrains the solution design.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "You have been asked to facilitate a session to model requirements. What techniques are you LEAST likely to use?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Prototyping, data modeling, interface analysis.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "All these techniques are listed as techniques that support specify and model requirements",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Organization modeling, process modeling, data dictionary and glossary.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "All these techniques are listed as techniques that support specify and model requirements",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Document analysis, benchmarking, market analysis",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "None of these techniques are listed as techniques that support specify and model requirements",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Use cases, sequence diagrams, state diagrams.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "All these techniques are listed as techniques that support specify and model requirements",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "A senior business analyst was providing advice to a new business analyst and recommended using a matrix for their requirements modeling format. What is the purpose of this type of format?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To provide an easy way for the business analyst to model the requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "\"Easy\" is not a criterion to use when selecting models.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "To clearly describe the requirements in an active voice.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This answer better describes a text model.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "To create a visual representation of the set of requirements.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is the description of a diagram.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "To convey a set of requirements that have a complex but uniform structure that can be broken down.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Which of the following is NOT true about business rules?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business rules shape day-to-day business behavior.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business rules shape day-to-day business behavior and guide operational business decision making.  &",
+          "babok_refs": [
+            "10.9.1",
+            "10.9.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business rule changes can be implemented quickly if they are managed by a single enterprise-wide engine.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "When enforced and managed by a single enterprise-wide engine, changes to business rules can be implemented quickly",
+          "babok_refs": [
+            "10.9.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business rules are exclusively expressed and managed through implementation technology for a given solution.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Business rules should be expressed and managed independently of implementation technology",
+          "babok_refs": [
+            "10.9.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business rules guide operational business decision-making.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business rules shape day-to-day business behavior and guide operational business decision making.  &",
+          "babok_refs": [
+            "10.9.1",
+            "10.9.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "The lead business analyst has assigned you to create a requirements model that represents the characteristics and the exchange of information within an enterprise or a solution. Which requirements model category would you use?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Data and information",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the model category described in the question",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Activity flow",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This model category represents a sequence of actions and events",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Data flow diagrams",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a technique in data and information category",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Data modeling",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a technique in data and information category",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "A junior business analyst is modeling requirements in order to identify and validate inputs and outputs of the solution she is modeling. She approaches James, the senior business analyst, for advice. What modeling technique would James advise the junior business analyst to use?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Prototyping",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Since the business analyst is validating inputs and outputs only, prototyping is not the best technique. Prototyping is used to identify missing or improper requirements",
+          "babok_refs": [
+            "7.1.6",
+            "10.36"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Interface analysis",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the technique used in the specify and model requirements task that James would recommend",
+          "babok_refs": [
+            "7.1.6",
+            "10.24"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Kano analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not a modeling technique. It is a technique used mostly with Agile approaches for understanding which features will help drive customer satisfaction. BABOK Table 11.1.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Process modeling",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Process modeling is used to show the steps or activities that are performed in the organization, but not used to validate inputs and outputs of the solution",
+          "babok_refs": [
+            "7.1.6",
+            "10.35"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What kind of diagram is used in the specify and model requirements task to show how processes or objects interact during a scenario by showing the information passed between them?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Sequence diagram",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the technique being described in this question and is used in the specify and model requirements task",
+          "babok_refs": [
+            "7.1.6",
+            "10.42"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Context diagram",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A context diagram is a type of data flow diagram and is not used in the specify and model requirements task",
+          "babok_refs": [
+            "10.13"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Activity diagram",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An activity diagram is a type of process model, and is not used in the specify and model requirements task",
+          "babok_refs": [
+            "10.35"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Process diagram",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A process diagram or model describes the flow of activities in a process. This is not a technique in the specify and model requirements task",
+          "babok_refs": [
+            "10.35"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Complete a sequence diagram for all interactions within the scope of the project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Sequence diagrams are used to specify and model requirements",
+          "babok_refs": [
+            "7.1.6",
+            "10.42"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Organize requirements based on the solution components they are related to.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Scope models are used to describe the scope of analysis or the scope of a solution",
+          "babok_refs": [
+            "7.1.6",
+            "10.41"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Complete business architecture for the proposed scope of a solution.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a fabricated answer. There is no proposed solution at this point.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Complete document analysis based on the project scope.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The question is about the solution scope, not the project scope. Also document analysis analyzes documentation of an existing system",
+          "babok_refs": [
+            "10.18"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Susan thinks she is done with her requirements analysis on a project. Her project manager sent her a terse email telling her she is not done yet. He also sent her the business objectives and potential value for the project, and asked her to complete one more important task to ensure the requirements support the business case. What activity does Susan need to complete?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Identify any missing or incorrect requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "An invented answer, and the closest task is requirements verification which does not use the business objectives and potential value as guidelines.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Requirements validation.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Requirements validation helps ensure that requirements provide business value and meet business needs",
+          "babok_refs": [
+            "7.3.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Requirements verification.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements verification ensures requirements are of sufficient quality to be able to begin construction",
+          "babok_refs": [
+            "7.2.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Obtain approval of the requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Obtaining requirements approval is concerned with management and maintenance of requirements and design. The question is concerned with business value. Further, it does not use the business objectives and potential value as guidelines.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Susan is done with defining the solution approach, identifying opportunities to improve the business, allocating requirements across solution components, and representing design options that achieve the desired future state. Which one of the following activities may be a likely next step?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Ensure that the designs meet quality standards.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements should be verified before defining design options. Figure 7.5.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Produce different viewpoints of the requirements for the various stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This would have been done as part of specifying the requirements",
+          "babok_refs": [
+            "7.1.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Estimate the potential value of each design option.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Although there is not a specific next step listed, it is highly likely that once you define the design options you would estimate the potential value for each design option and to establish which one is most appropriate to meet the enterprise’s requirements",
+          "babok_refs": [
+            "7.6.1."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Ensure that the requirements and designs align to the business requirements and support the needed value.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements should be validated before defining design options",
+          "babok_refs": [
+            "7.3.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Hae Lin is ensuring that the requirements and designs have been defined correctly and provide the necessary information for further work that will be performed. What task is Hae Lin doing?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Validate requirements.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Validate Requirements is making sure the requirements align to business requirements and support the delivery of needed value",
+          "babok_refs": [
+            "7.3.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Maintain requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Maintain Requirements has to do with longer term reuse of the requirements.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Verify requirements.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.2.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Perform quality assurance.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Perform quality assurance is not a BABOK task.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What is the purpose of creating user stories when specifying requirements?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "To prevent scope creep.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a made up answer",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To represent the acceptance and evaluation criteria attributes of requirements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "User stories can be used by business analysts for generating user acceptance test, but answer 'a' is a better choice",
+          "babok_refs": [
+            "7.1.6",
+            "10.48"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "To specify a set of interactions between a system and one or more actors.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This describes a use case, not a user story",
+          "babok_refs": [
+            "7.1.6",
+            "10.47"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "To specify requirements as a brief statement about what people do or need to do when using the solution.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the purpose for using user stories as a technique in the specify and model requirements task",
+          "babok_refs": [
+            "7.1.6",
+            "10.48"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Carmen has been hired as the senior business analyst on an ongoing effort. Initial elicitation activities have been done, and she is now determining the best way to transform and represent the elicitation results into requirements in order to define the change. What would Carmen consider when modeling the requirements?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Purpose, change, and context",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business analysts should use model formats best suited to their audience. Change is not one of the considerations. The models help define the change",
+          "babok_refs": [
+            "7.0"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Context, audience, and purpose",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The form, level of detail, and what is being modeled are all dependent on the context, audience, and purpose",
+          "babok_refs": [
+            "7.0"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Change, need, and context",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Change and need are not one of the considerations when determining the form, level of detail, and what is being modeled",
+          "babok_refs": [
+            "7.0."
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Solution, audience, and value",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Solution and value are not one of the considerations when determining the form, level of detail, and what is being modeled",
+          "babok_refs": [
+            "7.0"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Anna, a junior business analyst, is seeking your advice on how many models she should use to best meet stakeholders needs in a given context. What would you advise her?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Use the simple models to get the job done easily and quickly.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Easiest and quickest sounds good but it may not serve the stakeholders needs.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Using more than one model would create confusion and so should only use one to avoid confusing the stakeholders.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business analysts should use any combination of models that best meet stakeholder needs",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The business analyst does not make such decisions. Such decisions are made by solution architect and developers only.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Business analysts determine specific categories and specific models to use",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Each modeling technique has strengths and weaknesses and provides unique insights into the business domain and so using several of them would complement one another.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Business analysts should use any combination of models that best meet stakeholder needs",
+          "babok_refs": [
+            "7.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Sarah is a BA working on enhancements to the organization's Human Resource system. She would like to model an employee's life cycle from the time they are a recruit until they are no longer with the company, along with the triggers that change their status. Which of the following diagrams will best suit her objective?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Process diagram",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A process diagram or model describes the flow of activities in a process",
+          "babok_refs": [
+            "10.35.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Sequence diagram",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A sequence diagram shows the information passed between objects or processes in a scenario",
+          "babok_refs": [
+            "10.42.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Use case diagram",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A use case diagram depicts the interaction between an actor and a system",
+          "babok_refs": [
+            "10.47.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "State diagram",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A state diagram shows the life cycle of an entity",
+          "babok_refs": [
+            "10.44.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "XYZ is an new organization that uses agile methodology. The organization is looking for the best solution for project team collaboration and artifacts storage. Marcus has been hired as a business analyst and is tasked with carrying out an analysis between using a Confluence site vs. a SharePoint site. Which of the following is best suited to his needs?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Notations",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Modelling notations help with precisely specifying requirements as appropriate for the audience",
+          "babok_refs": [
+            "7.1.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "State diagrams",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "State diagrams are used to specify the different states of a part of the solution throughout a life cycle",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Models",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This response is too general.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Matrix",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "A matrix can be used to compare features of both Confluence and SharePoint sites, to determine which site will best meet the project team collaboration and storage needs of the organization",
+          "babok_refs": [
+            "7.1.4"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "As a business analyst, you are given the following elicitation information: \"The database shall support the generation and control of configuration objects, and the objects are themselves groupings of other objects in the database.\" Why would decomposing the above information be critical you?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Information decomposition should be avoided as it takes more time and may lead to project delay.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Analysis provides a basis for discussion to reach a conclusion about the solution.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Information decomposition does away with all assumptions as it is done on the actual project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Partly true. But there is a better answer. It may not do away with all the assumptions.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Information decomposition would prove that the business analyst is well experienced and this would give the stakeholders confidence.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Fabricated answer.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Information decomposition would help identify anything that must change or not change to meet the business need or any missing components.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What state or status should the requirements be in to serve as an input to the Define Requirements Architecture task?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Approved.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements do not need to be approved as an input into this task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Verified.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements do not need to be verified as an input into this task.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "They can be in any state or status.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "and Figure 7.4.1",
+          "babok_refs": [
+            "7.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Confirmed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements do not need to be confirmed as an input into this task.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Early identification and involvement of people, groups, or organizations that may impact or be impacted by a project is critical for the project success. Business analysts may choose to perform this task themselves and then separately package and communicate the requirements to the impacted/impacting people for review. Which task is this?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Define requirements architecture",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Domain Subject Matter Expert, Implementation Subject Matter Expert, Project Manager, Sponsor, and Tester may assist in defining and confirming the requirements architecture",
+          "babok_refs": [
+            "7.4.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Specify and model requirements",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "\"Business analysts may choose to perform this task themselves and then separately package and communicate the requirements to stakeholders for their review and approval, or they might choose to invite some or all stakeholders to participate in this task.\"",
+          "babok_refs": [
+            "7.1.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Define design options",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The Domain Subject Matter Expert, Implementation Subject Matter Expert, Operational Support, Project Manager, and Supplier may assist in defining and confirming the design options",
+          "babok_refs": [
+            "7.5.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "All tasks",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This not correct. Some tasks cannot be done without the stakeholders.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Thomas is the lead business analyst on a project that has complex requirements. To ensure stakeholders understand the requirements and provide input and feedback early in the design process, Thomas recommends to use which of the following techniques?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "User stories.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "User stories are used to specify requirements as a brief statement about what people do or need to do when using the solution",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Acceptance and Evaluation Criteria.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are used to represent the acceptance and evaluation criteria attributes of requirements",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Organizational modeling.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Organization models capture the roles, responsibilities, and communications within an organization",
+          "babok_refs": [
+            "7.1.6"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Prototyping.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Prototypes assist stakeholders in visualizing the appearance and capabilities of a planned solution. This will help the stakeholders understand the complex requirements and provide feedback",
+          "babok_refs": [
+            "7.1.6",
+            "10.36"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Genevieve and her team of business analysts are in the process of ensuring that all requirements align to the business need and that the design satisfies the requirements. They find it difficult to validate the design against the requirements. What would be the problem?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The business analyst did not invite all the downstream stakeholders who would understand design better.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Requirements and design validation is being done by only business analysts at this point",
+          "babok_refs": [
+            "7.3.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A requirement might be missing or incorrectly specified or the design may not be right.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "If a design cannot be validated to support a requirement, there might be a missing or misunderstood requirement, or the design must change",
+          "babok_refs": [
+            "7.3.4.3."
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "This would be as a result of scope creep.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is a fabricated answer",
+          "babok_refs": [
+            "7.3.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The elicitation results must have been gathered by a different business analyst.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "As long as the requirements are all captured and well specified, the business analyst should not have an issue",
+          "babok_refs": [
+            "7.3.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "What characteristic of a quality requirement is missing in this requirement: \"The call center operator shall be able to view details of a protected household\"?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Complete",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The stated requirement is incomplete in the sense that it lacks a qualifier. A complete requirement would state \"The call center operator shall be able to view details of a protected household within two seconds of issuing a query.\"",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Concise",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Concise means that the requirement contains no unnecessary content which this requirement doesn't. If anything, this requirement lacks content",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Understandable",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This requirement may be understandable but isn't complete",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Consistent",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Consistent means requirements do not conflict with other requirements. That does not appear to the be the case with this requirement",
+          "babok_refs": [
+            "7.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Which of the following stakeholders are included in the task Verify Requirements?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business analyst; domain subject matter experts; developers; architects.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These stakeholders may well be included but the list is not limited to them.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Business analyst; domain subject matter experts; architects; testers.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These stakeholders may well be included but the list is not limited to them.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "All stakeholders.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "",
+          "babok_refs": [
+            "7.2.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business analyst; domain subject matter experts; developers; testers.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These stakeholders may well be included but the list is not limited to them.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Requirements Analysis and Design Definition",
+      "question_text": "Joseph is assessing each design option based on the potential value it is expected to deliver and ensuring that it represents the most effective trade-offs. Which of the following would he NOT consider in this activity?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Constraints on the solution",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Regulatory requirements or business decisions may require that certain requirement be handled a certain way or be prioritized above all others",
+          "babok_refs": [
+            "7.6.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Dependencies between requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Some capabilities may provide limited value to the organization but need to be deliver to support other high-value requirements",
+          "babok_refs": [
+            "7.6.4.4"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Available resources",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There may be limitations regarding the amount of requirements that can be implemented based on the allocated resources",
+          "babok_refs": [
+            "7.6.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Requirements allocation",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This should have been considered while defining the design options, making it the correct answer",
+          "babok_refs": [
+            "7.5.4.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}

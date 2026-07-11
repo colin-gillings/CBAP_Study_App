@@ -1,0 +1,1364 @@
+{
+  "exam_number": "18",
+  "exam_title": "Viewing Results for Drill, Exam #18 started on 2026-06-25 16:59:17",
+  "generated": "2026-06-26 11:31",
+  "questions": [
+    {
+      "number": 1,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "A business analyst wants to assess the business analysis work and plan improvement processes where necessary. Which task should be completed before attempting this activity?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Plan business analysis approach",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The business analysis approach is an output from the plan business analysis approach task and an input to the identify business analysis performance improvements",
+          "babok_refs": [
+            "3.5.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Performance analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is not a stated task in the BABOK. The correct answer is the plan business analysis approach task",
+          "babok_refs": [
+            "3.5.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Plan business analysis governance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to define how decisions are made about requirements and designs, with the output being the governance approach",
+          "babok_refs": [
+            "3.3.8"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Plan business analysis information management",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The purpose of this task is to develop an approach for how business analysis information will be stored and accessed, with the output being the information management approach",
+          "babok_refs": [
+            "3.4.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Vicky has been engaged as a Senior Business Analyst of the gas supply utility project under Government of New Zealand. As the key stakeholders are mostly from government sectors, Vicky knows he will face tough time in engaging with multiple stakeholders during the projects and the availability of stakeholders at different stages of business analysis and the project will be the key challenge. Considering only this factor, which business analysis approach would Vicky find most suitable?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholders preferred approach for business analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Stakeholders' preferred approach can influence the selection of the business analysis approach, but it may not consider stakeholder availability. A \"Predictive Approach\" is often preferred when engaging stakeholders present significant challenges such as availability.  & 3.1.4.1",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "A predictive approach for business analysis",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "A \"Predictive Approach\" is the best approach when engaging stakeholders present significant challenges such as availability",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Organizational Standards for business analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Organizational standards can help define the business analysis approach, but it may not consider stakeholder availability. A \"Predictive Approach\" is often preferred when engaging stakeholders present significant challenges such as availability.  & 3.1.4.1",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "An adaptive approach for business analysis",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "A \"Predictive Approach\" is often preferred when engaging stakeholders present significant challenges such as availability",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Paige works in the IT department for a financial institution. She may be needed to provide approval for aspects of the business analysis approach, especially in organizations where the business analysis process is audited. She may also require that specific stakeholder representatives or groups be involved in the business analysis activities. What type of stakeholder is Paige?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Project manager",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The project manager may be one of the approvers of some of the artifacts, but the question has a decided audit aspect, which makes regulator the best answer",
+          "babok_refs": [
+            "3.1.7",
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Regulator",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "When the BA process is audited, a regulator may need to provide approval for the aspects of the BA approach that are tailored. They may also require that certain stakeholders be involved in BA activities",
+          "babok_refs": [
+            "3.1.7",
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Sponsor",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The sponsor may be one of the approvers of some of the artifacts, but the question has a decided audit aspect, which makes regulator the best answer",
+          "babok_refs": [
+            "3.1.7",
+            "3.2.7"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Executive board",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "There is no such stakeholder group listed in the BABOK",
+          "babok_refs": [
+            "3.1.7",
+            "3.2.7"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "What does the Business Analysis Body of Knowledge contain?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The standards and methodologies to which all business analysts should adhere.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The BABOK does not state it contains \"all the standards and methodologies which should be followed by the BA.\" The BABOK does state that its content \"provides a set of commonly accepted practices.\"",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Best practices in the industry.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK does not state it contains \"best practices\" in the industry. It does state that its content \"provides a set of commonly accepted practices.\"",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "The definitive sequence of tasks that business analysts perform to properly analyze or evaluate the necessity of a change to reach business objectives.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK states that \"tasks may vary in form, order, or importance for individual business analysts or for various initiatives.\"",
+          "babok_refs": [
+            "1.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The sum of knowledge within the profession of Business Analysis and what is considered currently accepted practice.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The primary purpose of the BABOK is to define the profession of business analysis and provide a set of commonly accepted practices",
+          "babok_refs": [
+            "1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "The tasks in business analysis planning and monitoring (BAPM) include which of the following?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Plan business analysis approach, plan stakeholder engagement, plan business analysis governance, plan business analysis communication, identify business analysis performance improvements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The plan business analysis information management task is missing, and plan business analysis communication is not a task in the BABOK. BABOK Figure 3.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Plan business analysis approach, plan stakeholder engagement, plan requirements management process, plan business analysis information management, identify business analysis performance improvements.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The plan business analysis governance task is missing, and plan requirements management process is not a task in the BABOK. BABOK Figure 3.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Plan business analysis approach, plan stakeholder engagement, plan business analysis governance, plan business analysis information management, identify business analysis performance improvements.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are the five tasks listed in the BAPM knowledge area. BABOK Figure 3.0.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Plan business analysis approach, plan stakeholder engagement, plan business analysis governance, plan business analysis information management.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "The identify business analysis performance improvements task is missing, and manage and monitor the business analysis effort is not a task in the BABOK. BABOK Figure 3.0.1",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following approaches is most likely to require formal requirements documentation?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Value-driven",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Adaptive approaches are sometimes called value-driven; however, not in the BABOK. And, in adaptive approaches, requirements documentation is often limited to a prioritized list",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Agile",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Agile is a methodology that utilizes an adaptive approach in which requirements documentation is often limited to a prioritized list",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Predictive",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Predictive approaches typically call for formal documentation",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Adaptive",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "In adaptive approaches, requirements documentation is often limited to a prioritized list",
+          "babok_refs": [
+            "3.1.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Nick reported on the results of the analysis and identified any necessary preventive, corrective, and developmental actions. Why is that important?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The potential improvements will be used in the post implementation review.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The post implementation review should result in identification of potential improvements, not the other way around",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "To keep a record for reference as inputs into the next performance review.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While Nick may incorporate these into his next performance review, the primary reason is to facilitate continuous improvement",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Once potential performance improvements are identified, they become guidelines for the next time a task is executed.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Identifying improvements for future consideration serves as a continuous improvement loop",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The potential improvements will form part of organizational process assets (OPAs).",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The organization would benefit more from application of the improvements as soon as possible",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "What are the input(s) to the plan business analysis governance task?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Needs",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is the input for plan business analysis approach task",
+          "babok_refs": [
+            "3.1.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Needs and business analysis approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are inputs for the plan stakeholder engagement task",
+          "babok_refs": [
+            "3.2.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analysis approach and stakeholder engagement approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "These are the two stated inputs for the plan business analysis governance task",
+          "babok_refs": [
+            "3.3.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business analysis approach and performance objectives (external)",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are inputs for the identify business analysis performance improvements task",
+          "babok_refs": [
+            "3.5.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Business analysis performance assessments help identify opportunities for future improvement. For maximum benefit, when should performance analysis occur?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "When carrying out closing processes",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "It is more beneficial to apply improvements as soon as possible, and not wait for the initiative to close",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "During retrospectives",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "While it is helpful to identify opportunities for future improvement during lessons learned meetings, it is more beneficial to conduct performance analysis throughout the initiative for maximum benefit",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "At the beginning of every sprint",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Performance analysis should occur throughout the initiative vs. a prescribed point in time",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Throughout the life cycle of an initiative",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Performance analysis should occur throughout the initiative",
+          "babok_refs": [
+            "3.5.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Nick has just finished a report that showed some issues in the business analysis work for his current project. Specifically, there were several variances from what he expected, and he needs to address the issues. What should Nick do to address the variances?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Update the business analysis approach for the project to correct the problems identified.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This answer is only partially true. Recommendations for improvement may result in changes to the approach, but that is not the primary action to take to address the issues at hand",
+          "babok_refs": [
+            "3.5.4.4"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Report the variance to the stakeholders as business analysts are to be transparent and communicate any issues to stakeholders to avoid negative impact on the project.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is only partially true, but the business analyst should engage the appropriate stakeholders to find a solution",
+          "babok_refs": [
+            "3.5.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Document findings as lessons learned so that the issue is not repeated in the future projects.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Documenting the issues is not enough. A corrective action is required to address the issues",
+          "babok_refs": [
+            "3.5.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Identify the root cause of variances from the expected performance and apply proposed approaches to address the issues.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "In addition to identifying the root causes and addressing the issues, Nick could also utilize other findings to help understand the performance of BA processes",
+          "babok_refs": [
+            "3.5.8"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Gwen is monitoring and controlling the progress and performance of the business analysis work and planning improvement processes where required. Which of the following guidelines would be beneficial for Gwen in this case?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Accuracy and completeness",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "There is no such guideline in the BABOK",
+          "babok_refs": [
+            "3.5.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Legal/regulatory information",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not one of the listed guidelines for the task in question. This is a guideline in the plan business analysis governance task and plan business analysis information management task",
+          "babok_refs": [
+            "3.3.5",
+            "3.4.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Organizational performance standards",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is the only stated guideline or tool for the identify business analysis performance improvements task which is the task in question. These standards may include performance metrics or expectations for business analysis work",
+          "babok_refs": [
+            "3.5.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business policies",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not one of the listed guidelines for the the identify business analysis performance improvements task which is the task in question. This is a guideline for other tasks in the business analysis planning and monitoring knowledge area. , 3.3.5, and 3.4.5",
+          "babok_refs": [
+            "3.1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "You are a Business Analyst of a construction project. The Project Management team is currently engaged in a meeting to decide whether the work related to building two swimming pools in a posh residential complex area will be managed in-house or outsourced to a preferred vendor. Based on this decision, you may need to change your plan of carrying out your business analysis activities in this project. In which of the following tasks are you currently engaged?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Analyze current state",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point, the business analyst is not analyzing the current state",
+          "babok_refs": [
+            "6.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Prepare for elicitation",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "At this point, the business analyst is not preparing for requirement elicitation",
+          "babok_refs": [
+            "4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Plan business analysis approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The planning process is iterative and plans are updated to address changing business conditions and newly raised issues",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Plan business analysis governance",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Governance focuses on the guidance and control about how business analysis work will be approached, prioritized, how changes to business analysis information will be proposed, and analyzed approved",
+          "babok_refs": [
+            "3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following is an input to the plan business analysis approach task?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Requirements are not known prior to planning. They are an input to tasks in the requirements analysis and design definition knowledge area. BABOK Figure 7.0.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Solution scope",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The solution scope is an input to tasks in the requirements analysis and design definition knowledge area, but not the plan business analysis approach task because the solution is not known prior to planning. BABOK Figure 7.4.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Designs",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Designs are not known prior to planning the business analysis approach. Designs are inputs to the tasks in the requirements life cycle management knowledge area. BABOK Figure 5.0.2",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Needs",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is the sole stated input for this task as the business analysis approach is shaped by the problem or opportunity faced by the organization",
+          "babok_refs": [
+            "3.1.3"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "The purpose of the task identify business analysis performance improvements is to assess business analysis work and plan process improvements. Appropriate performance measures will help the business analyst determine when problems are occurring. These measures may be both quantitative and qualitative. Which of the following best describes why a business analyst may prefer quantitative over qualitative measures?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Quantitative measures save on time compared to qualitative measures.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not necessarily true",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Quantitative measures are easier to determine than qualitative measures.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is not necessarily true",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Quantitative measures are more dependable than qualitative measures.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Quantitative measures are more objective but not necessarily more dependable than qualitative measures",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Qualitative measures are subjective and can be heavily influenced by the stakeholder's attitudes, perceptions, and other subjective criteria.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Qualitative measures can be heavily influenced by stakeholder's attitudes and other subjective criteria over which the BA may have little control",
+          "babok_refs": [
+            "3.5.4.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Guidelines and tools included in the plan business analysis governance task include which of the following?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business analysis performance assessment, business policies, change strategy, current state description, legal/regulatory information.",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Change strategy is not a stated element in the BABOK",
+          "babok_refs": [
+            "3.3.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business analysis performance assessment, change strategy, current state description, legal/regulatory information.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Change strategy is not a stated element in the BABOK, and the business policies guideline is missing",
+          "babok_refs": [
+            "3.3.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analysis performance assessment, business policies, current state description.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The legal/regulatory information guideline is missing",
+          "babok_refs": [
+            "3.3.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business analysis performance assessment, business policies, current state description, legal/regulatory information.",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "These are the guidelines and tools used in the plan business analysis governance task",
+          "babok_refs": [
+            "3.3.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Many planning methods fit somewhere along a continuum between __________ and _________ approaches. Which of the following best completes the statement above?",
+      "your_answer": "d",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Plan-driven; change-driven",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK no longer uses this terminology.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Predictive; value-driven",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Value-driven is not an approach in the BABOK although agile is sometimes referred to by that term.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Event-driven; date-driven",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are not approaches in the BABOK.",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Predictive; adaptive",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The BABOK now uses these terms to refer to \"waterfall\" and \"agile\" approaches",
+          "babok_refs": [
+            "3.1.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which deliverable is the main output of the plan stakeholder engagement task?",
+      "your_answer": "b",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "The communication approach to be utilized with identified stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The communication approach is included within the stakeholder engagement approach. BABOK Figure 3.2.8",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Stakeholder engagement approach",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "Sometimes it is that easy! BABOK Figure 3.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Stakeholder register",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The term stakeholder register is not utilized within the BABOK although a list of stakeholders is included within the stakeholder engagement approach. BABOK Figure 3.2.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholder analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Stakeholder analysis is an element contained within this task",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Sheryl is a BA who is finding it difficult to determine how to effectively communicate and collaborate given the diversity of each stakeholder group. What task will Sheryl need to complete?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Plan business analysis approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Another task addresses stakeholder communication and collaboration more specifically",
+          "babok_refs": [
+            "3.1.2"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Conduct workshops to elicit stakeholder communication requirements",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Workshops are a technique vs. a task",
+          "babok_refs": [
+            "3.2.6",
+            "10.50"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Plan stakeholder engagement",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "The output of this task is the stakeholder engagement approach which identifies collaboration and communication approaches given the stakeholder analysis",
+          "babok_refs": [
+            "3.2.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Perform stakeholder analysis",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is an element vs. a task",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "When conducting a thorough stakeholder analysis, the following resources may be required to be successful. Which of the following is least likely resource to be used?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Business policies",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This is not one of the stated guidelines for the plan stakeholder engagement task. The rest are stated guidelines/tools",
+          "babok_refs": [
+            "3.2.5"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Current state description",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the stated guidelines for the plan stakeholder engagement task",
+          "babok_refs": [
+            "3.2.5"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analysis performance assessment",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the stated guidelines for the plan stakeholder engagement task",
+          "babok_refs": [
+            "3.2.5"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Change strategy",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is one of the stated guidelines for the plan stakeholder engagement task",
+          "babok_refs": [
+            "3.2.5"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following would you consider when searching for external stakeholders?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Stakeholders' influence",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Level of influence is analyzed after stakeholders are identified",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "End users",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This is partially true. However, not all end users are external customers",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Project charter",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Project charters can provide information for both internal and external stakeholders; however, remember to avoid responses not in the BABOK if there is a BABOK answer",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Shareholders",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Shareholders, along with governing bodies, existing contracts, anticipated vendors, customers, and suppliers will help identify external stakeholders",
+          "babok_refs": [
+            "3.2.4.1"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which statement best describes the plan business analysis approach task?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Identifying the activities required to complete each deliverable and then breaking each activity into tasks.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The emphasis in the question is on planning the BA approach vs. the identification of activities and tasks.",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "Ensuring the governance process, approvals, and prioritization of requirements and design are in place.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The emphasis in the question is on planning the BA approach vs. governance and prioritization processes.",
+          "babok_refs": []
+        },
+        {
+          "letter": "c",
+          "text": "Planning analysis work from selection of a methodology to use, to planning the individual activities, tasks and deliverables.",
+          "is_correct": true,
+          "is_selected": true,
+          "result": "Correct",
+          "explanation": "This describes the most complete definition as the emphasis is on planning the business analysis approach",
+          "babok_refs": [
+            "3.0"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "The timing and sequencing of the work, the deliverables that will be produced, techniques and tools that may be utilized and guidelines that may be followed.",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The emphasis in the question is on planning the BA approach vs. the work itself.",
+          "babok_refs": []
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following lists contain valid requirements attributes?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Author, source, class, complexity",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Class is not a stated attribute",
+          "babok_refs": [
+            "3.4.4.6"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Performance, interface, quality glossary",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "These are not requirements attributes; these are invented terms",
+          "babok_refs": [
+            "3.4.4.6"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Unambiguous, testable, complete, understandable",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These are characteristics of well-defined requirements, not attributes",
+          "babok_refs": [
+            "7.2.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Priority, source, status, urgency",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "Use the mnemonic \"CARA'S SOUPS\" to remember the attributes: complexity, absolute reference, risks, author, source, stability, ownership, urgency, priority, status",
+          "babok_refs": [
+            "3.4.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "Which of the following is included within the business analysis approach?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Methodologies and frameworks",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "These are listed as guidelines and tools to the plan business analysis approach task. BABOK Figure 3.1.1",
+          "babok_refs": []
+        },
+        {
+          "letter": "b",
+          "text": "The timing and the sequence of the business analysis work",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "This is one of the primary components of the business analysis approach",
+          "babok_refs": [
+            "3.1.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Corrective and preventive actions",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Corrective and preventive actions are elements of the identify BA performance improvements task",
+          "babok_refs": [
+            "3.5.4.4"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Workshops",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A workshop is a technique that may be used to help build the business analysis approach",
+          "babok_refs": [
+            "3.1.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "As a business analyst, the types of activities that you will perform are documented in the business analysis approach. The prescribed activities may be influenced by which one of the following?",
+      "your_answer": "a",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Techniques used",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "Activities may influence techniques to be used but techniques do not influence activities",
+          "babok_refs": [
+            "3.1.4.3"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Organization's methodologies",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The BABOK states that the organization's adopted methodologies frequently influence the business analysis activities that are selected",
+          "babok_refs": [
+            "3.1.4.3"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Business analyst knowledge",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "A business analyst's level of knowledge may influence the selection of activities, but is not a stated influence in the BABOK",
+          "babok_refs": [
+            "3.1.4.3"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Stakeholders",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "Although stakeholders are expected to review and agree on the business analysis approach, they do not influence the business analysis activities",
+          "babok_refs": [
+            "3.1.4.6"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "total": "?",
+      "status": "",
+      "category": "Business Analysis Planning and Monitoring",
+      "question_text": "In which artifact would the proposed approaches to address issues be found?",
+      "your_answer": "c",
+      "image_link": null,
+      "answers": [
+        {
+          "letter": "a",
+          "text": "Information management approach",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "This output of the plan business analys information management task shows how business analysis information will be stored, accessed, and utilized during and after the change",
+          "babok_refs": [
+            "3.4.8"
+          ]
+        },
+        {
+          "letter": "b",
+          "text": "Business analysis performance assessment",
+          "is_correct": true,
+          "is_selected": false,
+          "result": "Correct",
+          "explanation": "The BA performance assessment not only includes results, variances, and root causes, it also documents proposed approaches to effectively address performance issues",
+          "babok_refs": [
+            "3.5.8"
+          ]
+        },
+        {
+          "letter": "c",
+          "text": "Item tracking",
+          "is_correct": false,
+          "is_selected": true,
+          "result": "Incorrect",
+          "explanation": "This is a technique and not an artifact. Items are documented and tracked in an item tracking record",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        },
+        {
+          "letter": "d",
+          "text": "Business analysis issue log",
+          "is_correct": false,
+          "is_selected": false,
+          "result": "",
+          "explanation": "The BABOK does not refer to an issue log per se; rather, it refers to an item tracking record",
+          "babok_refs": [
+            "10.26.2"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "total": "?",
+      "status": "",
+      "category": "Copyright © 2010-2026, Watermark Learning, Inc. All rights reserved.    Version 2.4.1\n[Contact Us]    [Renew Subscription]",
+      "question_text": "",
+      "your_answer": null,
+      "image_link": null,
+      "answers": []
+    }
+  ]
+}
