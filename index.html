@@ -1720,3 +1720,864 @@ function setupPWA() {
 </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>CBAP Study</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="CBAP Study">
+<link rel="manifest" id="manifest-link">
+<style>
+:root{--bg:#0f0f13;--bg2:#1a1a22;--bg3:#22222d;--bg4:#2a2a38;--border:rgba(255,255,255,0.08);--border2:rgba(255,255,255,0.15);--text:#f0f0f5;--text2:#9090a8;--text3:#606078;--accent:#7c6af7;--accent2:#5b4de8;--green:#22c55e;--amber:#f59e0b;--red:#ef4444;--blue:#3b82f6;--radius:16px;--radius-sm:10px}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;background:var(--bg);color:var(--text);font-family:-apple-system,'SF Pro Display',BlinkMacSystemFont,sans-serif;overflow:hidden}
+.screen{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden}
+.screen.hidden{display:none!important}
+.hdr{display:flex;align-items:center;justify-content:space-between;padding:14px 18px 10px;background:var(--bg);border-bottom:1px solid var(--border);flex-shrink:0}
+.hdr-title{font-size:17px;font-weight:600;letter-spacing:-0.3px}
+.hdr-sub{font-size:12px;color:var(--text2);margin-top:1px}
+.icon-btn{width:36px;height:36px;border-radius:50%;background:var(--bg3);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:18px;color:var(--text2);flex-shrink:0}
+.icon-btn:active{opacity:0.7}
+
+/* HOME */
+.home-scroll{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:12px}
+.home-hero{background:linear-gradient(135deg,#2d1f6e 0%,#1a1a2e 100%);border-radius:var(--radius);padding:20px;border:1px solid rgba(124,106,247,0.3)}
+.hero-label{font-size:11px;font-weight:600;letter-spacing:1.5px;color:var(--accent);text-transform:uppercase;margin-bottom:6px}
+.hero-title{font-size:20px;font-weight:700;letter-spacing:-0.5px}
+.hero-sub{font-size:13px;color:var(--text2);margin-top:4px;line-height:1.5}
+.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 10px;text-align:center}
+.stat-num{font-size:22px;font-weight:700;color:var(--accent)}
+.stat-lbl{font-size:11px;color:var(--text2);margin-top:2px}
+.section-title{font-size:12px;font-weight:600;letter-spacing:1px;color:var(--text3);text-transform:uppercase;padding:4px 0 2px}
+.deck-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;align-items:center;gap:12px;cursor:pointer}
+.deck-card:active{background:var(--bg3)}
+.deck-icon{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0}
+.deck-info{flex:1;min-width:0}
+.deck-name{font-size:15px;font-weight:600}
+.deck-meta{font-size:12px;color:var(--text2);margin-top:2px}
+.deck-badge{font-size:12px;color:var(--text2);flex-shrink:0}
+.mode-btn{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:16px;display:flex;align-items:center;gap:14px;cursor:pointer}
+.mode-btn:active{background:var(--bg3)}
+.mode-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.mode-text{flex:1}
+.mode-name{font-size:15px;font-weight:600}
+.mode-desc{font-size:12px;color:var(--text2);margin-top:2px}
+
+/* REFRESH BANNER */
+.refresh-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;display:flex;align-items:center;gap:12px}
+.refresh-info{flex:1}
+.refresh-title{font-size:14px;font-weight:600}
+.refresh-sub{font-size:12px;color:var(--text2);margin-top:2px}
+.refresh-btn{background:var(--accent);border:none;border-radius:var(--radius-sm);padding:8px 14px;color:white;font-size:13px;font-weight:600;cursor:pointer;flex-shrink:0;white-space:nowrap}
+.refresh-btn:active{background:var(--accent2)}
+.refresh-btn:disabled{opacity:0.5;cursor:default}
+
+/* LOCK SCREEN */
+.lock-screen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;padding:32px}
+.lock-icon{font-size:52px}
+.lock-title{font-size:22px;font-weight:700;letter-spacing:-0.5px}
+.lock-sub{font-size:13px;color:var(--text2);text-align:center}
+.lock-input{width:100%;max-width:280px;background:var(--bg2);border:2px solid var(--border2);border-radius:var(--radius-sm);padding:14px 16px;font-size:18px;color:var(--text);text-align:center;letter-spacing:4px;outline:none}
+.lock-input:focus{border-color:var(--accent)}
+.lock-btn{width:100%;max-width:280px;background:var(--accent);border:none;border-radius:var(--radius);padding:14px;color:white;font-size:16px;font-weight:700;cursor:pointer}
+.lock-btn:active{background:var(--accent2)}
+.lock-error{font-size:13px;color:var(--red);min-height:18px}
+
+/* LOADING SCREEN */
+.loading-screen{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:32px}
+.loading-spinner{width:48px;height:48px;border:3px solid var(--bg3);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.loading-title{font-size:17px;font-weight:600}
+.loading-sub{font-size:13px;color:var(--text2);text-align:center;line-height:1.6}
+.loading-progress{width:100%;max-width:280px;background:var(--bg3);border-radius:4px;height:4px;overflow:hidden}
+.loading-progress-fill{height:100%;background:var(--accent);border-radius:4px;transition:width 0.3s ease;width:0%}
+.error-card{background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:var(--radius);padding:16px;text-align:center}
+.error-card p{font-size:13px;color:#fca5a5;line-height:1.6;margin-bottom:12px}
+.retry-btn{background:var(--red);border:none;border-radius:var(--radius-sm);padding:10px 20px;color:white;font-size:14px;font-weight:600;cursor:pointer}
+
+/* STUDY */
+.study-progress{height:3px;background:var(--bg3);flex-shrink:0}
+.study-progress-fill{height:100%;background:var(--accent);transition:width 0.3s ease;border-radius:0 3px 3px 0}
+.study-meta{display:flex;justify-content:space-between;align-items:center;padding:8px 18px 6px;flex-shrink:0}
+.study-count{font-size:13px;color:var(--text2)}
+.study-deck-tag{font-size:12px;color:var(--text3);background:var(--bg3);padding:3px 8px;border-radius:20px;max-width:150px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card-area{flex:1;padding:10px 14px;display:flex;flex-direction:column;gap:10px;overflow:hidden}
+.q-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px;flex-shrink:0}
+.q-meta-row{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;gap:8px}
+.q-ref{font-size:11px;color:var(--text3);font-weight:500;letter-spacing:0.3px}
+.img-btn{background:var(--bg3);border:1px solid var(--border2);border-radius:8px;padding:5px 10px;font-size:12px;color:var(--text2);cursor:pointer;white-space:nowrap;flex-shrink:0;transition:opacity 0.2s}
+.img-btn:not([disabled]):active{background:var(--bg4)}
+.img-btn[disabled]{opacity:0.25;cursor:default}
+.q-text{font-size:clamp(15px,3.8vw,18px);line-height:1.6;color:var(--text)}
+.options-wrap{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:8px}
+.opt-btn{background:var(--bg2);border:2px solid var(--border);border-radius:var(--radius-sm);padding:13px 14px;text-align:left;cursor:pointer;font-size:clamp(14px,3.5vw,16px);line-height:1.5;color:var(--text);width:100%;transition:border-color 0.15s,background 0.15s;display:flex;align-items:flex-start;gap:10px}
+.opt-btn:active{background:var(--bg3)}
+.opt-btn.selected-wrong{border-color:var(--red);background:rgba(239,68,68,0.12)}
+.opt-btn.selected-correct{border-color:var(--green);background:rgba(34,197,94,0.12)}
+.opt-btn.reveal-correct{border-color:var(--green);background:rgba(34,197,94,0.08)}
+.opt-btn.disabled{cursor:default}
+.opt-letter{width:22px;height:22px;border-radius:50%;border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;margin-top:1px;color:var(--text2)}
+.opt-btn.selected-wrong .opt-letter{background:var(--red);border-color:var(--red);color:white}
+.opt-btn.selected-correct .opt-letter,.opt-btn.reveal-correct .opt-letter{background:var(--green);border-color:var(--green);color:white}
+.explanation{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;font-size:13px;line-height:1.6;color:var(--text2);flex-shrink:0;display:none}
+.explanation.show{display:block}
+.explanation strong{color:var(--text)}
+.next-btn{background:var(--accent);border:none;border-radius:var(--radius);padding:14px;color:white;font-size:16px;font-weight:700;cursor:pointer;flex-shrink:0;display:none}
+.next-btn.show{display:block}
+.next-btn:active{background:var(--accent2)}
+
+/* SELECT */
+.sel-scroll{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px}
+.sel-deck{background:var(--bg2);border:2px solid var(--border);border-radius:var(--radius);padding:14px;cursor:pointer;display:flex;align-items:center;gap:12px}
+.sel-deck.selected{border-color:var(--accent);background:rgba(124,106,247,0.1)}
+.sel-check{width:22px;height:22px;border-radius:50%;border:2px solid var(--border2);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:12px}
+.sel-deck.selected .sel-check{background:var(--accent);border-color:var(--accent)}
+.sel-info{flex:1}
+.sel-name{font-size:14px;font-weight:600}
+.sel-count{font-size:12px;color:var(--text2);margin-top:2px}
+.start-btn{margin:16px;padding:16px;background:var(--accent);border:none;border-radius:var(--radius);color:white;font-size:16px;font-weight:700;cursor:pointer}
+.start-btn:active{background:var(--accent2)}
+
+/* PROGRESS */
+.prog-scroll{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:14px}
+.prog-section{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px}
+.prog-section-title{font-size:13px;font-weight:600;color:var(--text2);margin-bottom:12px;text-transform:uppercase;letter-spacing:0.5px}
+.prog-row{display:flex;align-items:center;gap:10px;padding:5px 0}
+.prog-label{font-size:13px;flex:1}
+.prog-bar-wrap{width:90px;height:6px;background:var(--bg4);border-radius:3px;overflow:hidden;flex-shrink:0}
+.prog-bar-fill{height:100%;border-radius:3px}
+.prog-pct{font-size:12px;color:var(--text2);width:34px;text-align:right;flex-shrink:0}
+.streak-card{background:linear-gradient(135deg,#2d1f6e,#1a1a2e);border:1px solid rgba(124,106,247,0.4);border-radius:var(--radius);padding:20px;display:flex;align-items:center;gap:16px}
+.streak-num{font-size:42px;font-weight:800;color:var(--accent);line-height:1}
+.reset-btn{background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3);color:#ef4444;border-radius:var(--radius-sm);padding:12px;font-size:14px;font-weight:600;cursor:pointer;width:100%}
+
+/* COMPLETE */
+.complete-screen{background:var(--bg);flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;gap:20px;text-align:center}
+.complete-emoji{font-size:64px}
+.complete-title{font-size:26px;font-weight:800;letter-spacing:-0.5px}
+.complete-sub{font-size:15px;color:var(--text2);max-width:280px;line-height:1.6}
+.complete-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:340px}
+.complete-stat{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:14px 10px}
+.c-stat-num{font-size:22px;font-weight:700}
+.c-stat-lbl{font-size:11px;color:var(--text2);margin-top:2px}
+.home-btn{background:var(--accent);color:white;border:none;border-radius:var(--radius);padding:16px 40px;font-size:16px;font-weight:700;cursor:pointer}
+
+/* NAV */
+.nav{display:flex;background:var(--bg2);border-top:1px solid var(--border);flex-shrink:0}
+.nav-item{flex:1;display:flex;flex-direction:column;align-items:center;padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;color:var(--text3);font-size:10px;gap:4px}
+.nav-item.active{color:var(--accent)}
+.nav-icon{font-size:22px;line-height:1}
+::-webkit-scrollbar{width:3px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:var(--bg4);border-radius:2px}
+</style>
+</head>
+<body>
+
+<!-- LOCK SCREEN -->
+<div class="screen hidden" id="s-lock">
+  <div class="lock-screen">
+    <div class="lock-icon">🔒</div>
+    <div class="lock-title">CBAP Study</div>
+    <div class="lock-sub">Enter your password to continue</div>
+    <input class="lock-input" id="lock-input" type="password" placeholder="••••••••"
+      onkeydown="if(event.key==='Enter')checkPassword()">
+    <div class="lock-error" id="lock-error"></div>
+    <button class="lock-btn" onclick="checkPassword()">Unlock</button>
+  </div>
+</div>
+
+<!-- LOADING SCREEN -->
+<div class="screen" id="s-loading">
+  <div class="loading-screen">
+    <div class="loading-spinner" id="loading-spinner"></div>
+    <div class="loading-title" id="loading-title">Loading cards…</div>
+    <div class="loading-sub" id="loading-sub">Fetching your exam data from GitHub</div>
+    <div class="loading-progress"><div class="loading-progress-fill" id="loading-progress-fill"></div></div>
+    <div id="loading-error" style="display:none;width:100%;max-width:320px">
+      <div class="error-card">
+        <p id="error-msg">Could not fetch data from GitHub. Check your connection and try again.</p>
+        <button class="retry-btn" onclick="loadFromGitHub()">Retry</button>
+      </div>
+      <div style="margin-top:12px;text-align:center">
+        <button onclick="loadFromCache()" style="background:none;border:none;color:var(--text2);font-size:13px;cursor:pointer;text-decoration:underline">Use cached data instead</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- HOME -->
+<div class="screen hidden" id="s-home">
+  <div class="hdr">
+    <div><div class="hdr-title">CBAP Final Push</div><div class="hdr-sub" id="home-date"></div></div>
+    <div class="icon-btn" onclick="showScreen('s-progress')">📊</div>
+  </div>
+  <div class="home-scroll">
+    <div class="home-hero">
+      <div class="hero-label" id="hero-label">Built from your exam mistakes</div>
+      <div class="hero-title" id="hero-title">Recognise the right answer</div>
+      <div class="hero-sub" id="hero-sub">Multiple choice — just like the real exam.</div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-card"><div class="stat-num" id="stat-due">0</div><div class="stat-lbl">Due</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-streak">0</div><div class="stat-lbl">Streak</div></div>
+      <div class="stat-card"><div class="stat-num" id="stat-score">—</div><div class="stat-lbl">Accuracy</div></div>
+    </div>
+
+    <!-- REFRESH FROM GITHUB -->
+    <div class="section-title">Data</div>
+    <div class="refresh-card">
+      <div class="refresh-info">
+        <div class="refresh-title">Sync from GitHub</div>
+        <div class="refresh-sub" id="refresh-sub">Last synced: never</div>
+      </div>
+      <button class="refresh-btn" id="refresh-btn" onclick="doRefresh()">↻ Refresh</button>
+    </div>
+
+    <div class="section-title">Weak Areas — Questions I Got Wrong</div>
+    <div class="mode-btn" onclick="startQuickStudy()">
+      <div class="mode-icon" style="background:rgba(124,106,247,0.2)">⚡</div>
+      <div class="mode-text"><div class="mode-name">Quick Study — Due Cards</div><div class="mode-desc">Due wrong-answer cards across all knowledge areas</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div id="deck-list"></div>
+    <div class="mode-btn" onclick="showDeckSelect('wrong')">
+      <div class="mode-icon" style="background:rgba(59,130,246,0.2)">🎯</div>
+      <div class="mode-text"><div class="mode-name">Custom — Choose Areas</div><div class="mode-desc">Mix wrong-answer decks across knowledge areas</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+
+    <div class="section-title">Practice Mode — All Questions</div>
+    <div class="mode-btn" onclick="startPracticeAll()">
+      <div class="mode-icon" style="background:rgba(34,197,94,0.2)">🎲</div>
+      <div class="mode-text"><div class="mode-name">Random — All Knowledge Areas</div><div class="mode-desc">Random questions from the full exam pool</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div id="all-deck-list"></div>
+    <div class="mode-btn" onclick="showDeckSelect('all')">
+      <div class="mode-icon" style="background:rgba(245,158,11,0.2)">📚</div>
+      <div class="mode-text"><div class="mode-name">Custom — Choose Areas</div><div class="mode-desc">Pick specific knowledge areas to practise</div></div>
+      <div style="color:var(--text3);font-size:20px">›</div>
+    </div>
+    <div style="height:8px"></div>
+  </div>
+  <div class="nav">
+    <button class="nav-item active" onclick="showScreen('s-home')"><div class="nav-icon">🏠</div>Home</button>
+    <button class="nav-item" onclick="showDeckSelect()"><div class="nav-icon">📚</div>Study</button>
+    <button class="nav-item" onclick="showScreen('s-progress')"><div class="nav-icon">📊</div>Progress</button>
+  </div>
+</div>
+
+<!-- DECK SELECT -->
+<div class="screen hidden" id="s-select">
+  <div class="hdr">
+    <div class="icon-btn" onclick="showScreen('s-home')">←</div>
+    <div><div class="hdr-title" id="sel-title">Choose Areas</div><div class="hdr-sub" id="sel-sub">Select knowledge areas to study</div></div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="sel-scroll"><div id="deck-select-list"></div><div style="height:8px"></div></div>
+  <button class="start-btn" id="sel-start-btn" onclick="startCustom()">Start Session →</button>
+</div>
+
+<!-- STUDY -->
+<div class="screen hidden" id="s-study">
+  <div class="hdr">
+    <div class="icon-btn" onclick="exitStudy()">←</div>
+    <div><div class="hdr-title" id="study-mode-label">Study</div><div class="hdr-sub" id="study-deck-label"></div></div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="study-progress"><div class="study-progress-fill" id="study-prog-fill" style="width:0%"></div></div>
+  <div class="study-meta">
+    <div class="study-count" id="study-count">Q 1 of 20</div>
+    <div class="study-deck-tag" id="study-deck-tag"></div>
+  </div>
+  <div class="card-area">
+    <div class="q-card">
+      <div class="q-meta-row">
+        <span class="q-ref" id="q-ref"></span>
+        <button class="img-btn" id="img-btn" onclick="openImage()" disabled>🖼 View Image</button>
+      </div>
+      <div class="q-text" id="q-text"></div>
+    </div>
+    <div class="options-wrap" id="options-wrap"></div>
+    <div class="explanation" id="explanation"></div>
+    <button class="next-btn" id="next-btn" onclick="nextCard()">Next Question →</button>
+  </div>
+</div>
+
+<!-- COMPLETE -->
+<div class="screen hidden" id="s-complete">
+  <div class="complete-screen">
+    <div class="complete-emoji" id="complete-emoji">🎉</div>
+    <div class="complete-title" id="complete-title">Session Complete!</div>
+    <div class="complete-sub" id="complete-sub"></div>
+    <div class="complete-stats">
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--green)" id="cs-correct">0</div><div class="c-stat-lbl">Correct</div></div>
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--red)" id="cs-wrong">0</div><div class="c-stat-lbl">Wrong</div></div>
+      <div class="complete-stat"><div class="c-stat-num" style="color:var(--accent)" id="cs-pct">0%</div><div class="c-stat-lbl">Score</div></div>
+    </div>
+    <button class="home-btn" onclick="showScreen('s-home');updateHome()">Back to Home</button>
+  </div>
+</div>
+
+<!-- PROGRESS -->
+<div class="screen hidden" id="s-progress">
+  <div class="hdr">
+    <div class="icon-btn" onclick="showScreen('s-home')">←</div>
+    <div><div class="hdr-title">Progress</div></div>
+    <div style="width:36px"></div>
+  </div>
+  <div class="prog-scroll" id="prog-content"></div>
+  <div class="nav">
+    <button class="nav-item" onclick="showScreen('s-home')"><div class="nav-icon">🏠</div>Home</button>
+    <button class="nav-item" onclick="showDeckSelect()"><div class="nav-icon">📚</div>Study</button>
+    <button class="nav-item active"><div class="nav-icon">📊</div>Progress</button>
+  </div>
+</div>
+
+<script>
+// ── Config ────────────────────────────────────────────────
+const MERGED_URL = 'https://raw.githubusercontent.com/colin-gillings/CBAP_Study_App/main/data/merged_exam_data.json';
+const CACHE_KEY  = 'v4_decks';
+const CACHE_ALL  = 'v4_decks_all';
+const SYNC_KEY   = 'v4_last_sync';
+
+// ── Deck definitions (category mapping + display config) ──
+const DECK_CONFIG = [
+  {id:'radd', name:'RADD Techniques & Models',      icon:'📐', color:'rgba(251,146,60,0.2)',  cat:'Requirements Analysis and Design Definition', limit:30},
+  {id:'se',   name:'Solution Evaluation',            icon:'📊', color:'rgba(124,106,247,0.2)', cat:'Solution Evaluation',                         limit:30},
+  {id:'sa',   name:'Strategy Analysis',              icon:'🎯', color:'rgba(34,197,94,0.2)',   cat:'Strategy Analysis',                           limit:30},
+  {id:'bapm', name:'BA Planning & Monitoring',       icon:'📅', color:'rgba(168,85,247,0.2)',  cat:'Business Analysis Planning and Monitoring',    limit:25},
+  {id:'rlcm', name:'Requirements Life Cycle',        icon:'🔁', color:'rgba(14,165,233,0.2)',  cat:'Requirements Life Cycle Management',           limit:25},
+  {id:'ec',   name:'Elicitation & Collaboration',    icon:'🤝', color:'rgba(20,184,166,0.2)',  cat:'Elicitation and Collaboration',                limit:20},
+  {id:'tech', name:'Techniques (standalone)',         icon:'🛠️', color:'rgba(59,130,246,0.2)',  cat:'Techniques',                                   limit:20},
+  {id:'uc',   name:'Underlying Competencies',        icon:'🧠', color:'rgba(236,72,153,0.2)',  cat:'Underlying Competencies',                      limit:10},
+];
+
+// ── State ─────────────────────────────────────────────────
+let DECKS     = [];  // wrong-answers-only decks
+let ALL_DECKS = [];  // all questions decks (practice mode)
+let queue = [], qIdx = 0, sessionCorrect = 0, sessionWrong = 0, answered = false;
+let currentImageUrl = '';
+
+// ── Password ──────────────────────────────────────────────
+const PASSWORD     = 'cbap2026';   // ← change this to whatever you want
+const AUTH_KEY     = 'v4_authed';
+
+function checkPassword() {
+  const val = document.getElementById('lock-input').value;
+  if (val === PASSWORD) {
+    localStorage.setItem(AUTH_KEY, '1');
+    boot();
+  } else {
+    document.getElementById('lock-error').textContent = 'Incorrect password. Try again.';
+    document.getElementById('lock-input').value = '';
+    document.getElementById('lock-input').focus();
+  }
+}
+
+// ── Boot ──────────────────────────────────────────────────
+window.addEventListener('load', () => {
+  setupPWA();
+  if (localStorage.getItem(AUTH_KEY) === '1') {
+    boot();
+  } else {
+    showScreen('s-lock');
+    setTimeout(() => document.getElementById('lock-input').focus(), 100);
+  }
+});
+
+function boot() {
+  const cached    = getCachedDecks();
+  const cachedAll = getCachedAll();
+  if (cached && cachedAll) {
+    DECKS = cached;
+    ALL_DECKS = cachedAll;
+    initApp();
+  } else {
+    loadFromGitHub();
+  }
+}
+
+// ── GitHub fetch ──────────────────────────────────────────
+async function loadFromGitHub() {
+  showScreen('s-loading');
+  document.getElementById('loading-error').style.display = 'none';
+  document.getElementById('loading-spinner').style.display = 'block';
+  setLoadingText('Fetching exam data…', 'Loading merged question file');
+  setProgress(10);
+
+  try {
+    const res = await fetch(MERGED_URL + '?t=' + Date.now());
+    if (!res.ok) throw new Error(`merged_exam_data.json: ${res.status}`);
+    setProgress(60);
+    const data = await res.json();
+    setLoadingText('Building decks…', `${data.meta.total_questions} questions loaded`);
+    setProgress(80);
+
+    const { wrongDecks, allDecks } = buildDecksFromMerged(data.questions);
+    DECKS     = wrongDecks;
+    ALL_DECKS = allDecks;
+    cacheDecks(DECKS);
+    cacheAll(ALL_DECKS);
+    localStorage.setItem(SYNC_KEY, new Date().toISOString());
+    setProgress(100);
+    initApp();
+
+  } catch (err) {
+    console.error(err);
+    document.getElementById('loading-spinner').style.display = 'none';
+    document.getElementById('loading-error').style.display = 'block';
+    document.getElementById('error-msg').textContent = `Error: ${err.message}. Check your connection or use cached data.`;
+  }
+}
+
+function buildDecksFromMerged(questions) {
+  // Group into pools by category
+  const wrongPool = {};
+  const allPool   = {};
+
+  for (const q of questions) {
+    const cat  = q.category || 'Uncategorised';
+    const correct = q.answers.find(a => a.is_correct);
+    if (!correct) continue;
+    const opts = q.answers.map(a => a.text.trim()).filter(Boolean);
+    if (opts.length < 3) continue;
+
+    // Pick the best hint: wrong-answer explanation first, then correct explanation
+    const wrongAns = q.answers.find(a => a.is_selected && !a.is_correct);
+    const hint = (wrongAns && wrongAns.explanation)
+      ? `Trap: ${wrongAns.explanation.trim()}`
+      : (correct.explanation || '').trim();
+
+    const card = {
+      q:       q.question_text,
+      opts:    opts.slice(0, 4),
+      correct: correct.text.trim(),
+      hint,
+      img:     q.image_link || '',
+      id:      q.id || '',
+      exams:   (q.exams_seen || []).join(', '),
+    };
+
+    if (!allPool[cat])   allPool[cat]   = [];
+    allPool[cat].push(card);
+
+    if (q.got_wrong) {
+      if (!wrongPool[cat]) wrongPool[cat] = [];
+      wrongPool[cat].push(card);
+    }
+  }
+
+  const buildSet = (pool, isPractice) => DECK_CONFIG.map(cfg => {
+    const all   = pool[cfg.cat] || [];
+    const cards = isPractice ? all : all.slice(0, cfg.limit);
+    return {
+      id:         cfg.id + (isPractice ? '_all' : ''),
+      name:       cfg.name,
+      icon:       cfg.icon,
+      color:      cfg.color,
+      errorCount: all.length,
+      cards,
+    };
+  }).filter(d => d.cards.length > 0);
+
+  return {
+    wrongDecks: buildSet(wrongPool, false),
+    allDecks:   buildSet(allPool,   true),
+  };
+}
+
+function loadFromCache() {
+  const cached    = getCachedDecks();
+  const cachedAll = getCachedAll();
+  if (cached && cachedAll) { DECKS = cached; ALL_DECKS = cachedAll; initApp(); }
+  else { document.getElementById('error-msg').textContent = 'No cached data available. Please connect to the internet and retry.'; }
+}
+
+async function doRefresh() {
+  const btn = document.getElementById('refresh-btn');
+  btn.disabled = true;
+  btn.textContent = '↻ Syncing…';
+  await loadFromGitHub();
+  btn.disabled = false;
+  btn.textContent = '↻ Refresh';
+}
+
+// ── Cache ─────────────────────────────────────────────────
+function cacheDecks(decks) {
+  try { localStorage.setItem(CACHE_KEY, JSON.stringify(decks)); } catch(e) {}
+}
+function getCachedDecks() {
+  try { const s = localStorage.getItem(CACHE_KEY); return s ? JSON.parse(s) : null; } catch(e) { return null; }
+}
+function cacheAll(decks) {
+  try { localStorage.setItem(CACHE_ALL, JSON.stringify(decks)); } catch(e) {}
+}
+function getCachedAll() {
+  try { const s = localStorage.getItem(CACHE_ALL); return s ? JSON.parse(s) : null; } catch(e) { return null; }
+}
+
+// ── Loading UI ────────────────────────────────────────────
+function setLoadingText(title, sub) {
+  document.getElementById('loading-title').textContent = title;
+  document.getElementById('loading-sub').textContent = sub;
+}
+function setProgress(pct) {
+  document.getElementById('loading-progress-fill').style.width = pct + '%';
+}
+
+// ── Init ──────────────────────────────────────────────────
+function initApp() {
+  updateHome();
+  showScreen('s-home');
+}
+
+// ── SM2 storage ───────────────────────────────────────────
+function ckey(deckId, idx) { return `v4_${deckId}_${idx}`; }
+function cget(deckId, idx) {
+  try { const s = localStorage.getItem(ckey(deckId, idx)); if (s) return JSON.parse(s); } catch(e) {}
+  return { interval:1, reps:0, ef:2.5, next:0, seen:0, correct:0 };
+}
+function csave(deckId, idx, d) {
+  try { localStorage.setItem(ckey(deckId, idx), JSON.stringify(d)); } catch(e) {}
+}
+function isDue(d) { return Date.now() >= d.next; }
+function sm2(d, wasCorrect) {
+  d.seen++;
+  if (wasCorrect) {
+    d.correct++;
+    if (d.reps === 0) d.interval = 1;
+    else if (d.reps === 1) d.interval = 6;
+    else d.interval = Math.round(d.interval * d.ef);
+    d.reps++;
+    d.ef = Math.min(3.0, d.ef + 0.1);
+    d.next = Date.now() + d.interval * 86400000;
+  } else {
+    d.reps = 0; d.interval = 1;
+    d.ef = Math.max(1.3, d.ef - 0.2);
+    d.next = Date.now() + 600000;
+  }
+  return d;
+}
+
+// ── Screens ───────────────────────────────────────────────
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.add('hidden'));
+  document.getElementById(id).classList.remove('hidden');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  if (id === 's-home') document.querySelectorAll('.nav-item')[0]?.classList.add('active');
+  if (id === 's-progress') { document.querySelectorAll('.nav-item')[2]?.classList.add('active'); renderProgress(); }
+}
+
+// ── Home ──────────────────────────────────────────────────
+function updateHome() {
+  const now = new Date();
+  document.getElementById('home-date').textContent = now.toLocaleDateString('en-AU', {weekday:'long',day:'numeric',month:'long'});
+
+  let due = 0, totalSeen = 0, totalCorrect = 0, totalCards = 0;
+  DECKS.forEach(d => d.cards.forEach((c, i) => {
+    const data = cget(d.id, i);
+    if (isDue(data)) due++;
+    totalSeen += data.seen;
+    totalCorrect += data.correct;
+    totalCards++;
+  }));
+
+  const streak = parseInt(localStorage.getItem('v4_streak') || '0');
+  const acc = totalSeen > 0 ? Math.round(totalCorrect / totalSeen * 100) : null;
+  document.getElementById('stat-due').textContent = due;
+  document.getElementById('stat-streak').textContent = streak;
+  document.getElementById('stat-score').textContent = acc !== null ? acc + '%' : '—';
+
+  const totalErrors = DECKS.reduce((s, d) => s + d.errorCount, 0);
+  document.getElementById('hero-label').textContent = `${totalCards} questions from ${totalErrors} mistakes`;
+
+  if (due > 0) {
+    document.getElementById('hero-title').textContent = `${due} question${due > 1 ? 's' : ''} due`;
+    document.getElementById('hero-sub').textContent = 'Tap Quick Study to drill your weakest patterns.';
+  } else {
+    document.getElementById('hero-title').textContent = 'All caught up!';
+    document.getElementById('hero-sub').textContent = 'New questions will be due soon.';
+  }
+
+  // Last sync time
+  const lastSync = localStorage.getItem(SYNC_KEY);
+  if (lastSync) {
+    const d = new Date(lastSync);
+    document.getElementById('refresh-sub').textContent = `Last synced: ${d.toLocaleDateString('en-AU', {day:'numeric',month:'short'})} at ${d.toLocaleTimeString('en-AU', {hour:'2-digit',minute:'2-digit'})}`;
+  } else {
+    document.getElementById('refresh-sub').textContent = 'Using cached data';
+  }
+
+  // Wrong-answer deck list
+  renderDeckList('deck-list', DECKS, true);
+  // All-questions deck list
+  renderDeckList('all-deck-list', ALL_DECKS, false);
+}
+
+function renderDeckList(elId, decks, isWrong) {
+  const dl = document.getElementById(elId);
+  dl.innerHTML = '';
+  decks.forEach(deck => {
+    let due = 0, seen = 0, correct = 0;
+    deck.cards.forEach((c, i) => {
+      const d = cget(deck.id, i);
+      if (isDue(d)) due++;
+      seen += d.seen; correct += d.correct;
+    });
+    const acc = seen > 0 ? Math.round(correct / seen * 100) + '%' : '';
+    const badge = isWrong
+      ? (due > 0
+          ? `<div style="font-size:13px;font-weight:600;color:var(--accent);background:rgba(124,106,247,0.15);padding:3px 9px;border-radius:20px">${due}</div>`
+          : (seen > 0 ? `<div class="deck-badge">${acc}</div>` : ''))
+      : (seen > 0 ? `<div class="deck-badge">${acc}</div>` : '');
+    const meta = isWrong
+      ? `${deck.cards.length} wrong answers`
+      : `${deck.cards.length} questions total`;
+    const onclick = isWrong ? `startDeck('${deck.id}')` : `startPracticeDeck('${deck.id}')`;
+    dl.innerHTML += `<div class="deck-card" onclick="${onclick}">
+      <div class="deck-icon" style="background:${deck.color}">${deck.icon}</div>
+      <div class="deck-info">
+        <div class="deck-name">${deck.name}</div>
+        <div class="deck-meta">${meta}</div>
+      </div>
+      ${badge}
+    </div>`;
+  });
+}
+
+// ── Study ─────────────────────────────────────────────────
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function buildQueue(deckIds, pool) {
+  pool = pool || DECKS;
+  let due = [], notDue = [];
+  pool.filter(d => deckIds.includes(d.id)).forEach(d =>
+    d.cards.forEach((c, i) => {
+      const item = { deckId: d.id, cardIdx: i, card: c };
+      isDue(cget(d.id, i)) ? due.push(item) : notDue.push(item);
+    })
+  );
+  shuffle(due); shuffle(notDue);
+  // For practice mode there are no "due" cards per se — just shuffle all
+  return due.length > 0 ? due : shuffle(notDue).slice(0, 30);
+}
+
+function startQuickStudy() {
+  startSession(buildQueue(DECKS.map(d => d.id), DECKS), 'Quick Study', 'All Areas');
+}
+function startDeck(id) {
+  const deck = DECKS.find(d => d.id === id);
+  startSession(buildQueue([id], DECKS), deck.name, deck.name);
+}
+let selectMode = 'wrong'; // 'wrong' or 'all'
+
+function showDeckSelect(mode) {
+  selectMode = mode || 'wrong';
+  const isPractice = selectMode === 'all';
+  showScreen('s-select');
+  document.getElementById('sel-title').textContent   = isPractice ? 'Practice Mode' : 'Weak Areas';
+  document.getElementById('sel-sub').textContent     = isPractice ? 'All questions — choose areas to practise' : 'Wrong-answer cards — choose areas to drill';
+  document.getElementById('sel-start-btn').textContent = isPractice ? 'Start Practice →' : 'Start Drilling →';
+  const deckPool = isPractice ? ALL_DECKS : DECKS;
+  const dsl = document.getElementById('deck-select-list');
+  dsl.innerHTML = '';
+  deckPool.forEach(deck => {
+    const count = isPractice ? `${deck.cards.length} questions` : `${deck.cards.length} wrong answers`;
+    dsl.innerHTML += `<div class="sel-deck selected" id="sel-${deck.id}" onclick="toggleSel('${deck.id}',this)">
+      <div class="sel-check">✓</div>
+      <div style="font-size:20px">${deck.icon}</div>
+      <div class="sel-info"><div class="sel-name">${deck.name}</div><div class="sel-count">${count}</div></div>
+    </div>`;
+  });
+}
+function toggleSel(id, el) { el.classList.toggle('selected'); el.querySelector('.sel-check').textContent = el.classList.contains('selected') ? '✓' : ''; }
+function startCustom() {
+  const ids = Array.from(document.querySelectorAll('.sel-deck.selected')).map(el => el.id.replace('sel-', ''));
+  if (!ids.length) { alert('Select at least one area.'); return; }
+  const isPractice = selectMode === 'all';
+  const pool = isPractice ? ALL_DECKS : DECKS;
+  startSession(buildQueue(ids, pool), isPractice ? 'Practice Mode' : 'Custom Session', ids.map(id => pool.find(d => d.id === id)?.icon || '').join(' '));
+}
+function startPracticeAll() {
+  startSession(buildQueue(ALL_DECKS.map(d => d.id), ALL_DECKS), 'Practice — All Areas', 'All Areas');
+}
+function startPracticeDeck(id) {
+  const deck = ALL_DECKS.find(d => d.id === id);
+  startSession(buildQueue([id], ALL_DECKS), `Practice — ${deck.name}`, deck.name);
+}
+function startSession(q, modeLabel, deckLabel) {
+  queue = q; qIdx = 0; sessionCorrect = 0; sessionWrong = 0; answered = false;
+  document.getElementById('study-mode-label').textContent = modeLabel;
+  document.getElementById('study-deck-label').textContent = deckLabel;
+  showScreen('s-study');
+  renderCard();
+}
+
+// ── Card rendering ────────────────────────────────────────
+function renderCard() {
+  if (qIdx >= queue.length) { showComplete(); return; }
+  answered = false;
+  const { deckId, cardIdx, card } = queue[qIdx];
+
+  document.getElementById('q-text').textContent = card.q;
+  document.getElementById('study-count').textContent = `Q ${qIdx + 1} of ${queue.length}`;
+  document.getElementById('study-prog-fill').style.width = `${(qIdx / queue.length) * 100}%`;
+  const deck = DECKS.find(d => d.id === deckId);
+  document.getElementById('study-deck-tag').textContent = deck ? deck.name : '';
+  document.getElementById('q-ref').textContent = card.id + (card.exams ? ` · Exam ${card.exams}` : '');
+
+  // Image button
+  currentImageUrl = card.img || '';
+  const imgBtn = document.getElementById('img-btn');
+  imgBtn.disabled = !currentImageUrl;
+
+  // Shuffle and render options
+  const letters = ['A','B','C','D'];
+  const opts = shuffle([...card.opts]);
+  const wrap = document.getElementById('options-wrap');
+  wrap.innerHTML = '';
+  opts.forEach((opt, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'opt-btn';
+    btn.innerHTML = `<div class="opt-letter">${letters[i]}</div><div>${opt}</div>`;
+    btn.onclick = () => selectAnswer(opt, card.correct, btn, card.hint, deckId, cardIdx);
+    wrap.appendChild(btn);
+  });
+
+  document.getElementById('explanation').className = 'explanation';
+  document.getElementById('next-btn').className = 'next-btn';
+}
+
+function openImage() {
+  if (currentImageUrl) window.open(currentImageUrl, '_blank');
+}
+
+function selectAnswer(chosen, correct, btn, hint, deckId, cardIdx) {
+  if (answered) return;
+  answered = true;
+  const wasCorrect = chosen === correct;
+
+  let data = cget(deckId, cardIdx);
+  data = sm2(data, wasCorrect);
+  csave(deckId, cardIdx, data);
+  updateStreak();
+
+  wasCorrect ? sessionCorrect++ : sessionWrong++;
+
+  document.querySelectorAll('.opt-btn').forEach(b => {
+    const txt = b.querySelector('div:last-child').textContent;
+    b.classList.add('disabled');
+    if (txt === correct) b.classList.add('reveal-correct');
+  });
+  if (!wasCorrect) {
+    btn.classList.remove('disabled');
+    btn.classList.add('selected-wrong');
+  } else {
+    btn.classList.remove('reveal-correct');
+    btn.classList.add('selected-correct');
+  }
+
+  // Re-queue wrong answers
+  if (!wasCorrect) queue.splice(Math.min(qIdx + 4, queue.length), 0, { ...queue[qIdx] });
+
+  const exp = document.getElementById('explanation');
+  exp.innerHTML = `<strong>${wasCorrect ? '✓ Correct!' : '✗ Wrong.'}</strong> ${hint || (wasCorrect ? '' : `Correct answer: ${correct}`)}`;
+  exp.className = 'explanation show';
+  document.getElementById('next-btn').className = 'next-btn show';
+}
+
+function nextCard() { qIdx++; renderCard(); }
+function exitStudy() { showScreen('s-home'); updateHome(); }
+
+// ── Complete ──────────────────────────────────────────────
+function showComplete() {
+  const total = sessionCorrect + sessionWrong;
+  const pct = total > 0 ? Math.round(sessionCorrect / total * 100) : 0;
+  document.getElementById('cs-correct').textContent = sessionCorrect;
+  document.getElementById('cs-wrong').textContent = sessionWrong;
+  document.getElementById('cs-pct').textContent = pct + '%';
+  let emoji = '🎉', title = 'Session Complete!', sub = `${pct}% on this session.`;
+  if (pct >= 80) { emoji = '🔥'; title = 'Strong Session!'; sub = `${pct}% — exam recognition is building.`; }
+  else if (pct >= 60) { emoji = '💪'; title = 'Making Progress!'; sub = `${pct}% — keep drilling the ones you missed.`; }
+  else { emoji = '📖'; title = 'Keep Going!'; sub = `${pct}% — wrong answers come back for another go.`; }
+  document.getElementById('complete-emoji').textContent = emoji;
+  document.getElementById('complete-title').textContent = title;
+  document.getElementById('complete-sub').textContent = sub;
+  showScreen('s-complete');
+}
+
+// ── Streak ────────────────────────────────────────────────
+function updateStreak() {
+  const today = new Date().toDateString();
+  const last = localStorage.getItem('v4_last_day');
+  let streak = parseInt(localStorage.getItem('v4_streak') || '0');
+  if (last !== today) {
+    streak = (last === new Date(Date.now() - 86400000).toDateString()) ? streak + 1 : 1;
+    localStorage.setItem('v4_streak', streak);
+    localStorage.setItem('v4_last_day', today);
+  }
+}
+
+// ── Progress ──────────────────────────────────────────────
+function renderProgress() {
+  const pc = document.getElementById('prog-content');
+  let totalSeen = 0, totalCorrect = 0;
+  DECKS.forEach(d => d.cards.forEach((c, i) => { const data = cget(d.id, i); totalSeen += data.seen; totalCorrect += data.correct; }));
+  const streak = parseInt(localStorage.getItem('v4_streak') || '0');
+  const overallAcc = totalSeen > 0 ? Math.round(totalCorrect / totalSeen * 100) : 0;
+
+  let html = `<div class="streak-card">
+    <div class="streak-num">${streak}</div>
+    <div><div style="font-size:15px;font-weight:600">Day Streak</div>
+    <div style="font-size:12px;color:var(--text2)">${totalSeen} answered · ${overallAcc}% overall</div></div>
+  </div>`;
+
+  DECKS.forEach(deck => {
+    let seen = 0, correct = 0, due = 0;
+    deck.cards.forEach((c, i) => { const d = cget(deck.id, i); seen += d.seen; correct += d.correct; if (isDue(d)) due++; });
+    const acc = seen > 0 ? Math.round(correct / seen * 100) : 0;
+    const seenPct = Math.round(seen / deck.cards.length * 100);
+    const barColor = acc >= 70 ? 'var(--green)' : acc >= 50 ? 'var(--amber)' : 'var(--red)';
+    html += `<div class="prog-section">
+      <div class="prog-section-title">${deck.icon} ${deck.name} <span style="color:var(--red);font-size:11px;font-weight:400">(${deck.errorCount} errors)</span></div>
+      <div class="prog-row"><div class="prog-label">Attempted</div><div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${seenPct}%;background:var(--blue)"></div></div><div class="prog-pct">${seenPct}%</div></div>
+      <div class="prog-row"><div class="prog-label">Accuracy</div><div class="prog-bar-wrap"><div class="prog-bar-fill" style="width:${acc}%;background:${barColor}"></div></div><div class="prog-pct">${seen > 0 ? acc + '%' : '–'}</div></div>
+      <div class="prog-row" style="border-top:1px solid var(--border);margin-top:4px;padding-top:6px"><div class="prog-label" style="color:var(--text2);font-size:12px">${seen}/${deck.cards.length} attempted · ${due} due now</div></div>
+    </div>`;
+  });
+
+  html += `<button class="reset-btn" onclick="confirmReset()">Reset All Progress</button><div style="height:16px"></div>`;
+  pc.innerHTML = html;
+}
+
+function confirmReset() {
+  if (confirm('Reset all study progress? Card data from GitHub will be kept.')) {
+    Object.keys(localStorage).forEach(k => { if (k.startsWith('v4_') && k !== CACHE_KEY && k !== CACHE_ALL && k !== SYNC_KEY) localStorage.removeItem(k); });
+    renderProgress(); updateHome();
+  }
+}
+
+// ── PWA ───────────────────────────────────────────────────
+function setupPWA() {
+  const mf = {name:"CBAP Study",short_name:"CBAP Study",start_url:".",display:"standalone",background_color:"#0f0f13",theme_color:"#0f0f13",icons:[{src:"data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMjggMTI4Jz48cmVjdCB3aWR0aD0nMTI4JyBoZWlnaHQ9JzEyOCcgcng9JzI0JyBmaWxsPScjN2M2YWY3Jy8+PHRleHQgeT0nLjllbScgZm9udC1zaXplPScxMjAnIHRleHQtYW5jaG9yPSdtaWRkbGUnIHg9JzUwJScgZHk9Jy4zZW0nPvCfkqA8L3RleHQ+PC9zdmc+",sizes:"128x128",type:"image/svg+xml"}]};
+  document.getElementById('manifest-link').href = `data:application/manifest+json;base64,${btoa(unescape(encodeURIComponent(JSON.stringify(mf))))}`;
+  if ('serviceWorker' in navigator) {
+    const blob = new Blob([`self.addEventListener('fetch',e=>e.respondWith(fetch(e.request).catch(()=>new Response(''))));`], {type:'text/javascript'});
+    navigator.serviceWorker.register(URL.createObjectURL(blob)).catch(() => {});
+  }
+}
+</script>
+</body>
+</html>
