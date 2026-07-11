@@ -838,7 +838,8 @@ function selectAnswer(chosen, correct, btn, hint, deckId, cardIdx) {
   if (!wasCorrect) queue.splice(Math.min(qIdx + 4, queue.length), 0, { ...queue[qIdx] });
 
   const exp = document.getElementById('explanation');
-  const allAnswers = card.all_answers || [];
+  const card = queue[qIdx]?.card;
+  const allAnswers = card?.all_answers || [];
   const correctAns = allAnswers.find(a => a.is_correct);
   const chosenAns  = allAnswers.find(a => a.text.trim() === chosen);
 
