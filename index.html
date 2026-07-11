@@ -837,44 +837,52 @@ function selectAnswer(chosen, correct, btn, hint, deckId, cardIdx) {
   // Re-queue wrong answers
   if (!wasCorrect) queue.splice(Math.min(qIdx + 4, queue.length), 0, { ...queue[qIdx] });
 
-  const exp = document.getElementById('explanation');
-  const card = queue[qIdx]?.card;
-  const allAnswers = card?.all_answers || [];
-  const correctAns = allAnswers.find(a => a.is_correct);
-  const chosenAns  = allAnswers.find(a => a.text.trim() === chosen);
+  // Build explanation — wrapped in try/catch so a data issue never hides the Next button
+  try {
+    const card = queue[qIdx]?.card;
+    const allAnswers = card?.all_answers || [];
+    const correctAns = allAnswers.find(a => a.is_correct);
+    // Use loose matching to handle whitespace/encoding differences
+    const normalize = s => (s || '').trim().toLowerCase();
+    const chosenAns = allAnswers.find(a => normalize(a.text) === normalize(chosen));
 
-  let expHtml = `<strong>${wasCorrect ? '✓ Correct!' : '✗ Wrong.'}</strong>`;
+    let expHtml = `<strong>${wasCorrect ? '✓ Correct!' : '✗ Wrong.'}</strong>`;
 
-  if (!wasCorrect) {
-    if (chosenAns?.explanation) {
-      expHtml += `<br><span style="color:var(--red)">Your answer:</span> ${chosenAns.explanation}`;
+    if (!wasCorrect) {
+      if (chosenAns?.explanation) {
+        expHtml += `<br><span style="color:var(--red)">Your answer:</span> ${chosenAns.explanation}`;
+      }
+      if (correctAns?.explanation) {
+        expHtml += `<br><span style="color:var(--green)">Correct answer:</span> ${correctAns.explanation}`;
+      } else if (!chosenAns?.explanation && hint) {
+        expHtml += ` ${hint}`;
+      }
+    } else {
+      if (correctAns?.explanation) {
+        expHtml += ` ${correctAns.explanation}`;
+      } else if (hint) {
+        expHtml += ` ${hint}`;
+      }
     }
-    if (correctAns?.explanation) {
-      expHtml += `<br><span style="color:var(--green)">Correct answer:</span> ${correctAns.explanation}`;
-    } else if (!chosenAns?.explanation && hint) {
-      expHtml += ` ${hint}`;
+
+    // BABOK refs — collect from correct answer and chosen answer
+    const refSet = new Set();
+    (correctAns?.babok_refs || []).forEach(r => refSet.add(r));
+    (chosenAns?.babok_refs || []).forEach(r => refSet.add(r));
+    if (refSet.size) {
+      expHtml += `<br><span style="color:var(--accent);font-weight:600">BABOK § ${[...refSet].join(', ')}</span>`;
     }
-  } else {
-    if (correctAns?.explanation) {
-      expHtml += ` ${correctAns.explanation}`;
-    } else if (hint) {
-      expHtml += ` ${hint}`;
-    }
+
+    document.getElementById('explanation').innerHTML = expHtml;
+    document.getElementById('explanation').className = 'explanation show';
+  } catch(e) {
+    console.error('Explanation error:', e);
+    document.getElementById('explanation').innerHTML = `<strong>${wasCorrect ? '✓ Correct!' : '✗ Wrong.'}</strong>`;
+    document.getElementById('explanation').className = 'explanation show';
   }
 
-  // BABOK refs — collect from correct answer and (if wrong) chosen answer
-  const refSet = new Set();
-  (correctAns?.babok_refs || []).forEach(r => refSet.add(r));
-  if (!wasCorrect) (chosenAns?.babok_refs || []).forEach(r => refSet.add(r));
-  if (refSet.size) {
-    expHtml += `<br><span style="color:var(--accent);font-weight:600">BABOK § ${[...refSet].join(', ')}</span>`;
-  }
-
-  exp.innerHTML = expHtml;
-  exp.className = 'explanation show';
+  // Always show Next and All Info regardless of explanation outcome
   document.getElementById('next-btn').className = 'next-btn show';
-
-  // Enable All Info button now that answer is revealed
   document.getElementById('info-btn').disabled = false;
 }
 
